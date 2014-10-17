@@ -13,7 +13,7 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-        <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+        
 
         <!-- IMPORT LIBRARIES -->        
         <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
@@ -95,36 +95,56 @@
 
 
                           <label class="radio">
-                            <input type="radio" name="schoolType" id="kindergarten" value="kindergarten" checked="checked">
-                                <label ng-show="lang=='eng'">{{data.school_type.kindergarten.eng}}</label>
-                                <label ng-show="lang=='nl'">{{data.school_type.kindergarten.nl}}</label>
-                                <label ng-show="lang=='fr'">{{data.school_type.kindergarten.fr}}</label>
+                            <input type="radio" name="schoolType" id="kindergarten" value="kindergarten" data-toggle="radio" checked="checked" class="custom-radio">
+                              <span class="icons">
+                                <span class="icon-unchecked"></span>
+                                <span class="icon-checked"></span>
+                            </span>
+                                <div ng-show="lang=='eng'">{{data.school_type.kindergarten.eng}}</div>
+                                <div ng-show="lang=='nl'">{{data.school_type.kindergarten.nl}}</div>
+                                <div ng-show="lang=='fr'">{{data.school_type.kindergarten.fr}}</div>
                           </label>
                           <label class="radio">
-                            <input type="radio" name="schoolType" id="primary" value="primary">
-                                <label ng-show="lang=='eng'">{{data.school_type.primary.eng}}</label>
-                                <label ng-show="lang=='nl'">{{data.school_type.primary.nl}}</label>
-                                <label ng-show="lang=='fr'">{{data.school_type.primary.fr}}</label>
+                            <input type="radio" name="schoolType" id="primary" value="primary" data-toggle="radio" class="custom-radio">
+                              <span class="icons">
+                                <span class="icon-unchecked"></span>
+                                <span class="icon-checked"></span>
+                            </span>
+                                <div ng-show="lang=='eng'">{{data.school_type.primary.eng}}</div>
+                                <div ng-show="lang=='nl'">{{data.school_type.primary.nl}}</div>
+                                <div ng-show="lang=='fr'">{{data.school_type.primary.fr}}</div>
                           </label>
                           <label class="radio">
-                            <input type="radio" name="schoolType" id="secondary" value="secondary">
-                                <label ng-show="lang=='eng'">{{data.school_type.secondary.eng}}</label>
-                                <label ng-show="lang=='nl'">{{data.school_type.secondary.nl}}</label>
-                                <label ng-show="lang=='fr'">{{data.school_type.secondary.fr}}</label>
+                            <input type="radio" name="schoolType" id="secondary" value="secondary" data-toggle="radio" class="custom-radio">
+                              <span class="icons">
+                                <span class="icon-unchecked"></span>
+                                <span class="icon-checked"></span>
+                            </span>
+                                <div ng-show="lang=='eng'">{{data.school_type.secondary.eng}}</div>
+                                <div ng-show="lang=='nl'">{{data.school_type.secondary.nl}}</div>
+                                <div ng-show="lang=='fr'">{{data.school_type.secondary.fr}}</div>
                           </label>
                     </form>
                     <form class="form-inline" role="form">
                           <label class="radio">
-                            <input type="radio" name="language" id="dutch" value="dutch" checked="checked">
-                                <label ng-show="lang=='eng'">{{data.school_language.dutch.eng}}</label>
-                                <label ng-show="lang=='nl'">{{data.school_language.dutch.nl}}</label>
-                                <label ng-show="lang=='fr'">{{data.school_language.dutch.fr}}</label>
+                            <input type="radio" name="language" id="dutch" value="dutch" checked="checked" data-toggle="radio" class="custom-radio">
+                              <span class="icons">
+                                <span class="icon-unchecked"></span>
+                                <span class="icon-checked"></span>
+                            </span>  
+                              <div ng-show="lang=='eng'">{{data.school_language.dutch.eng}}</div>
+                                <div ng-show="lang=='nl'">{{data.school_language.dutch.nl}}</div>
+                                <div ng-show="lang=='fr'">{{data.school_language.dutch.fr}}</div>
                           </label>
                           <label class="radio">
-                            <input type="radio" name="language" id="french" value="french">
-                                <label ng-show="lang=='eng'">{{data.school_language.french.eng}}</label>
-                                <label ng-show="lang=='nl'">{{data.school_language.french.nl}}</label>
-                                <label ng-show="lang=='fr'">{{data.school_language.french.fr}}</label>
+                            <input type="radio" name="language" id="french" value="french" data-toggle="radio" class="custom-radio">
+                              <span class="icons">
+                                <span class="icon-unchecked"></span>
+                                <span class="icon-checked"></span>
+                            </span>  
+                              <div ng-show="lang=='eng'">{{data.school_language.french.eng}}</div>
+                                <div ng-show="lang=='nl'">{{data.school_language.french.nl}}</div>
+                                <div ng-show="lang=='fr'">{{data.school_language.french.fr}}</div>
                           </label>
                     </form>
                 </div>
