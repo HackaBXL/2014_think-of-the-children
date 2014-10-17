@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="app">
 	<head>
 		<meta charset="utf-8">
 		<title>think of the children</title>
@@ -10,10 +10,16 @@
         
         <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.js'></script>
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-route.js"></script>
+
+         <script src="index.js"></script>
+
 	</head>
 	<body>
         <div class="content">
-            <h1>Hello World</h1>
+            <h1>{{message}}</h1>
             <select id="lang" class="form-control">
               <option>ENG</option>
               <option>NL</option>
