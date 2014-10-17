@@ -9,6 +9,8 @@
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
         
         <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.js'></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
         <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.js"></script>
@@ -18,14 +20,14 @@
 
 	</head>
 	<body>
-        <div class="content">
+        <div class="content"> {{lang}}
             <h1 ng-show="lang=='eng'">{{data.title.eng}}</h1>
             <h1 ng-show="lang=='nl'">{{data.title.nl}}</h1>
             <h1 ng-show="lang=='fr'">{{data.title.fr}}</h1>
-            <select id="lang" class="form-control">
-              <option ng-click="setLang('eng')">ENG</option>
-              <option >NL</option>
-              <option ng-click="setLang('fr')">FR</option>
+            <select id="lang" class="form-control" ng-model="lang">
+              <option value="eng">ENG</option>
+              <option value="nl">NL</option>
+              <option value="fr">FR</option>
             </select>
             <div>
                 <div id="map"></div>
