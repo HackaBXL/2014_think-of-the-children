@@ -26,12 +26,6 @@ angular.module ("app", ['ngRoute'])
         }
         $rootScope.map.data.setStyle(featureStyle);
 
-        setTimeout(function() {
-            // console.log($rootScope.SQUARE);
-            $rootScope.data_model.features.push($rootScope.SQUARE["Rixensart"].data);
-            $rootScope.set_data($rootScope.data_model);
-        }, 2000);
-
     };
 
     // GET MODEL
@@ -55,7 +49,7 @@ angular.module ("app", ['ngRoute'])
             $rootScope.RAW_SQUARE.forEach(function(e){
                 // KEEP NAME AND ZIP
                 $rootScope.SQUARE_ARRAY.push(e.properties.Name1);
-                $rootScope.SQUARE_ARRAY.push(e.properties.INS.toString());
+                // $rootScope.SQUARE_ARRAY.push(e.properties.INS.toString());
                 // SET OBJECT
                 $rootScope.SQUARE[e.properties.Name1] = {
                     name:e.properties.Name1,
@@ -73,8 +67,11 @@ angular.module ("app", ['ngRoute'])
     };
 
     // GET SELECTION ARRAY
-    $rootScope.set_array = function () {
-        console.log($("#tagsimput").val().split(','));
+    $rootScope.engine = function () {
+        $("#tagsimput").val().split(',').forEach(function (e) {
+            $rootScope.data_model.features.push($rootScope.SQUARE[e].data);
+        });
+        $rootScope.set_data($rootScope.data_model);
     };
 
     // SET JSON DATA
