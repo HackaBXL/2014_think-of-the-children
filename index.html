@@ -19,11 +19,13 @@
 	</head>
 	<body>
         <div class="content">
-            <h1>{{message}}</h1>
+            <h1 ng-show="lang=='eng'">{{data.title.eng}}</h1>
+            <h1 ng-show="lang=='nl'">{{data.title.nl}}</h1>
+            <h1 ng-show="lang=='fr'">{{data.title.fr}}</h1>
             <select id="lang" class="form-control">
-              <option>ENG</option>
-              <option>NL</option>
-              <option>FR</option>
+              <option ng-click="setLang('eng')">ENG</option>
+              <option >NL</option>
+              <option ng-click="setLang('fr')">FR</option>
             </select>
             <div>
                 <div id="map"></div>

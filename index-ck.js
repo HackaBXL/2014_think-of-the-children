@@ -1,0 +1,1 @@
+angular.module("app",["ngRoute"]).run(["$rootScope","$http",function(e,t){e.message="Hello Ulysse !";t.get("data/text.json").then(function(t){e.data=t.data});e.setLang=function(t){e.lang=t};e.init=function(){e.lang="eng"};e.init()}]);
