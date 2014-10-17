@@ -8,5 +8,4 @@ The result will computed by commune and shown on a map.
 
 If possible we will do the following:
 
-- extrapolate the evolution of the population to identify potential future problems
--
+* extrapolate the evolution of the population to identify potential future problems
