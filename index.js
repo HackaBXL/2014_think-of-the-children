@@ -22,7 +22,7 @@ angular.module ("app", ['ngRoute'])
         // STYLE
         var featureStyle = {
             fillColor: '#F92772',
-            strokeWeight: 1
+            strokeWeight: 0
         }
         $rootScope.map.data.setStyle(featureStyle);
 
@@ -34,6 +34,7 @@ angular.module ("app", ['ngRoute'])
         .then(function(r){
             //console.log(r);
             $rootScope.data_model = r.data;
+            $rootScope.DATA_model = angular.copy($rootScope.data_model);
             $rootScope.get_data();
         });
     };
@@ -68,10 +69,14 @@ angular.module ("app", ['ngRoute'])
 
     // GET SELECTION ARRAY
     $rootScope.engine = function () {
-        $("#tagsimput").val().split(',').forEach(function (e) {
-            $rootScope.data_model.features.push($rootScope.SQUARE[e].data);
-        });
-        $rootScope.set_data($rootScope.data_model);
+        $rootScope.initialize_map();
+
+        if($("#tagsimput").val()) {
+            $("#tagsimput").val().split(',').forEach(function (e) {
+                $rootScope.data_model.features.push($rootScope.SQUARE[e].data); // clear array before adding new stuff or repetition !!
+            });
+            $rootScope.set_data($rootScope.data_model);
+        }
     };
 
     // SET JSON DATA
