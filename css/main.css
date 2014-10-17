@@ -6,3 +6,5 @@
     position: absolute;
     top: 62px;
     right: 60px; }
+  .content .radio + .radio {
+    margin-top: 0; }

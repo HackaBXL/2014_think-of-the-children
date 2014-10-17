@@ -7,20 +7,28 @@
         <link href="css/main.css" rel="stylesheet" type="text/css">
         <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.css' rel='stylesheet' />
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="dist/css/flat-ui.css" rel="stylesheet">
+        <link rel='stylesheet' href='//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css' />
         
         <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.js'></script>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+        
+        <script src="functions.js"></script>
+        
+        <script src="dist/js/flat-ui.js"></script>
 
         <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.js"></script>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-route.js"></script>
 
-         <script src="index.js"></script>
+        <script src="index.js"></script>
+        
 
 	</head>
 	<body>
-        <div class="content"> {{lang}}
+        <div class="content">
             <h1 ng-show="lang=='eng'">{{data.title.eng}}</h1>
             <h1 ng-show="lang=='nl'">{{data.title.nl}}</h1>
             <h1 ng-show="lang=='fr'">{{data.title.fr}}</h1>
@@ -29,26 +37,63 @@
               <option value="nl">NL</option>
               <option value="fr">FR</option>
             </select>
+<!--
             <div>
+                <label for="tags">Tags: </label>
+                <input id="tags">
+                <input onclick="addToTags('#tags')" type="submit" name="submit" value="Commune" />
+            </div>
+-->
+<!--
+            <div>
+                <div>
+                    <input class="test">
+                </div>
+            </div>
+-->
+            <div>
+                <div class="tagsinput-primary">
+                    <input id="tagsimput" name="tagsinput" class="tagsinput" data-role="tagsinput" value="" />
+                </div>
                 <div id="map"></div>
                 <div id="options">
                     <form class="form-inline" role="form">
                         <div class="radio">
                           <label>
-                            <input type="radio" name="optionsRadios" id="kindergarten" value="kindergarten" checked>
-                            Kindergarten
+                            <input type="radio" name="schoolType" id="kindergarten" value="kindergarten" checked>
+                                <label ng-show="lang=='eng'">{{data.school_type.kindergarten.eng}}</label>
+                                <label ng-show="lang=='nl'">{{data.school_type.kindergarten.nl}}</label>
+                                <label ng-show="lang=='fr'">{{data.school_type.kindergarten.fr}}</label>
                           </label>
                         </div>
                         <div class="radio">
                           <label>
-                            <input type="radio" name="optionsRadios" id="primary" value="primary">
-                            Primary School
+                            <input type="radio" name="schoolType" id="primary" value="primary">
+                                <label ng-show="lang=='eng'">{{data.school_type.primary.eng}}</label>
+                                <label ng-show="lang=='nl'">{{data.school_type.primary.nl}}</label>
+                                <label ng-show="lang=='fr'">{{data.school_type.primary.fr}}</label>
                           </label>
                         </div>
                         <div class="radio">
                           <label>
-                            <input type="radio" name="optionsRadios" id="secondary" value="secondary">
-                            Secondary School
+                            <input type="radio" name="schoolType" id="secondary" value="secondary">
+                                <label ng-show="lang=='eng'">{{data.school_type.secondary.eng}}</label>
+                                <label ng-show="lang=='nl'">{{data.school_type.secondary.nl}}</label>
+                                <label ng-show="lang=='fr'">{{data.school_type.secondary.fr}}</label>
+                          </label>
+                        </div>
+                    </form>
+                    <form class="form-inline" role="form">
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="language" id="dutch" value="dutch" checked>
+                                <label>FR</label>
+                          </label>
+                        </div>
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="language" id="french" value="french">
+                                <label>NL</label>
                           </label>
                         </div>
                     </form>
