@@ -22,6 +22,18 @@
             "fr":"Secondaire"
         }
         
+    },
+    "school_language":{
+        "dutch":{
+            "eng":"Dutch School",
+            "nl":"Nederlands School",
+            "fr":"Ecole Nerlandaise"
+        },
+        "french":{
+            "eng":"French School",
+            "nl":"Frans School",
+            "fr":"Ecole Français"
+        }
     }
         
 }

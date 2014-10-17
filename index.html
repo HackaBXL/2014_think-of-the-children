@@ -87,13 +87,17 @@
                         <div class="radio">
                           <label>
                             <input type="radio" name="language" id="dutch" value="dutch" checked>
-                                <label>FR</label>
+                                <label ng-show="lang=='eng'">{{data.school_language.dutch.eng}}</label>
+                                <label ng-show="lang=='nl'">{{data.school_language.dutch.nl}}</label>
+                                <label ng-show="lang=='fr'">{{data.school_language.dutch.fr}}</label>
                           </label>
                         </div>
                         <div class="radio">
                           <label>
                             <input type="radio" name="language" id="french" value="french">
-                                <label>NL</label>
+                                <label ng-show="lang=='eng'">{{data.school_language.french.eng}}</label>
+                                <label ng-show="lang=='nl'">{{data.school_language.french.nl}}</label>
+                                <label ng-show="lang=='fr'">{{data.school_language.french.fr}}</label>
                           </label>
                         </div>
                     </form>
