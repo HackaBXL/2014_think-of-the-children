@@ -6788,14 +6788,7 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
       var itemValue = self.options.itemValue(item),
           itemText = self.options.itemText(item),
           tagClass = self.options.tagClass(item),
-            test = $.inArray(itemValue, window.availableTags) >-1 ;
-        
-        
-        console.log(itemValue);
-        console.log("next itle is test");
-        console.log(test);
-        console.log(window.availableTags);
-        
+            test = $.inArray(itemValue, window.availableTags) >-1 ;        
 
       // Ignore items allready added
       var existing = $.grep(self.itemsArray, function(item) { return self.options.itemValue(item) === itemValue; } )[0];
