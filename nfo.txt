@@ -1,0 +1,1 @@
+ogr2ogr -f GeoJSON -s_srs EPSG:3812 -t_srs EPSG:4326 db.geojson db.shp

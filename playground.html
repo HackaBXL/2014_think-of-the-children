@@ -13,18 +13,37 @@
 	<body>
 		<div class="screen">
 			<h1 class="center">Welcome to the playground</h1>
-			<div class="mapFrameHome" id="map"></div>
+			<div class="mapFrameHome" id="map-canvas"></div>
 		</div>
 		<!-- IMPORT LIBRARIES -->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
-		<script type="text/javascript" src='http://api.tiles.mapbox.com/mapbox.js/v1.5.2/mapbox.js'></script>
-		<script>
-			// Provide your access token
-			L.mapbox.accessToken = 'sk.eyJ1IjoibmFic3RlciIsImEiOiJRcjctVjFvIn0.o4_bj9xD7SmbjPKZgafmfA';
-			// Create a map in the div #map
-			L.mapbox.map('map', 'nabster.jpm3n8ie');
-		</script>
+		
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+	    <script type="text/javascript">
+	      function initialize() {
+
+	        // GENERATE MAP
+	        var map = new google.maps.Map(document.getElementById('map-canvas'), {
+	        	center: { lat: 50.854975, lng: 4.3753899},
+	        	zoom: 12
+	        });
+
+	        // STYLE
+			var featureStyle = {
+				fillColor: 'green',
+				strokeWeight: 1
+			}
+			console.log(map.data);
+			map.data.setStyle(featureStyle);
+
+	        // JSON
+	        map.data.loadGeoJson('Data/db.json');
+
+	      }
+	      google.maps.event.addDomListener(window, 'load', initialize);
+	    </script>
+
 		<script type="text/javascript" src='config.js'></script>
 		<script type="text/javascript" src='map.js'></script>
 		<script type="text/javascript" src='app.js'></script>
