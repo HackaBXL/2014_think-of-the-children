@@ -1,4 +1,6 @@
 .screen {
+	width:960px;
+    margin: auto;
 	h1 {
 		padding: 40px;
 		font-weight: 300;
@@ -7,5 +9,7 @@
 	    width:960px;
 	    height:450px;
 	    margin: auto;
+	    margin-bottom: 200px;
+	    margin-top: 100px;
 	  }
 }

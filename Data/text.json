@@ -27,12 +27,12 @@
         "dutch":{
             "eng":"Dutch School",
             "nl":"Nederlands School",
-            "fr":"Ecole Nerlandaise"
+            "fr":"Ecole Néerlandophone"
         },
         "french":{
             "eng":"French School",
             "nl":"Frans School",
-            "fr":"Ecole Français"
+            "fr":"Ecole Francophone"
         }
     }
         

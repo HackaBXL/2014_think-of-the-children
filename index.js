@@ -1,20 +1,22 @@
 angular.module ("app", ['ngRoute'])
 .run(['$rootScope','$http', function ($rootScope, $http) {
     
-	$rootScope.message = 'Hello Ulysse !';
+    // GET DATA
+    $rootScope.get_txt = function () {
+        $http.get("data/text.json")
+        .then(function(r){
+            //console.log(r);
+            $rootScope.data = r.data;
+        });
+    };
+
+    // GENERATE ARRAY FOR INPUT
     
-    $http.get("data/text.json")
-    .then(function(r){
-        //console.log(r);
-        $rootScope.data = r.data;
-    });
-     
-    $rootScope.setLang = function(l){
-        $rootScope.lang = l;
-    }
-    
+
+    // CONSTRUCTOR
     $rootScope.init=function(){
         $rootScope.lang = "eng";
+        $rootScope.get_txt();
     };
     $rootScope.init();
     

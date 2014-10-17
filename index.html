@@ -5,16 +5,44 @@
 		<title>think of the children</title>
         
         <link href="css/main.css" rel="stylesheet" type="text/css">
-        <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.css' rel='stylesheet' />
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
         <link href="dist/css/flat-ui.css" rel="stylesheet">
         <link rel='stylesheet' href='//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css' />
+        <link rel='stylesheet' type='text/css' href='css/nab.css'>
         
-        <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.js'></script>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
         <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+
+        <!-- IMPORT LIBRARIES -->        
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+        <script type="text/javascript">
+          function initialize() {
+
+            // GENERATE MAP
+            var map = new google.maps.Map(document.getElementById('map-canvas'), {
+                center: { lat: 50.854975, lng: 4.3753899},
+                zoom: 12
+            });
+
+            // STYLE
+            var featureStyle = {
+                fillColor: '#F92772',
+                strokeWeight: 1
+            }
+            map.data.setStyle(featureStyle);
+
+            // JSON
+            map.data.loadGeoJson('Data/db.json');
+
+          }
+          google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
+
+        <script type="text/javascript" src='config.js'></script>
+        <script type="text/javascript" src='map.js'></script>
+        <script type="text/javascript" src='app.js'></script>
         
         <script src="functions.js"></script>
         
@@ -28,7 +56,7 @@
 
 	</head>
 	<body>
-        <div class="content">
+        <div class="screen content">
             <h1 ng-show="lang=='eng'">{{data.title.eng}}</h1>
             <h1 ng-show="lang=='nl'">{{data.title.nl}}</h1>
             <h1 ng-show="lang=='fr'">{{data.title.fr}}</h1>
@@ -37,20 +65,6 @@
               <option value="nl">NL</option>
               <option value="fr">FR</option>
             </select>
-<!--
-            <div>
-                <label for="tags">Tags: </label>
-                <input id="tags">
-                <input onclick="addToTags('#tags')" type="submit" name="submit" value="Commune" />
-            </div>
--->
-<!--
-            <div>
-                <div>
-                    <input class="test">
-                </div>
-            </div>
--->
             <div>
                 <div class="tagsinput-primary">
                     <input id="tagsimput" name="tagsinput" class="tagsinput" data-role="tagsinput" value="" />
@@ -58,51 +72,64 @@
                 <div id="map"></div>
                 <div id="options">
                     <form class="form-inline" role="form">
-                        <div class="radio">
-                          <label>
-                            <input type="radio" name="schoolType" id="kindergarten" value="kindergarten" checked>
+
+
+                        <!-- <label class="radio">
+                            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option1" data-toggle="radio" checked="" class="custom-radio">
+                            <span class="icons">
+                                <span class="icon-unchecked"></span>
+                                <span class="icon-checked"></span>
+                            </span>
+                            Radio is on
+                        </label>
+
+                        <label class="radio">
+                            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" data-toggle="radio" checked="" class="custom-radio">
+                            <span class="icons">
+                                <span class="icon-unchecked"></span>
+                                <span class="icon-checked"></span>
+                            </span>
+                            Radio is off
+                        </label> -->
+
+
+
+                          <label class="radio">
+                            <input type="radio" name="schoolType" id="kindergarten" value="kindergarten" checked="checked">
                                 <label ng-show="lang=='eng'">{{data.school_type.kindergarten.eng}}</label>
                                 <label ng-show="lang=='nl'">{{data.school_type.kindergarten.nl}}</label>
                                 <label ng-show="lang=='fr'">{{data.school_type.kindergarten.fr}}</label>
                           </label>
-                        </div>
-                        <div class="radio">
-                          <label>
+                          <label class="radio">
                             <input type="radio" name="schoolType" id="primary" value="primary">
                                 <label ng-show="lang=='eng'">{{data.school_type.primary.eng}}</label>
                                 <label ng-show="lang=='nl'">{{data.school_type.primary.nl}}</label>
                                 <label ng-show="lang=='fr'">{{data.school_type.primary.fr}}</label>
                           </label>
-                        </div>
-                        <div class="radio">
-                          <label>
+                          <label class="radio">
                             <input type="radio" name="schoolType" id="secondary" value="secondary">
                                 <label ng-show="lang=='eng'">{{data.school_type.secondary.eng}}</label>
                                 <label ng-show="lang=='nl'">{{data.school_type.secondary.nl}}</label>
                                 <label ng-show="lang=='fr'">{{data.school_type.secondary.fr}}</label>
                           </label>
-                        </div>
                     </form>
                     <form class="form-inline" role="form">
-                        <div class="radio">
-                          <label>
-                            <input type="radio" name="language" id="dutch" value="dutch" checked>
+                          <label class="radio">
+                            <input type="radio" name="language" id="dutch" value="dutch" checked="checked">
                                 <label ng-show="lang=='eng'">{{data.school_language.dutch.eng}}</label>
                                 <label ng-show="lang=='nl'">{{data.school_language.dutch.nl}}</label>
                                 <label ng-show="lang=='fr'">{{data.school_language.dutch.fr}}</label>
                           </label>
-                        </div>
-                        <div class="radio">
-                          <label>
+                          <label class="radio">
                             <input type="radio" name="language" id="french" value="french">
                                 <label ng-show="lang=='eng'">{{data.school_language.french.eng}}</label>
                                 <label ng-show="lang=='nl'">{{data.school_language.french.nl}}</label>
                                 <label ng-show="lang=='fr'">{{data.school_language.french.fr}}</label>
                           </label>
-                        </div>
                     </form>
                 </div>
             </div>
+            <div class="mapFrameHome" id="map-canvas"></div>
         </div>
 	</body>
 </html>
