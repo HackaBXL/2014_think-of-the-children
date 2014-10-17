@@ -3,8 +3,30 @@
 	<head>
 		<meta charset="utf-8">
 		<title>think of the children - playground</title>
+		<link rel='stylesheet' href='//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css' />
+		<link rel="stylesheet" href='http://api.tiles.mapbox.com/mapbox.js/v1.5.2/mapbox.css'/>
+		<link rel='stylesheet' type='text/css' href='css/nab.css'>
+		<style>
+
+		</style>
 	</head>
 	<body>
-		<h1>Hello World</h1>
+		<div class="screen">
+			<h1 class="center">Welcome to the playground</h1>
+			<div class="mapFrameHome" id="map"></div>
+		</div>
+		<!-- IMPORT LIBRARIES -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+		<script type="text/javascript" src='http://api.tiles.mapbox.com/mapbox.js/v1.5.2/mapbox.js'></script>
+		<script>
+			// Provide your access token
+			L.mapbox.accessToken = 'sk.eyJ1IjoibmFic3RlciIsImEiOiJRcjctVjFvIn0.o4_bj9xD7SmbjPKZgafmfA';
+			// Create a map in the div #map
+			L.mapbox.map('map', 'nabster.jpm3n8ie');
+		</script>
+		<script type="text/javascript" src='config.js'></script>
+		<script type="text/javascript" src='map.js'></script>
+		<script type="text/javascript" src='app.js'></script>
 	</body>
 </html>

@@ -1,0 +1,15 @@
+@import url(http://fonts.googleapis.com/css?family=Nunito:400,300,700);
+* {
+  font-family: "Nunito";
+  color: #555; }
+
+.center {
+  text-align: center; }
+
+.screen h1 {
+  padding: 40px;
+  font-weight: 300; }
+.screen .mapFrameHome {
+  width: 960px;
+  height: 450px;
+  margin: auto; }
