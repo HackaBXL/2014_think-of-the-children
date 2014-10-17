@@ -17,28 +17,6 @@
 
         <!-- IMPORT LIBRARIES -->        
         <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-        <script type="text/javascript">
-          function initialize() {
-
-            // GENERATE MAP
-            var map = new google.maps.Map(document.getElementById('map-canvas'), {
-                center: { lat: 50.854975, lng: 4.3753899},
-                zoom: 12
-            });
-
-            // STYLE
-            var featureStyle = {
-                fillColor: '#F92772',
-                strokeWeight: 1
-            }
-            map.data.setStyle(featureStyle);
-
-            // JSON
-            map.data.loadGeoJson('Data/db.json');
-
-          }
-          google.maps.event.addDomListener(window, 'load', initialize);
-        </script>
 
         <script type="text/javascript" src='config.js'></script>
         <script type="text/javascript" src='map.js'></script>
