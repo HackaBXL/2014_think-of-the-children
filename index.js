@@ -16,7 +16,8 @@ angular.module ("app", ['ngRoute'])
         // GENERATE MAP
         $rootScope.map = new google.maps.Map(document.getElementById('map-canvas'), {
             center: { lat: 50.854975, lng: 4.3753899},
-            zoom: 12
+            zoom: 12,
+            styles: config.map_style
         });
 
         // STYLE
@@ -73,7 +74,12 @@ angular.module ("app", ['ngRoute'])
         $rootScope.data_model.features = [];
         if($("#tagsimput").val()) {
             $("#tagsimput").val().split(',').forEach(function (e) {
-                $rootScope.data_model.features.push($rootScope.SQUARE[e].data);
+                if($rootScope.SQUARE && $rootScope.SQUARE[e] && $rootScope.SQUARE[e].data){
+                    $rootScope.data_model.features.push($rootScope.SQUARE[e].data);
+                }
+                else{
+                    console.log($rootScope.SQUARE[e]);
+                }
             });
             $rootScope.set_data($rootScope.data_model);
         }
