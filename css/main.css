@@ -1,2 +1,8 @@
 .content {
   margin: 60px; }
+  .content #lang {
+    display: inline-block;
+    width: 70px;
+    position: absolute;
+    top: 62px;
+    right: 60px; }

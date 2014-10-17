@@ -1,4 +1,17 @@
 .content{
     margin: 60px;
+    
+    #options{
+//        border: 1px solid black;
+//        padding: 2px;
+    }
+    
+    #lang{
+        display: inline-block;
+        width: 70px;
+        position: absolute;
+        top: 62px;
+        right: 60px;
+    }
 }
 

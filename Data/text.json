@@ -1,0 +1,26 @@
+{  
+    "title":{
+        "eng":"Think of the Children!",
+        "nl":"Think of the Children!",
+        "fr":"Pensez aux enfants!"
+    },
+    "school_type":{
+        "kindergarten":{
+            "eng":"Kindergarten",
+            "nl":"Kindergarten",
+            "fr":"Maternel"
+        },
+        "primary":{
+            "eng":"Primary",
+            "nl":"Primary",
+            "fr":"Primaire"
+        },
+        "secondary":{
+            "eng":"Secondary",
+            "nl":"Secondary",
+            "fr":"Secondaire"
+        }
+        
+    }
+        
+}

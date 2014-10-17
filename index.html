@@ -3,16 +3,46 @@
 	<head>
 		<meta charset="utf-8">
 		<title>think of the children</title>
+        
         <link href="css/main.css" rel="stylesheet" type="text/css">
-        <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.js'></script>
         <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.css' rel='stylesheet' />
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+        
+        <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.js'></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 	</head>
 	<body>
         <div class="content">
             <h1>Hello World</h1>
+            <select id="lang" class="form-control">
+              <option>ENG</option>
+              <option>NL</option>
+              <option>FR</option>
+            </select>
             <div>
                 <div id="map"></div>
-                <div id="options"></div>
+                <div id="options">
+                    <form class="form-inline" role="form">
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="optionsRadios" id="kindergarten" value="kindergarten" checked>
+                            Kindergarten
+                          </label>
+                        </div>
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="optionsRadios" id="primary" value="primary">
+                            Primary School
+                          </label>
+                        </div>
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="optionsRadios" id="secondary" value="secondary">
+                            Secondary School
+                          </label>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
 	</body>
