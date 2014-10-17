@@ -70,10 +70,10 @@ angular.module ("app", ['ngRoute'])
     // GET SELECTION ARRAY
     $rootScope.engine = function () {
         $rootScope.initialize_map();
-
+        $rootScope.data_model.features = [];
         if($("#tagsimput").val()) {
             $("#tagsimput").val().split(',').forEach(function (e) {
-                $rootScope.data_model.features.push($rootScope.SQUARE[e].data); // clear array before adding new stuff or repetition !!
+                $rootScope.data_model.features.push($rootScope.SQUARE[e].data);
             });
             $rootScope.set_data($rootScope.data_model);
         }
