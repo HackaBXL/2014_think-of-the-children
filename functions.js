@@ -95,24 +95,4 @@ var getProvince = function (data){
 
     return province;
     
-<<<<<<< HEAD
 };
-
-$( document ).ready(function() {
-    var $slider = $("#slider");
-    if ($slider.length > 0) {
-      $slider.slider({
-        min: 0,
-        max: 10,
-        value: 0,
-        orientation: "horizontal",
-        range: "min"
-      })/*.addSliderSegments($slider.slider("option").max)*/;
-        console.log("slider")
-        console.log($slider.slider())
-    }
-    
-});
-=======
-};
->>>>>>> 7e7f93439ccf93b9745f038ea3df2b671646896b
