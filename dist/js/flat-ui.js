@@ -6976,9 +6976,9 @@ if (typeof jQuery === 'undefined') {
             }));
 
             // ANGULAR
-            var scope = angular.element($("html")).scope();
-            scope.$apply(function(){
-                scope.engine();
+            var rootscope = angular.element($("html")).scope();
+            rootscope.$apply(function(){
+                rootscope.engine();
             })
         },
 
