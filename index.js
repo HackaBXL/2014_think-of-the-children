@@ -1,4 +1,4 @@
-angular.module ("app", ['ngRoute'])
+angular.module ("app", ['ngRoute', 'ui.slider'])
 .run(['$rootScope','$http', function ($rootScope, $http) {
 
     // GET TEXT
@@ -37,18 +37,61 @@ angular.module ("app", ['ngRoute'])
                 pri_cap: event.feature.getProperty('pyramid').primary,
 
                 mat_ppl: event.feature.getProperty('pyramid').j,
-                pri_ppl: event.feature.getProperty('pyramid').k
+                pri_ppl: event.feature.getProperty('pyramid').k,
+
+                mat_ppl_origin: event.feature.getProperty('pyramid').j2k,
+                pri_ppl_origin: event.feature.getProperty('pyramid').k2k
 
             };
 
-            $("#info-box .name").text(event.feature.getProperty('Name1') + ' - ');
-            $("#info-box .info").text(
-                (p[$rootScope.params.school + '_cap'] > 0 && p[$rootScope.params.school + '_ppl'] && p[$rootScope.params.school + '_cap']) ? p[$rootScope.params.school + '_cap'] + '/' + p[$rootScope.params.school + '_ppl'] + ' (' + Math.floor((p[$rootScope.params.school + '_cap'] / p[$rootScope.params.school + '_ppl'])*100) + '%)' : 'missing data'
-            ).css({
-                color:(p[$rootScope.params.school + '_ppl'] > 0 && p[$rootScope.params.school + '_ppl'] && p[$rootScope.params.school + '_cap']) ? Colors.toColor(p[$rootScope.params.school + '_cap']/p[$rootScope.params.school + '_ppl']) : '#000000',
+            $("#info-box .name").text(event.feature.getProperty('Name1') + ' ');
+            $("#info-box .info").text($rootScope.process_ratio(p, 'ratio')).css({
+                color:$rootScope.process_ratio(p, 'color'),
                 textShadow: '1px 1px 2px #555'
             });
         });
+        
+        // PROCESS RATIO
+        $rootScope.process_ratio = function (p, feedback) {
+
+            var cap = p[$rootScope.params.school + '_cap'],
+                ppl = p[$rootScope.params.school + '_ppl'],
+                ppl_origin = p[$rootScope.params.school + '_ppl_origin'];
+
+            // EXTRAPOLATION PROCESS
+            ppl = Math.floor(extrapolateLinearly(ppl_origin, ppl, 12, $rootScope.params.time_travel - 2013));
+
+            // COLOR
+            if(feedback == 'color'){
+                if(cap > 0 && ppl && cap){
+                    return Colors.toColor(cap/ppl);
+                }
+                else {
+                    return '#000000'
+                }
+            }
+
+            // STR X/Y (Z%)
+            else if(feedback == 'ratio'){
+                if(cap > 0 && ppl && cap){
+                    return cap + '/' + ppl + ' (' + Math.floor((cap / ppl)*100) + '%)'
+                }
+                else {
+                    return 'missing data'
+                }
+            }
+
+            // FLOAT X/Y
+            else {
+                if(cap > 0 && ppl && cap){
+                    return cap/ppl
+                }
+                else {
+                    return 0
+                }
+            }
+
+        };
 
         // HOVER OPTIONS
         $rootScope.map.data.addListener('mouseover', function(event) {
@@ -73,12 +116,15 @@ angular.module ("app", ['ngRoute'])
                 pri_cap: feature.getProperty('pyramid').primary,
 
                 mat_ppl: feature.getProperty('pyramid').j,
-                pri_ppl: feature.getProperty('pyramid').k
+                pri_ppl: feature.getProperty('pyramid').k,
+
+                mat_ppl_origin: feature.getProperty('pyramid').j2k,
+                pri_ppl_origin: feature.getProperty('pyramid').k2k
 
             };
 
             // COLOR LOGIC
-            var color = (pyramid[$rootScope.params.school + '_ppl'] > 0 || !pyramid[$rootScope.params.school + '_ppl'] || pyramid[$rootScope.params.school + '_cap']) ? Colors.toColor(pyramid[$rootScope.params.school + '_cap']/pyramid[$rootScope.params.school + '_ppl']) : '#000000';
+            var color = $rootScope.process_ratio(pyramid, 'color');
 
             return {
               fillColor: color,
@@ -176,7 +222,7 @@ angular.module ("app", ['ngRoute'])
     }
 
     // GET SELECTION ARRAY
-    $rootScope.engine = function (_empty) {
+    $rootScope.engine = function (random_nmbr) {
 
         // CLEAR INFO
         $("#info-box .name, #info-box .info").text('');
@@ -184,8 +230,14 @@ angular.module ("app", ['ngRoute'])
         $rootScope.initialize_map();
         $rootScope.data_model.features = [];
 
-        if(_empty){
-            
+        if(typeof(random_nmbr) === 'number'){
+            console.log(random_nmbr);
+            console.log($rootScope.SQUARE_ARRAY[random_nmbr]);
+            $rootScope.data_model.features.push($rootScope.SQUARE[$rootScope.SQUARE_ARRAY[random_nmbr]].data);
+            $rootScope.set_data($rootScope.data_model);
+        }
+        else if (random_nmbr){
+            //
         }
         else if($("#tagsimput").val()) {
             $("#tagsimput").val().split(',').forEach(function (e) {
@@ -211,6 +263,11 @@ angular.module ("app", ['ngRoute'])
         else {
             $rootScope.set_data($rootScope.FULL_SQUARE);
         }
+    };
+
+    $rootScope.lucky = function () {
+        $rootScope.params.time_travel = 2001 + Math.floor((Math.random() * 27));
+        $rootScope.engine(Math.floor(Math.random() * 589));
     };
 
     // SET JSON DATA
@@ -282,7 +339,8 @@ angular.module ("app", ['ngRoute'])
         $rootScope.params = {
             school: 'mat', // mat, pri
             lang: 'FR', // FR, NL
-            display: false
+            display: false,
+            time_travel: new Date().getFullYear()
         };
 
         $rootScope.get_model();

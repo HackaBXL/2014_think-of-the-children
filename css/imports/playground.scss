@@ -48,13 +48,14 @@ div.bootstrap-tagsinput {
 	span {
 		line-height: 40px;
 		padding: 0; margin: 0;
-		font-size: 36px;
 	}
 	.name {
 		color: #555;
+		font-size: 36px;
 	}
 	.info {
 		color: #F92772;
+		font-size: 21px;
 	}
 	background-color: rgba(255, 255, 255, 0.8);
 	line-height: 40px;
@@ -71,13 +72,13 @@ body {
 	-webkit-appearance:none;
 }
 .map-labels {
-   color: red;
-   background-color: white;
-   font-size: 10px;
-   font-weight: bold;
-   text-align: center;
-   width: 60px;     
-   border: 2px solid black;
-   white-space: nowrap;
-   z-index: 20;
- }
+	color: red;
+	background-color: white;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+	width: 60px;     
+	border: 2px solid black;
+	white-space: nowrap;
+	z-index: 20;
+}

@@ -7,12 +7,13 @@
         <link href="css/main.css" rel="stylesheet" type="text/css">
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
         <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="dist/css/flat-ui.css" rel="stylesheet">
         <link rel='stylesheet' href='//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css' />
+        <link href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css' rel='stylesheet' type='text/css'>
         <link rel='stylesheet' type='text/css' href='css/nab.css'>
             
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
         
         <!-- IMPORT LIBRARIES -->
@@ -22,11 +23,14 @@
         <script type="text/javascript" src='app.js'></script>
         
         <script src="functions.js"></script>
-        
-        <script src="dist/js/flat-ui.js"></script>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.js"></script>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-route.js"></script>
+        <script src="slider.js"></script>
         <script src="index.js"></script>
+
+        <link href="dist/css/flat-ui.css" rel="stylesheet">
+        <style>.ui-slider{border:none;}.ui-slider-horizontal .ui-slider-handle {top: -7px;border:none;background:#2D3E4F;-webkit-appearance:none;}</style>
+        <script src="dist/js/flat-ui.js"></script>
             
     </head>
     <body>
@@ -72,18 +76,16 @@
                                 <div>{{data.school_type.primary[lang]}}</div>
                             </label>
 
-                            <!-- <label class="radio">
-                                <input type="radio" ng-model="params.school" name="schoolType" id="secondary" value="secondary" data-toggle="radio" class="custom-radio">
-                                <span class="icons">
-                                <span class="icon-unchecked"></span>
-                                <span class="icon-checked"></span>
-                                </span>
-                                <div>{{data.school_type.secondary[lang]}}</div>
-                            </label> -->
+                        <hr>
+                        
+                        <label class="checkbox" for="checkbox1">
+                            <input type="checkbox" value="" id="checkbox1" ng-model="params.display" ng-change="engine()" data-toggle="checkbox" class="custom-checkbox"><span class="icons"><span class="icon-unchecked"></span><span class="icon-checked"></span></span>
+                            {{data.show_schools[lang]}}
+                        </label>
                             
-                            <hr>
+                        <hr>
 
-                            <label class="radio">
+                            <label class="radio" ng-show="params.display">
                                 <input type="radio" ng-model="params.lang" ng-change="engine()" name="language" id="dutch" value="NL" checked="checked" data-toggle="radio" class="custom-radio">
                                 <span class="icons">
                                 <span class="icon-unchecked"></span>
@@ -91,7 +93,7 @@
                                 </span>
                                 <div>{{data.school_language.dutch[lang]}}</div>
                             </label>
-                            <label class="radio">
+                            <label class="radio" ng-show="params.display">
                                 <input type="radio" ng-model="params.lang" ng-change="engine()" name="language" id="french" value="FR" data-toggle="radio" class="custom-radio">
                                 <span class="icons">
                                 <span class="icon-unchecked"></span>
@@ -100,17 +102,20 @@
                                 <div>{{data.school_language.french[lang]}}</div>
                             </label>
                         </div>
+                        
+                        <hr ng-show="params.display">
+                        
+                        <label>Time Travel</label>
+                        <div ui-slider min="2001" max="2028" ng-model="params.time_travel" ng-change="engine()"></div>
+                        <strong>{{params.time_travel}}</strong>
 
-                        <hr>
-                        
-                        <label class="checkbox" for="checkbox1">
-                            <input type="checkbox" value="" id="checkbox1" ng-model="params.display" ng-change="engine()" data-toggle="checkbox" class="custom-checkbox"><span class="icons"><span class="icon-unchecked"></span><span class="icon-checked"></span></span>
-                            {{data.show_schools[lang]}}
-                        </label>
-                        
                         <hr>
 
                         <button class="submiit btn btn-block btn-lg btn-primary" type="submit">{{data.submit[lang]}}</button>
+
+                        <hr>
+
+                        <button class="submiit btn btn-block btn-lg btn-success" type="button" ng-click="lucky()">I Feel Lucky</button>
                         
                         <div class="background"></div>
                     </form>

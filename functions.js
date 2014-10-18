@@ -38,14 +38,6 @@ var Colors = (function() {
     }
 })();
 
-/*$rootScope.SQUARE_ARRAY.push('Bruxelles');
-              
-                // SET OBJECT
-                $rootScope.SQUARE['Bruxelles'] = {
-                    name:'Bruxelles',
-                    array:$rootScope.bruxelles
-                };
-*/
 var getProvince = function (data){
     
     var province = {
