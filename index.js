@@ -17,15 +17,51 @@ angular.module ("app", ['ngRoute'])
         $rootScope.map = new google.maps.Map(document.getElementById('map-canvas'), {
             center: { lat: 50.854975, lng: 4.3753899},
             zoom: 12,
+            scrollwheel: false,
+            navigationControl: false,
+            mapTypeControl: false,
+            scaleControl: false,
+            draggable: false,
             styles: config.map_style
         });
 
+        // DISPLAY INFO
+        $rootScope.map.data.addListener('mouseover', function(event) {
+            $("#info-box .name").text(event.feature.getProperty('Name1') + ' - ');
+            $("#info-box .info").text(event.feature.getProperty('INS'));
+        });
+
+        // HOVER OPTIONS
+        $rootScope.map.data.addListener('mouseover', function(event) {
+            $rootScope.map.data.revertStyle();
+            $rootScope.map.data.overrideStyle(event.feature, {strokeWeight: 2, strokeColor: '#555555'});
+        });
+
+            $rootScope.map.data.addListener('mouseout', function(event) {
+            $rootScope.map.data.revertStyle();
+        });
+
         // STYLE
-        var featureStyle = {
-            fillColor: '#F92772',
-            strokeWeight: 0
-        }
-        $rootScope.map.data.setStyle(featureStyle);
+        $rootScope.map.data.setStyle(function(feature) {
+            var ins = feature.getProperty('INS');
+            var color = '';
+
+            // COLOR LOGIC
+
+            if (ins < 20000) {
+                color = '#F92772';
+            }
+            else if (ins >= 20000 && ins < 60000) {
+                color = '#E6DB74';
+            }
+            else {
+                color = '#68E480';
+            }
+            return {
+              fillColor: color,
+              strokeWeight: 0
+            };
+        });
 
     };
 
@@ -42,7 +78,7 @@ angular.module ("app", ['ngRoute'])
 
     // GENERATE ARRAY FOR INPUT
     $rootScope.get_data = function () {
-        $http.get("data/db.json")
+        $http.get("data/dbplus.json")
         .then(function(r){
             // console.log(r.data);
             $rootScope.SQUARE_ARRAY = [];
