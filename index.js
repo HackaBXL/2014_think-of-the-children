@@ -27,8 +27,23 @@ angular.module ("app", ['ngRoute'])
 
         // DISPLAY INFO
         $rootScope.map.data.addListener('mouseover', function(event) {
+            var p = {
+                ins: event.feature.getProperty('INS'),
+
+                mat_cap: event.feature.getProperty('pyramid').preschool,
+                pri_cap: event.feature.getProperty('pyramid').primary,
+
+                mat_ppl: event.feature.getProperty('pyramid').j,
+                pri_ppl: event.feature.getProperty('pyramid').k
+
+            };
+
             $("#info-box .name").text(event.feature.getProperty('Name1') + ' - ');
-            $("#info-box .info").text(event.feature.getProperty('INS'));
+            $("#info-box .info").text(
+                (p['mat_ppl'] > 0 || !p['mat_ppl'] || p['mat_cap']) ? p['mat_ppl'] + '/' + p['mat_cap'] : 'missing data'
+            ).css({
+                color:(p['mat_ppl'] > 0 || !p['mat_ppl'] || p['mat_cap']) ? Colors.toColor(p['mat_cap']/p['mat_ppl']) : '#000000'
+            });
         });
 
         // HOVER OPTIONS
@@ -43,10 +58,26 @@ angular.module ("app", ['ngRoute'])
 
         // STYLE
         $rootScope.map.data.setStyle(function(feature) {
-            var ins = feature.getProperty('INS');
+            var pyramid = {
+                ins: feature.getProperty('INS'),
+
+                mat_cap: feature.getProperty('pyramid').preschool,
+                pri_cap: feature.getProperty('pyramid').primary,
+
+                mat_ppl: feature.getProperty('pyramid').j,
+                pri_ppl: feature.getProperty('pyramid').k
+
+            };
+
+            // console.log({
+            //     pop:pyramid.mat_ppl,
+            //     cap:pyramid.mat_cap,
+            //     ratio:pyramid.mat_cap/pyramid.mat_ppl,
+            //     color:(pyramid.mat_ppl > 0 || !pyramid.mat_ppl || pyramid.mat_cap) ? Colors.toColor(pyramid.mat_cap/pyramid.mat_ppl) : '#000000'
+            // });
 
             // COLOR LOGIC
-            var color = Colors.toColor(1);
+            var color = (pyramid.mat_ppl > 0 || !pyramid.mat_ppl || pyramid.mat_cap) ? Colors.toColor(pyramid.mat_cap/pyramid.mat_ppl) : '#000000';
 
             return {
               fillColor: color,
