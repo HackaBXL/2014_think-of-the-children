@@ -55,7 +55,11 @@ angular.module ("app", ['ngRoute', 'ui.slider'])
         $rootScope.process_ratio = function (p, feedback) {
 
             var cap = p[$rootScope.params.school + '_cap'],
-                ppl = p[$rootScope.params.school + '_ppl'];
+                ppl = p[$rootScope.params.school + '_ppl'],
+                ppl_origin = p[$rootScope.params.school + '_ppl_origin'];
+
+            // EXTRAPOLATION PROCESS
+            ppl = extrapolateLinearly(ppl_origin, ppl, 12, $rootScope.params.time_travel - 2013);
 
             // COLOR
             if(feedback == 'color'){
@@ -87,8 +91,6 @@ angular.module ("app", ['ngRoute', 'ui.slider'])
                 }
             }
 
-            
-
         };
 
         // HOVER OPTIONS
@@ -114,7 +116,10 @@ angular.module ("app", ['ngRoute', 'ui.slider'])
                 pri_cap: feature.getProperty('pyramid').primary,
 
                 mat_ppl: feature.getProperty('pyramid').j,
-                pri_ppl: feature.getProperty('pyramid').k
+                pri_ppl: feature.getProperty('pyramid').k,
+
+                mat_ppl_origin: feature.getProperty('pyramid').j2k,
+                pri_ppl_origin: feature.getProperty('pyramid').k2k
 
             };
 
