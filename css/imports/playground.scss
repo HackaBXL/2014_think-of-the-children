@@ -39,6 +39,7 @@ div.bootstrap-tagsinput {
 }
 
 #info-box {
+	text-align: left;
 	span {
 		line-height: 40px;
 		padding: 0; margin: 0;
@@ -50,12 +51,12 @@ div.bootstrap-tagsinput {
 	.info {
 		color: #F92772;
 	}
-	background-color: rgba(255, 255, 255, 0.9);
+	background-color: rgba(255, 255, 255, 0.8);
 	line-height: 40px;
-	padding: 0; margin: 0;
+	padding: 0 20px; margin: 0;
 	font-size: 36px;
 	position: absolute;
-	left:$form_width;bottom:0;right:0;
+	left:0;bottom:0;
 	z-index: 20;
 }
 body {

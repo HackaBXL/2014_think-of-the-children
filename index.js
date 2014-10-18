@@ -73,6 +73,7 @@ angular.module ("app", ['ngRoute'])
 
     // GENERATE ARRAY FOR INPUT
     $rootScope.get_data = function () {
+
         $http.get("data/dbplus.json")
         .then(function(r){
             // console.log(r.data);
@@ -81,7 +82,7 @@ angular.module ("app", ['ngRoute'])
             $rootScope.RAW_SQUARE = r.data.features;
             $rootScope.RAW_SQUARE.forEach(function(e){
                 // KEEP NAME AND ZIP
-                $rootScope.SQUARE_ARRAY.push(e.properties.Name1);
+                $rootScope.SQUARE_ARRAY.push(e.properties['Name' + (($rootScope.lang == 'nl' && e.properties['Name2']) ? '2' : '1')]);
                 // $rootScope.SQUARE_ARRAY.push(e.properties.INS.toString());
                 // SET OBJECT
                 $rootScope.SQUARE[e.properties.Name1] = {
@@ -154,19 +155,29 @@ angular.module ("app", ['ngRoute'])
 
         });
 
-        // Construct the polygon.
-        var SUMPOLY = new google.maps.Polygon({
-            paths: [
-                new google.maps.LatLng(x1,y1),
-                new google.maps.LatLng(x2,y1),
-                new google.maps.LatLng(x1,y2),
-                new google.maps.LatLng(x2,y2)
-            ],
-            strokeWeight: 0,
-            fillOpacity: 0
+        // CONSTRUCT THE POLYGON
+        var SUMPOLY = [
+            new google.maps.LatLng(x1,y1),
+            new google.maps.LatLng(x2,y1),
+            new google.maps.LatLng(x2,y2),
+            new google.maps.LatLng(x1,y2)
+        ];
+
+        // CENTER OF POLYGON
+        var center = {
+            x: x1 + ((x2 - x1) / 2),
+            y: y1 + ((y2 - y1) / 2)
+        }
+
+        var bounds = new google.maps.LatLngBounds();
+
+        SUMPOLY.forEach(function (e) {
+            bounds.extend(e);
         });
-        
-        SUMPOLY.setMap($rootScope.map);
+
+
+
+        $rootScope.map.fitBounds(bounds);
     };
 
     // CONSTRUCTOR
