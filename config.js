@@ -2,7 +2,7 @@ var config = {};
 
 // MAP BOX
 config.map_id = 'examples.map-z2effxa8';
-config.provinces_names = ['Province de Namur', 'Région Bruxelloise', 'Brabant Flamand', 'Brabant Wallon', 'Province d\'Anvers', 'Flandre Occidentale', 'Flandre Orientale', 'Limbourg', 'Hainaut', 'Province de Liège', 'Province du Luxembourg'];
+config.provinces_names = ['Province de Namur', 'Région Bruxelloise', 'Vlaams-Brabant', 'Brabant Wallon', 'Provincie Antwerpen', 'West-Vlaanderen', 'Oost-Vlaanderen', 'Provincie Limburg', 'Hainaut', 'Province de Liège', 'Province du Luxembourg'];
 config.provinces_values = ['namur', 'bruxelles', 'brabantFlamand', 'brabantWallon', 'anvers', 'flandreOccidentale', 'flandreOrientale', 'limbourg', 'hainaut', 'liege', 'luxembourg'];
 
 

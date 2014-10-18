@@ -76,18 +76,16 @@
                                 <div>{{data.school_type.primary[lang]}}</div>
                             </label>
 
-                            <!-- <label class="radio">
-                                <input type="radio" ng-model="params.school" name="schoolType" id="secondary" value="secondary" data-toggle="radio" class="custom-radio">
-                                <span class="icons">
-                                <span class="icon-unchecked"></span>
-                                <span class="icon-checked"></span>
-                                </span>
-                                <div>{{data.school_type.secondary[lang]}}</div>
-                            </label> -->
+                        <hr>
+                        
+                        <label class="checkbox" for="checkbox1">
+                            <input type="checkbox" value="" id="checkbox1" ng-model="params.display" ng-change="engine()" data-toggle="checkbox" class="custom-checkbox"><span class="icons"><span class="icon-unchecked"></span><span class="icon-checked"></span></span>
+                            {{data.show_schools[lang]}}
+                        </label>
                             
-                            <hr>
+                        <hr>
 
-                            <label class="radio">
+                            <label class="radio" ng-show="params.display">
                                 <input type="radio" ng-model="params.lang" ng-change="engine()" name="language" id="dutch" value="NL" checked="checked" data-toggle="radio" class="custom-radio">
                                 <span class="icons">
                                 <span class="icon-unchecked"></span>
@@ -95,7 +93,7 @@
                                 </span>
                                 <div>{{data.school_language.dutch[lang]}}</div>
                             </label>
-                            <label class="radio">
+                            <label class="radio" ng-show="params.display">
                                 <input type="radio" ng-model="params.lang" ng-change="engine()" name="language" id="french" value="FR" data-toggle="radio" class="custom-radio">
                                 <span class="icons">
                                 <span class="icon-unchecked"></span>
@@ -104,13 +102,6 @@
                                 <div>{{data.school_language.french[lang]}}</div>
                             </label>
                         </div>
-
-                        <hr>
-                        
-                        <label class="checkbox" for="checkbox1">
-                            <input type="checkbox" value="" id="checkbox1" ng-model="params.display" ng-change="engine()" data-toggle="checkbox" class="custom-checkbox"><span class="icons"><span class="icon-unchecked"></span><span class="icon-checked"></span></span>
-                            {{data.show_schools[lang]}}
-                        </label>
                         
                         <hr>
 
