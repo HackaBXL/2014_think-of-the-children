@@ -104,14 +104,15 @@
                         <hr>
                         
                         <label class="checkbox" for="checkbox1">
-                            <input type="checkbox" value="" id="checkbox1" ng-change="engine()" data-toggle="checkbox" class="custom-checkbox"><span class="icons"><span class="icon-unchecked"></span><span class="icon-checked"></span></span>
+                            <input type="checkbox" value="" id="checkbox1" ng-model="params.display" ng-change="engine()" data-toggle="checkbox" class="custom-checkbox"><span class="icons"><span class="icon-unchecked"></span><span class="icon-checked"></span></span>
                             {{data.show_schools[lang]}}
                         </label>
                         
                         <hr>
 
-                        <!-- <button class="submiit btn btn-block btn-lg btn-primary" type="submit">{{data.submit[lang]}}</button> -->
-
+                        <button class="submiit btn btn-block btn-lg btn-primary" type="submit">{{data.submit[lang]}}</button>
+                        
+                        <div class="background"></div>
                     </form>
 
                 </div>
@@ -120,7 +121,6 @@
             </div>
 
             <div class="map">
-
                 <div class="mapFrameHome" id="map-canvas"></div>
                 <div id="info-box">
                     <span class="name"></span><span class="info"></span>

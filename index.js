@@ -40,7 +40,7 @@ angular.module ("app", ['ngRoute'])
 
             $("#info-box .name").text(event.feature.getProperty('Name1') + ' - ');
             $("#info-box .info").text(
-                (p[$rootScope.params.school + '_ppl'] > 0 && p[$rootScope.params.school + '_ppl'] && p[$rootScope.params.school + '_cap']) ? p[$rootScope.params.school + '_ppl'] + '/' + p[$rootScope.params.school + '_cap'] : 'missing data'
+                (p[$rootScope.params.school + '_cap'] > 0 && p[$rootScope.params.school + '_ppl'] && p[$rootScope.params.school + '_cap']) ? p[$rootScope.params.school + '_cap'] + '/' + p[$rootScope.params.school + '_ppl'] + ' (' + Math.floor((p[$rootScope.params.school + '_cap'] / p[$rootScope.params.school + '_ppl'])*100) + '%)' : 'missing data'
             ).css({
                 color:(p[$rootScope.params.school + '_ppl'] > 0 && p[$rootScope.params.school + '_ppl'] && p[$rootScope.params.school + '_cap']) ? Colors.toColor(p[$rootScope.params.school + '_cap']/p[$rootScope.params.school + '_ppl']) : '#000000',
                 textShadow: '1px 1px 2px #555'
@@ -121,20 +121,24 @@ angular.module ("app", ['ngRoute'])
             google.maps.event.addDomListener(window, 'load', $rootScope.initialize_map);
 
             setTimeout(function() {
-                $rootScope.engine();
+                $rootScope.engine(true);
             }, 500);
         });
     };
 
     // GET SELECTION ARRAY
-    $rootScope.engine = function () {
-        
+    $rootScope.engine = function (_empty) {
+
         // CLEAR INFO
         $("#info-box .name, #info-box .info").text('');
 
         $rootScope.initialize_map();
         $rootScope.data_model.features = [];
-        if($("#tagsimput").val()) {
+
+        if(_empty){
+            
+        }
+        else if($("#tagsimput").val()) {
             $("#tagsimput").val().split(',').forEach(function (e) {
                 if($rootScope.SQUARE && $rootScope.SQUARE[e] && $rootScope.SQUARE[e].data){
                     $rootScope.data_model.features.push($rootScope.SQUARE[e].data);
@@ -154,6 +158,11 @@ angular.module ("app", ['ngRoute'])
     $rootScope.set_data = function (data) {
         // JSON
         $rootScope.map.data.addGeoJson(data);
+
+        // SCHOOLS ON MAP
+        if ($rootScope.params.display) {
+            $rootScope.display_schools(data);
+        }
 
         // console.log(data);
         $rootScope.sum_poly(data);
@@ -211,7 +220,8 @@ angular.module ("app", ['ngRoute'])
     $rootScope.init=function(){
         $rootScope.params = {
             school: 'mat', // mat, pri
-            lang: 'fr' // eng, fr, nl
+            lang: 'fr', // eng, fr, nl
+            display: false
         };
 
         $rootScope.get_model();

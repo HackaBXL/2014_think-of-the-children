@@ -26,8 +26,15 @@
   width: 300px;
   padding: 20px;
   z-index: 10;
-  background-color: #F2F2F2;
   border-right: 1px solid #E4E4E4; }
+  .form .background {
+    width: 300px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    background: #FCFCFC; }
 
 .map {
   position: fixed;
