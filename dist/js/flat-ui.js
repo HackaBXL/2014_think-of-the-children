@@ -6917,7 +6917,7 @@ if (typeof jQuery === 'undefined') {
             var itemValue = self.options.itemValue(item),
                 itemText = self.options.itemText(item),
                 tagClass = self.options.tagClass(item),
-                test = isInArray(itemValue, window.availableTags);
+                test = isInArray(itemValue, window.availableTags.concat(config.provinces_names));
 
             // Ignore items allready added
             var existing = $.grep(self.itemsArray, function(item) {

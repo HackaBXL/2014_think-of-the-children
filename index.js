@@ -9,6 +9,9 @@ angular.module ("app", ['ngRoute'])
             $rootScope.data = r.data;
         });
     };
+
+    // GET PROVINCES
+    
     
     // INIT MAP
     $rootScope.initialize_map = function () {
@@ -118,14 +121,22 @@ angular.module ("app", ['ngRoute'])
                     data:e
                 };
             });
-            getProvince();
+
+            // GET PROVINCES
+            $rootScope.PROVINCES = getProvince(r.data.features);
+            // console.log($rootScope.PROVINCES);
+
+            // SET TAGS AUTOCOMPETE
             window.availableTags = $rootScope.SQUARE_ARRAY;
+
             $( ".test" ).autocomplete({
-              source: window.availableTags
+              source: window.availableTags.concat(config.provinces_names)
             });
 
+            // INIT MAP
             google.maps.event.addDomListener(window, 'load', $rootScope.initialize_map);
 
+            // PREVENT TOO FAST INITIALIZATION
             setTimeout(function() {
                 $rootScope.engine(true);
             }, 500);
@@ -139,11 +150,13 @@ angular.module ("app", ['ngRoute'])
 
         data.forEach(function(e){
             
-            e.properties.pyramid.schools.forEach(function(s){
-                if (s.language == $rootScope.params.lang) {
-                    schools.push(s);
-                }
-            });
+            if(e.properties && e.properties.pyramid && e.properties.pyramid.schools) {
+                e.properties.pyramid.schools.forEach(function(s){
+                    if (s.language == $rootScope.params.lang) {
+                        schools.push(s);
+                    }
+                });
+            }
 
         });
 
@@ -154,13 +167,12 @@ angular.module ("app", ['ngRoute'])
     };
     $rootScope.mark_map = function (s) {
 
-        var marker = new MarkerWithLabel({
-            position: new google.maps.LatLng(s.lon, s.lat),
+        var marker = new google.maps.Marker({
+            position: new google.maps.LatLng(parseFloat(s.lat), parseFloat(s.lon)),
             map: $rootScope.map,
-            title:"Hello World!",
-            icon: 'marker.png'
+            //icon: 'marker.png'
         });
-        marker.set('labelContent', 'sdda');
+
     }
 
     // GET SELECTION ARRAY
@@ -177,11 +189,21 @@ angular.module ("app", ['ngRoute'])
         }
         else if($("#tagsimput").val()) {
             $("#tagsimput").val().split(',').forEach(function (e) {
-                if($rootScope.SQUARE && $rootScope.SQUARE[e] && $rootScope.SQUARE[e].data){
+                if (isInArray(e, config.provinces_names)) {
+                    // PROVINCE
+                    var ins_list = $rootScope.PROVINCES[config.provinces_values[config.provinces_names.indexOf(e)]];
+                    for (var i in $rootScope.SQUARE) {
+                        if(isInArray($rootScope.SQUARE[i].ins.toString(), ins_list)){
+                            $rootScope.data_model.features.push($rootScope.SQUARE[i].data);
+                        }
+                    }
+
+                }
+                else if($rootScope.SQUARE && $rootScope.SQUARE[e] && $rootScope.SQUARE[e].data){
                     $rootScope.data_model.features.push($rootScope.SQUARE[e].data);
                 }
                 else{
-                    console.log($rootScope.SQUARE[e]);
+                    // console.log($rootScope.SQUARE[e]);
                 }
             });
             $rootScope.set_data($rootScope.data_model);
@@ -207,50 +229,52 @@ angular.module ("app", ['ngRoute'])
 
     // GET SUM POLYGON
     $rootScope.sum_poly = function (data) {
-        var x1 = data.features[0].geometry.coordinates[0][0][0],
-            x2 = data.features[0].geometry.coordinates[0][0][0],
-            y1 = data.features[0].geometry.coordinates[0][0][1],
-            y2 = data.features[0].geometry.coordinates[0][0][1];
-        data.features.forEach(function (e) {
+        if(data.features && data.features[0] && data.features[0].geometry && data.features[0].geometry.coordinates && data.features[0].geometry.coordinates[0]){
+            var x1 = data.features[0].geometry.coordinates[0][0][0],
+                x2 = data.features[0].geometry.coordinates[0][0][0],
+                y1 = data.features[0].geometry.coordinates[0][0][1],
+                y2 = data.features[0].geometry.coordinates[0][0][1];
+            data.features.forEach(function (e) {
 
-            e.geometry.coordinates[0].forEach(function (k) {
-                if (x1 > k[0]) {
-                    x1 = k[0];
-                }
-                if (x2 < k[0]) {
-                    x2 = k[0];
-                }
-                if (y1 > k[1]) {
-                    y1 = k[1];
-                }
-                if (y2 < k[1]) {
-                    y2 = k[1];
-                }
+                e.geometry.coordinates[0].forEach(function (k) {
+                    if (x1 > k[0]) {
+                        x1 = k[0];
+                    }
+                    if (x2 < k[0]) {
+                        x2 = k[0];
+                    }
+                    if (y1 > k[1]) {
+                        y1 = k[1];
+                    }
+                    if (y2 < k[1]) {
+                        y2 = k[1];
+                    }
+                });
+
             });
 
-        });
+            // CONSTRUCT THE POLYGON
+            var SUMPOLY = [
+                new google.maps.LatLng(y1,x1),
+                new google.maps.LatLng(y2,x1),
+                new google.maps.LatLng(y2,x2),
+                new google.maps.LatLng(y1,x2)
+            ];
 
-        // CONSTRUCT THE POLYGON
-        var SUMPOLY = [
-            new google.maps.LatLng(y1,x1),
-            new google.maps.LatLng(y2,x1),
-            new google.maps.LatLng(y2,x2),
-            new google.maps.LatLng(y1,x2)
-        ];
+            // CENTER OF POLYGON
+            var center = {
+                x: x1 + ((x2 - x1) / 2),
+                y: y1 + ((y2 - y1) / 2)
+            }
 
-        // CENTER OF POLYGON
-        var center = {
-            x: x1 + ((x2 - x1) / 2),
-            y: y1 + ((y2 - y1) / 2)
+            var bounds = new google.maps.LatLngBounds();
+
+            SUMPOLY.forEach(function (e) {
+                bounds.extend(e);
+            });
+
+            $rootScope.map.fitBounds(bounds);
         }
-
-        var bounds = new google.maps.LatLngBounds();
-
-        SUMPOLY.forEach(function (e) {
-            bounds.extend(e);
-        });
-
-        $rootScope.map.fitBounds(bounds);
     };
 
     // CONSTRUCTOR

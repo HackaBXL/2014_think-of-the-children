@@ -15,6 +15,11 @@ function isInArray(v, a) {
 
     return in_array;
 };
+
+function extrapolateLinearly(pastValue, currentValue, yearsBetweenValues, numberOfYearsInTheFuture) {
+    return currentValue + numberOfYearsInTheFuture * (currentValue - pastValue) / yearsBetweenValues;
+}
+
 var Colors = (function() {
     var a = 7,
         b = 7,
@@ -41,64 +46,64 @@ var Colors = (function() {
                     array:$rootScope.bruxelles
                 };
 */
-function getProvince(){
+var getProvince = function (data){
     
-    //$rootScope.bruxelles = [];
-    console.log("getProvince");
+    var province = {
+        bruxelles: [],
+        brabantFlamand: [],
+        brabantWallon: [],
+        anvers: [],
+        flandreOccidentale: [],
+        flandreOrientale: [],
+        limbourg: [],
+        hainaut: [],
+        liege: [],
+        luxembourg: [],
+        namur: []
+    }
     
-    var bruxelles = [],
-        brabantFlammand = [],
-        brabantWallon = [],
-        anvers = [],
-        flandreOccidental = [],
-        flandreOriental = [],
-        limobourg = [],
-        hainaut = [],
-        liege = [],
-        luembourg = [],
-        namur = [];
-    
-    var rootscope = angular.element($("html")).scope();
-    
-    rootscope.RAW_SQUARE.forEach(function(e){
+    data.forEach(function(e){
+
         if (e.properties.INS.toString().charAt(0) == '2' && e.properties.INS.toString().charAt(1) == '1'){
             //$rootScope.myProviceArray.push(e);
-            console.log(e.properties['Name1']);
-            bruxelles.push(e);
-        } else if ((e.properties.INS.toString().charAt(0) == '2' && e.properties.INS.toString().charAt(1) == '3') || (e.properties.INS.toString().charAt(0) == '2' && e.properties.INS.toString().charAt(1) == '4')){
-            console.log(e.properties['Name1']);
-            brabantFlammand.push(e);
-        } else if (e.properties.INS.toString().charAt(0) == '2' && e.properties.INS.toString().charAt(1) == '5'){
-            console.log(e.properties['Name1']);
-            brabantWallon.push(e);
-        } else if (e.properties.INS.toString().charAt(0) == '1'){
-            console.log(e.properties['Name1']);
-            anvers.push(e);
-        } else if (e.properties.INS.toString().charAt(0) == '3'){
-            console.log(e.properties['Name1']);
-            flandreOccidental.push(e);
-        } else if (e.properties.INS.toString().charAt(0) == '4'){
-            console.log(e.properties['Name1']);
-            flandreOriental.push(e);
-        } else if (e.properties.INS.toString().charAt(0) == '5'){
-            console.log(e.properties['Name1']);
-            hainaut.push(e);
-        } else if (e.properties.INS.toString().charAt(0) == '6'){
-            console.log(e.properties['Name1']);
-            liege.push(e);
-        } else if (e.properties.INS.toString().charAt(0) == '7'){
-            console.log(e.properties['Name1']);
-            limobourg.push(e);
-        } else if (e.properties.INS.toString().charAt(0) == '8'){
-            console.log(e.properties['Name1']);
-            luembourg.push(e);
-        } else if (e.properties.INS.toString().charAt(0) == '9'){
-            console.log(e.properties['Name1']);
-            namur.push(e);
+            province.bruxelles.push(e.properties.INS.toString());
         }
-            //console.log("not in brussels region");
+        else if ((e.properties.INS.toString().charAt(0) == '2' && e.properties.INS.toString().charAt(1) == '3') || (e.properties.INS.toString().charAt(0) == '2' && e.properties.INS.toString().charAt(1) == '4')){
+            province.brabantFlamand.push(e.properties.INS.toString());
+        }
+        else if (e.properties.INS.toString().charAt(0) == '2' && e.properties.INS.toString().charAt(1) == '5'){
+            province.brabantWallon.push(e.properties.INS.toString());
+        }
+        else if (e.properties.INS.toString().charAt(0) == '1'){
+            province.anvers.push(e.properties.INS.toString());
+        }
+        else if (e.properties.INS.toString().charAt(0) == '3'){
+            province.flandreOccidentale.push(e.properties.INS.toString());
+        }
+        else if (e.properties.INS.toString().charAt(0) == '4'){
+            province.flandreOrientale.push(e.properties.INS.toString());
+        }
+        else if (e.properties.INS.toString().charAt(0) == '5'){
+            province.hainaut.push(e.properties.INS.toString());
+        }
+        else if (e.properties.INS.toString().charAt(0) == '6'){
+            province.liege.push(e.properties.INS.toString());
+        }
+        else if (e.properties.INS.toString().charAt(0) == '7'){
+            province.limbourg.push(e.properties.INS.toString());
+        }
+        else if (e.properties.INS.toString().charAt(0) == '8'){
+            province.luxembourg.push(e.properties.INS.toString());
+        }
+        else if (e.properties.INS.toString().charAt(0) == '9'){
+            province.namur.push(e.properties.INS.toString());
+        }
+
     });
+
+    return province;
     
+<<<<<<< HEAD
     //console.log(bruxelles);
 }
 
@@ -114,3 +119,6 @@ $( document ).ready(function() {
       })/*.addSliderSegments($slider.slider("option").max)*/;
     }
 });
+=======
+};
+>>>>>>> faf326f6dfb3253754fcf473a2b854011712ae35
