@@ -153,12 +153,13 @@ angular.module ("app", ['ngRoute'])
     };
     $rootScope.mark_map = function (s) {
 
-        new google.maps.Marker({
+        var marker = new MarkerWithLabel({
             position: new google.maps.LatLng(s.lon, s.lat),
             map: $rootScope.map,
             title:"Hello World!",
             icon: 'marker.png'
         });
+        marker.set('labelContent', 'sdda');
     }
 
     // GET SELECTION ARRAY
