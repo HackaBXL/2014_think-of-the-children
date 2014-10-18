@@ -54,6 +54,10 @@ angular.module ("app", ['ngRoute'])
             };
         });
 
+        // ADD TRANSIT
+        var transitLayer = new google.maps.TransitLayer();
+        transitLayer.setMap($rootScope.map);
+
     };
 
     // GET MODEL
