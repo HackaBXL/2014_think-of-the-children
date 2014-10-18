@@ -7,12 +7,13 @@
         <link href="css/main.css" rel="stylesheet" type="text/css">
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
         <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="dist/css/flat-ui.css" rel="stylesheet">
         <link rel='stylesheet' href='//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css' />
+        <link href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css' rel='stylesheet' type='text/css'>
         <link rel='stylesheet' type='text/css' href='css/nab.css'>
             
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
         
         <!-- IMPORT LIBRARIES -->
@@ -22,11 +23,12 @@
         <script type="text/javascript" src='app.js'></script>
         
         <script src="functions.js"></script>
-        
-        <script src="dist/js/flat-ui.js"></script>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.js"></script>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-route.js"></script>
         <script src="index.js"></script>
+
+        <link href="dist/css/flat-ui.css" rel="stylesheet">
+        <script src="dist/js/flat-ui.js"></script>
             
     </head>
     <body>
@@ -110,10 +112,10 @@
                         
                         <hr>
                         
-                        <div id="slider"></div>
+                        <div id="slider" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all">
+                            <a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 0%;"></a>
+                        </div>
                         
-<!--                        <input type="range">-->
-
                         <hr>
 
                         <button class="submiit btn btn-block btn-lg btn-primary" type="submit">{{data.submit[lang]}}</button>
