@@ -1,6 +1,6 @@
 .head-title {
 	font-size: 28px;
-	color:#FFF;
+	color:#2C3E50;
 }
 .screen {
 	width:960px;
@@ -19,7 +19,8 @@ $form_width: 300px;
 	padding: 20px;
 	z-index: 10;
 
-	background-color: rgba(174, 180, 184, 1)
+	background-color: #F2F2F2;
+    border-right: 1px solid #E4E4E4;
 }
 .map {
     width: 100%;
