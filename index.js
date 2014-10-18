@@ -44,19 +44,10 @@ angular.module ("app", ['ngRoute'])
         // STYLE
         $rootScope.map.data.setStyle(function(feature) {
             var ins = feature.getProperty('INS');
-            var color = '';
 
             // COLOR LOGIC
+            var color = Colors.toColor(1);
 
-            if (ins < 20000) {
-                color = '#F92772';
-            }
-            else if (ins >= 20000 && ins < 60000) {
-                color = '#E6DB74';
-            }
-            else {
-                color = '#68E480';
-            }
             return {
               fillColor: color,
               strokeWeight: 0
