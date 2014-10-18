@@ -118,6 +118,7 @@ angular.module ("app", ['ngRoute'])
                     data:e
                 };
             });
+            getProvince();
             window.availableTags = $rootScope.SQUARE_ARRAY;
             $( ".test" ).autocomplete({
               source: window.availableTags
