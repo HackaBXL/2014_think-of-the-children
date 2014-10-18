@@ -29,7 +29,7 @@
         <script src="index.js"></script>
 
         <link href="dist/css/flat-ui.css" rel="stylesheet">
-        <style>.ui-slider-horizontal .ui-slider-handle {top: -7px;}</style>
+        <style>.ui-slider{border:none;}.ui-slider-horizontal .ui-slider-handle {top: -7px;border:none;background:#2D3E4F;-webkit-appearance:none;}</style>
         <script src="dist/js/flat-ui.js"></script>
             
     </head>
@@ -115,7 +115,7 @@
                         <hr>
 
                         <div ui-slider min="-11" max="15" ng-model="params.time_travel"></div>
-                        <input type="text" ng-model="params.time_travel" />
+                        <input class="form-control" type="text" ng-model="params.time_travel" style="width:100%;" />
 
                         <hr>
 
