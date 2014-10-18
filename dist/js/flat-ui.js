@@ -6974,6 +6974,12 @@ if (typeof jQuery === 'undefined') {
             self.$element.trigger($.Event('itemAdded', {
                 item: item
             }));
+
+            // ANGULAR
+            var scope = angular.element($("html")).scope();
+            scope.$apply(function(){
+                scope.engine();
+            })
         },
 
         /**

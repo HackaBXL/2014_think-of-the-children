@@ -19,11 +19,16 @@ $form_width: 300px;
 	padding: 20px;
 	z-index: 10;
 
-	background-color: #F2F2F2;
     border-right: 1px solid #E4E4E4;
+    .background {
+    	width:$form_width;
+    	position:fixed;
+		left:0;top:0;bottom:0;
+    	z-index: -1;
+    	background:#FCFCFC;
+    }
 }
 .map {
-    width: 100%;
 	position: fixed;
 	left:$form_width;top:0;bottom:0;right:0;
 	.mapFrameHome{
@@ -39,6 +44,7 @@ div.bootstrap-tagsinput {
 }
 
 #info-box {
+	text-align: left;
 	span {
 		line-height: 40px;
 		padding: 0; margin: 0;
@@ -50,12 +56,12 @@ div.bootstrap-tagsinput {
 	.info {
 		color: #F92772;
 	}
-	background-color: rgba(255, 255, 255, 0.9);
+	background-color: rgba(255, 255, 255, 0.8);
 	line-height: 40px;
-	padding: 0; margin: 0;
+	padding: 0 20px; margin: 0;
 	font-size: 36px;
 	position: absolute;
-	left:$form_width;bottom:0;right:0;
+	left:0;bottom:0;
 	z-index: 20;
 }
 body {

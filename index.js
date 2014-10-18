@@ -27,8 +27,24 @@ angular.module ("app", ['ngRoute'])
 
         // DISPLAY INFO
         $rootScope.map.data.addListener('mouseover', function(event) {
+            var p = {
+                ins: event.feature.getProperty('INS'),
+
+                mat_cap: event.feature.getProperty('pyramid').preschool,
+                pri_cap: event.feature.getProperty('pyramid').primary,
+
+                mat_ppl: event.feature.getProperty('pyramid').j,
+                pri_ppl: event.feature.getProperty('pyramid').k
+
+            };
+
             $("#info-box .name").text(event.feature.getProperty('Name1') + ' - ');
-            $("#info-box .info").text(event.feature.getProperty('INS'));
+            $("#info-box .info").text(
+                (p[$rootScope.params.school + '_cap'] > 0 && p[$rootScope.params.school + '_ppl'] && p[$rootScope.params.school + '_cap']) ? p[$rootScope.params.school + '_cap'] + '/' + p[$rootScope.params.school + '_ppl'] + ' (' + Math.floor((p[$rootScope.params.school + '_cap'] / p[$rootScope.params.school + '_ppl'])*100) + '%)' : 'missing data'
+            ).css({
+                color:(p[$rootScope.params.school + '_ppl'] > 0 && p[$rootScope.params.school + '_ppl'] && p[$rootScope.params.school + '_cap']) ? Colors.toColor(p[$rootScope.params.school + '_cap']/p[$rootScope.params.school + '_ppl']) : '#000000',
+                textShadow: '1px 1px 2px #555'
+            });
         });
 
         // HOVER OPTIONS
@@ -43,20 +59,25 @@ angular.module ("app", ['ngRoute'])
 
         // STYLE
         $rootScope.map.data.setStyle(function(feature) {
-            var ins = feature.getProperty('INS');
+            var pyramid = {
+                ins: feature.getProperty('INS'),
+
+                mat_cap: feature.getProperty('pyramid').preschool,
+                pri_cap: feature.getProperty('pyramid').primary,
+
+                mat_ppl: feature.getProperty('pyramid').j,
+                pri_ppl: feature.getProperty('pyramid').k
+
+            };
 
             // COLOR LOGIC
-            var color = Colors.toColor(1);
+            var color = (pyramid[$rootScope.params.school + '_ppl'] > 0 || !pyramid[$rootScope.params.school + '_ppl'] || pyramid[$rootScope.params.school + '_cap']) ? Colors.toColor(pyramid[$rootScope.params.school + '_cap']/pyramid[$rootScope.params.school + '_ppl']) : '#000000';
 
             return {
               fillColor: color,
               strokeWeight: 0
             };
         });
-
-        // ADD TRANSIT
-        var transitLayer = new google.maps.TransitLayer();
-        transitLayer.setMap($rootScope.map);
 
     };
 
@@ -73,15 +94,17 @@ angular.module ("app", ['ngRoute'])
 
     // GENERATE ARRAY FOR INPUT
     $rootScope.get_data = function () {
+
         $http.get("data/dbplus.json")
         .then(function(r){
             // console.log(r.data);
             $rootScope.SQUARE_ARRAY = [];
             $rootScope.SQUARE = {};
+            $rootScope.FULL_SQUARE = r.data;
             $rootScope.RAW_SQUARE = r.data.features;
             $rootScope.RAW_SQUARE.forEach(function(e){
                 // KEEP NAME AND ZIP
-                $rootScope.SQUARE_ARRAY.push(e.properties.Name1);
+                $rootScope.SQUARE_ARRAY.push(e.properties['Name1']);
                 // $rootScope.SQUARE_ARRAY.push(e.properties.INS.toString());
                 // SET OBJECT
                 $rootScope.SQUARE[e.properties.Name1] = {
@@ -98,16 +121,24 @@ angular.module ("app", ['ngRoute'])
             google.maps.event.addDomListener(window, 'load', $rootScope.initialize_map);
 
             setTimeout(function() {
-                $rootScope.engine();
+                $rootScope.engine(true);
             }, 500);
         });
     };
 
     // GET SELECTION ARRAY
-    $rootScope.engine = function () {
+    $rootScope.engine = function (_empty) {
+
+        // CLEAR INFO
+        $("#info-box .name, #info-box .info").text('');
+
         $rootScope.initialize_map();
         $rootScope.data_model.features = [];
-        if($("#tagsimput").val()) {
+
+        if(_empty){
+            
+        }
+        else if($("#tagsimput").val()) {
             $("#tagsimput").val().split(',').forEach(function (e) {
                 if($rootScope.SQUARE && $rootScope.SQUARE[e] && $rootScope.SQUARE[e].data){
                     $rootScope.data_model.features.push($rootScope.SQUARE[e].data);
@@ -118,12 +149,20 @@ angular.module ("app", ['ngRoute'])
             });
             $rootScope.set_data($rootScope.data_model);
         }
+        else {
+            $rootScope.set_data($rootScope.FULL_SQUARE);
+        }
     };
 
     // SET JSON DATA
     $rootScope.set_data = function (data) {
         // JSON
         $rootScope.map.data.addGeoJson(data);
+
+        // SCHOOLS ON MAP
+        if ($rootScope.params.display) {
+            $rootScope.display_schools(data);
+        }
 
         // console.log(data);
         $rootScope.sum_poly(data);
@@ -154,26 +193,35 @@ angular.module ("app", ['ngRoute'])
 
         });
 
-        // Construct the polygon.
-        var SUMPOLY = new google.maps.Polygon({
-            paths: [
-                new google.maps.LatLng(x1,y1),
-                new google.maps.LatLng(x2,y1),
-                new google.maps.LatLng(x1,y2),
-                new google.maps.LatLng(x2,y2)
-            ],
-            strokeWeight: 0,
-            fillOpacity: 0
+        // CONSTRUCT THE POLYGON
+        var SUMPOLY = [
+            new google.maps.LatLng(y1,x1),
+            new google.maps.LatLng(y2,x1),
+            new google.maps.LatLng(y2,x2),
+            new google.maps.LatLng(y1,x2)
+        ];
+
+        // CENTER OF POLYGON
+        var center = {
+            x: x1 + ((x2 - x1) / 2),
+            y: y1 + ((y2 - y1) / 2)
+        }
+
+        var bounds = new google.maps.LatLngBounds();
+
+        SUMPOLY.forEach(function (e) {
+            bounds.extend(e);
         });
-        
-        SUMPOLY.setMap($rootScope.map);
+
+        $rootScope.map.fitBounds(bounds);
     };
 
     // CONSTRUCTOR
     $rootScope.init=function(){
         $rootScope.params = {
-            school: 'primary', // kindergarten, primary, secondary
-            lang: 'fr' // eng, fr, nl
+            school: 'mat', // mat, pri
+            lang: 'fr', // eng, fr, nl
+            display: false
         };
 
         $rootScope.get_model();

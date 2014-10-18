@@ -1,0 +1,51 @@
+{  
+    "test":"test",
+    "title":{
+        "eng":"Think of the Children!",
+        "nl":"Think of the Children!",
+        "fr":"Pensez aux enfants!"
+    },
+    "school_type":{
+        "kindergarten":{
+            "eng":"Kindergarten",
+            "nl":"Kindergarten",
+            "fr":"Maternel"
+        },
+        "primary":{
+            "eng":"Primary",
+            "nl":"Primary",
+            "fr":"Primaire"
+        },
+        "secondary":{
+            "eng":"Secondary",
+            "nl":"Secondary",
+            "fr":"Secondaire"
+        }
+        
+    },
+    "school_language":{
+        "dutch":{
+            "eng":"Dutch School",
+            "nl":"Nederlands School",
+            "fr":"Ecole Néerlandophone"
+        },
+        "french":{
+            "eng":"French School",
+            "nl":"Frans School",
+            "fr":"Ecole Francophone"
+        }
+    },
+    "show_schools":{
+        "eng":"Show schoools on map",
+        "nl":"Show schoools on map",
+        "fr":"Voir les ecoles sur la carte"
+        
+    },
+    "submit":{
+        "eng":"Submit",
+        "nl":"Submit",
+        "fr":"Soumettre"
+        
+    }
+        
+}
