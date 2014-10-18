@@ -222,7 +222,7 @@ angular.module ("app", ['ngRoute', 'ui.slider'])
     }
 
     // GET SELECTION ARRAY
-    $rootScope.engine = function (_empty) {
+    $rootScope.engine = function (random_nmbr) {
 
         // CLEAR INFO
         $("#info-box .name, #info-box .info").text('');
@@ -230,8 +230,14 @@ angular.module ("app", ['ngRoute', 'ui.slider'])
         $rootScope.initialize_map();
         $rootScope.data_model.features = [];
 
-        if(_empty){
-            
+        if(typeof(random_nmbr) === 'number'){
+            console.log(random_nmbr);
+            console.log($rootScope.SQUARE_ARRAY[random_nmbr]);
+            $rootScope.data_model.features.push($rootScope.SQUARE[$rootScope.SQUARE_ARRAY[random_nmbr]].data);
+            $rootScope.set_data($rootScope.data_model);
+        }
+        else if (random_nmbr){
+            //
         }
         else if($("#tagsimput").val()) {
             $("#tagsimput").val().split(',').forEach(function (e) {
@@ -257,6 +263,11 @@ angular.module ("app", ['ngRoute', 'ui.slider'])
         else {
             $rootScope.set_data($rootScope.FULL_SQUARE);
         }
+    };
+
+    $rootScope.lucky = function () {
+        $rootScope.params.time_travel = 2001 + Math.floor((Math.random() * 27));
+        $rootScope.engine(Math.floor(Math.random() * 589));
     };
 
     // SET JSON DATA
