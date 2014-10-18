@@ -40,9 +40,10 @@ angular.module ("app", ['ngRoute'])
 
             $("#info-box .name").text(event.feature.getProperty('Name1') + ' - ');
             $("#info-box .info").text(
-                (p['mat_ppl'] > 0 || !p['mat_ppl'] || p['mat_cap']) ? p['mat_ppl'] + '/' + p['mat_cap'] : 'missing data'
+                (p[$rootScope.params.school + '_ppl'] > 0 && p[$rootScope.params.school + '_ppl'] && p[$rootScope.params.school + '_cap']) ? p[$rootScope.params.school + '_ppl'] + '/' + p[$rootScope.params.school + '_cap'] : 'missing data'
             ).css({
-                color:(p['mat_ppl'] > 0 || !p['mat_ppl'] || p['mat_cap']) ? Colors.toColor(p['mat_cap']/p['mat_ppl']) : '#000000'
+                color:(p[$rootScope.params.school + '_ppl'] > 0 && p[$rootScope.params.school + '_ppl'] && p[$rootScope.params.school + '_cap']) ? Colors.toColor(p[$rootScope.params.school + '_cap']/p[$rootScope.params.school + '_ppl']) : '#000000',
+                textShadow: '1px 1px 2px #555'
             });
         });
 
@@ -69,15 +70,8 @@ angular.module ("app", ['ngRoute'])
 
             };
 
-            // console.log({
-            //     pop:pyramid.mat_ppl,
-            //     cap:pyramid.mat_cap,
-            //     ratio:pyramid.mat_cap/pyramid.mat_ppl,
-            //     color:(pyramid.mat_ppl > 0 || !pyramid.mat_ppl || pyramid.mat_cap) ? Colors.toColor(pyramid.mat_cap/pyramid.mat_ppl) : '#000000'
-            // });
-
             // COLOR LOGIC
-            var color = (pyramid.mat_ppl > 0 || !pyramid.mat_ppl || pyramid.mat_cap) ? Colors.toColor(pyramid.mat_cap/pyramid.mat_ppl) : '#000000';
+            var color = (pyramid[$rootScope.params.school + '_ppl'] > 0 || !pyramid[$rootScope.params.school + '_ppl'] || pyramid[$rootScope.params.school + '_cap']) ? Colors.toColor(pyramid[$rootScope.params.school + '_cap']/pyramid[$rootScope.params.school + '_ppl']) : '#000000';
 
             return {
               fillColor: color,
@@ -106,6 +100,7 @@ angular.module ("app", ['ngRoute'])
             // console.log(r.data);
             $rootScope.SQUARE_ARRAY = [];
             $rootScope.SQUARE = {};
+            $rootScope.FULL_SQUARE = r.data;
             $rootScope.RAW_SQUARE = r.data.features;
             $rootScope.RAW_SQUARE.forEach(function(e){
                 // KEEP NAME AND ZIP
@@ -133,6 +128,10 @@ angular.module ("app", ['ngRoute'])
 
     // GET SELECTION ARRAY
     $rootScope.engine = function () {
+        
+        // CLEAR INFO
+        $("#info-box .name, #info-box .info").text('');
+
         $rootScope.initialize_map();
         $rootScope.data_model.features = [];
         if($("#tagsimput").val()) {
@@ -145,6 +144,9 @@ angular.module ("app", ['ngRoute'])
                 }
             });
             $rootScope.set_data($rootScope.data_model);
+        }
+        else {
+            $rootScope.set_data($rootScope.FULL_SQUARE);
         }
     };
 
@@ -208,7 +210,7 @@ angular.module ("app", ['ngRoute'])
     // CONSTRUCTOR
     $rootScope.init=function(){
         $rootScope.params = {
-            school: 'primary', // kindergarten, primary, secondary
+            school: 'mat', // mat, pri
             lang: 'fr' // eng, fr, nl
         };
 
