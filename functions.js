@@ -16,9 +16,9 @@ function isInArray(v, a) {
     return in_array;
 };
 var Colors = (function() {
-    var a = 8,
-        b = 8,
-        c = 0.5,
+    var a = 7,
+        b = 7,
+        c = 0.8,
         d = 1.5;
     var green = function(x) {
         return Math.floor(1 / (1 + Math.exp(-a * (x - c))) * 255);
