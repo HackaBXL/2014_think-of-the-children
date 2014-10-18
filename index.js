@@ -50,7 +50,11 @@ angular.module ("app", ['ngRoute'])
         // HOVER OPTIONS
         $rootScope.map.data.addListener('mouseover', function(event) {
             $rootScope.map.data.revertStyle();
-            $rootScope.map.data.overrideStyle(event.feature, {strokeWeight: 2, strokeColor: '#555555'});
+            $rootScope.map.data.overrideStyle(event.feature, {
+                strokeWeight: 2,
+                strokeColor: '#555555',
+                fillOpacity: 0.6
+            });
         });
 
             $rootScope.map.data.addListener('mouseout', function(event) {
@@ -75,7 +79,8 @@ angular.module ("app", ['ngRoute'])
 
             return {
               fillColor: color,
-              strokeWeight: 0
+              strokeWeight: 0,
+              fillOpacity: 0.5
             };
         });
 
