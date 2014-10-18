@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" />
+<title>Malmedy — Wikipédia</title>
+<meta name="generator" content="MediaWiki 1.25wmf3" />
+<link rel="alternate" href="android-app://org.wikipedia/http/fr.m.wikipedia.org/wiki/Malmedy" />
+<link rel="alternate" type="application/x-wiki" title="Modifier" href="/w/index.php?title=Malmedy&amp;action=edit" />
+<link rel="edit" title="Modifier" href="/w/index.php?title=Malmedy&amp;action=edit" />
+<link rel="apple-touch-icon" href="//bits.wikimedia.org/apple-touch/wikipedia.png" />
+<link rel="shortcut icon" href="//bits.wikimedia.org/favicon/wikipedia.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipédia (fr)" />
+<link rel="EditURI" type="application/rsd+xml" href="//fr.wikipedia.org/w/api.php?action=rsd" />
+<link rel="alternate" hreflang="x-default" href="/wiki/Malmedy" />
+<link rel="copyright" href="//creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Flux Atom de Wikipédia" href="/w/index.php?title=Sp%C3%A9cial:Modifications_r%C3%A9centes&amp;feed=atom" />
+<link rel="canonical" href="http://fr.wikipedia.org/wiki/Malmedy" />
+<link rel="stylesheet" href="//bits.wikimedia.org/fr.wikipedia.org/load.php?debug=false&amp;lang=fr&amp;modules=ext.gadget.MonobookToolbarStandard%2CWikiMiniAtlas%2CWikiOpenStreetMap%2CnewCollapsible%7Cext.rtlcite%2Cwikihiero%2CwikimediaBadges%7Cext.uls.nojs%7Cext.visualEditor.viewPageTarget.noscript%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cmediawiki.ui.button%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector&amp;*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="//bits.wikimedia.org/fr.wikipedia.org/load.php?debug=false&amp;lang=fr&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*" />
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: frwiki:resourceloader:filter:minify-css:7:06ebe4fffe895aa83d9f3697a665ff56 */</style>
+<script src="//bits.wikimedia.org/fr.wikipedia.org/load.php?debug=false&amp;lang=fr&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Malmedy","wgTitle":"Malmedy","wgCurRevisionId":106951208,"wgRevisionId":106951208,"wgArticleId":60947,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Page avec coordonnées similaires sur Wikidata","Article géolocalisé en Belgique","Article géolocalisé sur Terre","Catégorie Commons avec lien local identique sur Wikidata","Portail:Province de Liège/Articles liés","Portail:Wallonie/Articles liés","Portail:Belgique/Articles liés","Portail:Europe/Articles liés","Ville de la province de Liège","Commune de la province de Liège","Cantons de l'Est (Belgique)","Hautes Fagnes","Malmedy","Ville impliquée dans la Bataille des Ardennes"],"wgBreakFrames":false,"wgPageContentLanguage":"fr","wgPageContentModel":"wikitext","wgSeparatorTransformTable":[",\t."," \t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"],"wgMonthNamesShort":["","janv","fév","mars","avr","mai","juin","juil","août","sept","oct","nov","déc"],"wgRelevantPageName":"Malmedy","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Malmédy","wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"preview":false,"previewDialog":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"isPageWatched":false,"pageLanguageCode":"fr","pageLanguageDir":"ltr","svgMaxSize":4096,"namespacesWithSubpages":{"6":0,"8":0,"1":true,"2":true,"3":true,"4":true,"5":true,"7":true,"9":true,"10":true,"11":true,"12":true,"13":true,"14":true,"15":true,"100":true,"101":true,"102":true,"103":true,"104":true,"105":true,"106":true,"107":true,"108":true,"109":true,"110":true,"111":true,"2600":false,"828":true,"829":true}},"wgHHVMStart":1412726400000,"wgULSAcceptLanguageList":[],"wgULSCurrentAutonym":"français","wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgNoticeProject":"wikipedia","wgInternalRedirectTargetUrl":"/wiki/Malmedy","wgCoordinates":{"lat":50.417,"lon":6.033},"wgWikibaseItemId":"Q159838"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rows":25,"showhiddencats":false,"shownumberswatching":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"watchrollback":0,
+"wllimit":250,"useeditwarning":1,"prefershttps":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"visualeditor-enable":1,"visualeditor-betatempdisable":0,"visualeditor-enable-experimental":0,"visualeditor-enable-language":0,"visualeditor-hidebetawelcome":0,"mathJax":false,"echo-notify-show-link":true,"echo-show-alert":true,"echo-email-frequency":0,"echo-email-format":"html","echo-subscriptions-email-system":true,"echo-subscriptions-web-system":true,"echo-subscriptions-email-user-rights":true,"echo-subscriptions-web-user-rights":true,"echo-subscriptions-email-other":false,"echo-subscriptions-web-other":true,"echo-subscriptions-email-edit-user-talk":false,"echo-subscriptions-web-edit-user-talk":true,"echo-subscriptions-email-reverted":false,"echo-subscriptions-web-reverted":true,"echo-subscriptions-email-article-linked":false,"echo-subscriptions-web-article-linked":false,"echo-subscriptions-email-mention":false,"echo-subscriptions-web-mention":true,"echo-subscriptions-web-edit-thank":true,
+"echo-subscriptions-email-edit-thank":false,"echo-subscriptions-web-flow-discussion":true,"echo-subscriptions-email-flow-discussion":false,"gettingstarted-task-toolbar-show-intro":true,"uls-preferences":"","multimediaviewer-enable":true,"language":"fr","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs102":false,"searchNs103":false,"searchNs104":false,"searchNs105":false,"searchNs828":false,"searchNs829":false,"searchNs2600":false,"gadget-newCollapsible":1,"gadget-WikiOpenStreetMap":1,"gadget-WikiMiniAtlas":1,
+"gadget-MonobookToolbarStandard":1,"variant":"fr"});},{},{});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\"});},{},{});
+/* cache key: frwiki:resourceloader:filter:minify-js:7:6a06ab0e2dec894275dfa2d9a17620b8 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.action.view.redirect","mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.viewPageTarget.init","ext.uls.init","ext.uls.interface","ext.centralNotice.bannerController","skins.vector.js"]);
+}</script>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/w/static-1.25wmf3/skins/Vector/csshover.min.htc")}</style><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Malmedy skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+							<div id="siteNotice"><!-- CentralNotice --><script>document.write("\u003Cdiv id=\"localNotice\" lang=\"fr\" dir=\"ltr\"\u003E\u003Cp\u003E\n\u003C/p\u003E\u003C/div\u003E");</script></div>
+						<h1 id="firstHeading" class="firstHeading" lang="fr"><span dir="auto">Malmedy</span></h1>
+						<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">Un article de Wikipédia, l&#039;encyclopédie libre.</div>
+								<div id="contentSub">(Redirigé depuis <a href="/w/index.php?title=Malm%C3%A9dy&amp;redirect=no" title="Malmédy">Malmédy</a>)</div>
+												<div id="jump-to-nav" class="mw-jump">
+					Aller à :					<a href="#mw-navigation">navigation</a>, 					<a href="#p-search">rechercher</a>
+				</div>
+				<div id="mw-content-text" lang="fr" dir="ltr" class="mw-content-ltr"><table class="infobox_v2" cellspacing="7">
+<tr>
+<td colspan="2" class="entete map" style="background-color:#DDFFDD;color:#000000"><b>Malmedy</b></td>
+</tr>
+<tr>
+<td colspan="2" style="text-align:center; line-height: 1.5em;"><a href="/wiki/Fichier:0_Malmedy_-_Place_Albert_1er.JPG" class="image"><img alt="La place Albert Ier" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/62/0_Malmedy_-_Place_Albert_1er.JPG/280px-0_Malmedy_-_Place_Albert_1er.JPG" width="280" height="210" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/62/0_Malmedy_-_Place_Albert_1er.JPG/420px-0_Malmedy_-_Place_Albert_1er.JPG 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/62/0_Malmedy_-_Place_Albert_1er.JPG/560px-0_Malmedy_-_Place_Albert_1er.JPG 2x" data-file-width="2272" data-file-height="1704" /></a><br />
+La place Albert I<sup>er</sup></td>
+</tr>
+<tr>
+<td colspan="1" align="center"><a href="/wiki/Fichier:Coats_of_arms_of_None.svg" class="image" title="Blason de Malmedy"><img alt="Blason de Malmedy" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Coats_of_arms_of_None.svg/90px-Coats_of_arms_of_None.svg.png" width="90" height="108" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Coats_of_arms_of_None.svg/135px-Coats_of_arms_of_None.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Coats_of_arms_of_None.svg/180px-Coats_of_arms_of_None.svg.png 2x" data-file-width="125" data-file-height="150" /></a><br />
+<small><a href="/wiki/H%C3%A9raldique" title="Héraldique">Héraldique</a></small></td>
+<td colspan="1" align="center"><a href="/wiki/Fichier:Flag_of_Malmedy.svg" class="image" title="Drapeau de Malmedy"><img alt="Drapeau de Malmedy" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/51/Flag_of_Malmedy.svg/100px-Flag_of_Malmedy.svg.png" width="100" height="67" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/51/Flag_of_Malmedy.svg/150px-Flag_of_Malmedy.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/51/Flag_of_Malmedy.svg/200px-Flag_of_Malmedy.svg.png 2x" data-file-width="600" data-file-height="400" /></a><br />
+<small><a href="/wiki/Drapeau" title="Drapeau">Drapeau</a></small></td>
+</tr>
+<tr>
+<th colspan="2" style="text-align:center;background-color:#DDFFDD;color:#000000">Administration</th>
+</tr>
+<tr>
+<th scope="row"><a href="/wiki/Liste_des_pays_du_monde" title="Liste des pays du monde">Pays</a></th>
+<td><span class="datasortkey" data-sort-value="Belgique"><span class="flagicon"><a href="/wiki/Fichier:Flag_of_Belgium_(civil).svg" class="image" title="Drapeau de la Belgique"><img alt="Drapeau de la Belgique" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Belgium_%28civil%29.svg/20px-Flag_of_Belgium_%28civil%29.svg.png" width="20" height="13" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Belgium_%28civil%29.svg/30px-Flag_of_Belgium_%28civil%29.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Belgium_%28civil%29.svg/40px-Flag_of_Belgium_%28civil%29.svg.png 2x" data-file-width="450" data-file-height="300" /></a>&#160;</span><a href="/wiki/Belgique" title="Belgique">Belgique</a></span></td>
+</tr>
+<tr>
+<th scope="row"><a href="/wiki/R%C3%A9gions_de_Belgique" title="Régions de Belgique">Région</a></th>
+<td><span class="flagicon"><span class="nowrap"><a href="/wiki/Fichier:Flag_of_Wallonia.svg" class="image" title="Drapeau de la Région wallonne"><img alt="Drapeau de la Région wallonne" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/42/Flag_of_Wallonia.svg/20px-Flag_of_Wallonia.svg.png" width="20" height="13" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/42/Flag_of_Wallonia.svg/30px-Flag_of_Wallonia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/42/Flag_of_Wallonia.svg/40px-Flag_of_Wallonia.svg.png 2x" data-file-width="750" data-file-height="500" /></a></span>&#160;<a href="/wiki/R%C3%A9gion_wallonne" title="Région wallonne">Région wallonne</a></span></td>
+</tr>
+<tr>
+<th scope="row"><a href="/wiki/Communaut%C3%A9s_de_Belgique" title="Communautés de Belgique">Communauté</a></th>
+<td><a href="/wiki/Fichier:Flag_of_Wallonia.svg" class="image" title="Drapeau de la Communauté française de Belgique"><img alt="Drapeau de la Communauté française de Belgique" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/42/Flag_of_Wallonia.svg/20px-Flag_of_Wallonia.svg.png" width="20" height="13" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/42/Flag_of_Wallonia.svg/30px-Flag_of_Wallonia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/42/Flag_of_Wallonia.svg/40px-Flag_of_Wallonia.svg.png 2x" data-file-width="750" data-file-height="500" /></a>&#160;<a href="/wiki/Communaut%C3%A9_fran%C3%A7aise_de_Belgique" title="Communauté française de Belgique">Communauté française</a></td>
+</tr>
+<tr>
+<th scope="row"><a href="/wiki/Province_de_Belgique" title="Province de Belgique" class="mw-redirect">Province</a></th>
+<td><a href="/wiki/Fichier:Flag_of_the_Province_of_Li%C3%A8ge.svg" class="image" title="Drapeau de la province de Liège"><img alt="Drapeau de la province de Liège" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_the_Province_of_Li%C3%A8ge.svg/20px-Flag_of_the_Province_of_Li%C3%A8ge.svg.png" width="20" height="13" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_the_Province_of_Li%C3%A8ge.svg/30px-Flag_of_the_Province_of_Li%C3%A8ge.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_the_Province_of_Li%C3%A8ge.svg/40px-Flag_of_the_Province_of_Li%C3%A8ge.svg.png 2x" data-file-width="450" data-file-height="300" /></a> <a href="/wiki/Province_de_Li%C3%A8ge" title="Province de Liège">Province de Liège</a></td>
+</tr>
+<tr>
+<th scope="row"><a href="/wiki/Arrondissement_administratif_de_Belgique" title="Arrondissement administratif de Belgique">Arrondissement</a></th>
+<td><a href="/wiki/Arrondissement_administratif_de_Verviers" title="Arrondissement administratif de Verviers">Verviers</a></td>
+</tr>
+<tr>
+<th scope="row"><a href="/wiki/Bourgmestre_(Belgique)" title="Bourgmestre (Belgique)">Bourgmestre</a></th>
+<td>Jean-Paul BASTIN (<a href="/wiki/Centre_d%C3%A9mocrate_humaniste" title="Centre démocrate humaniste">CdH</a>)</td>
+</tr>
+<tr>
+<th scope="row">Section</th>
+<td><b><a href="/wiki/Liste_des_codes_postaux_belges" title="Liste des codes postaux belges">Code postal</a></b></td>
+</tr>
+<tr>
+<td style="font-weight: normal;"><span class="nowrap">Malmedy<br />
+<a href="/wiki/Bellevaux-Ligneuville" title="Bellevaux-Ligneuville">Bellevaux-Ligneuville</a><br />
+<a href="/wiki/B%C3%A9verc%C3%A9" title="Bévercé">Bévercé</a></span></td>
+<td>4960<br />
+4960<br />
+4960</td>
+</tr>
+<tr>
+<td></td>
+</tr>
+<tr>
+<th scope="row"><a href="/wiki/Institut_national_de_statistique_(Belgique)" title="Institut national de statistique (Belgique)" class="mw-redirect">Code INS</a></th>
+<td>63049</td>
+</tr>
+<tr>
+<th scope="col" colspan="2" style="text-align:center;background-color:#DDFFDD;color:#000000">Démographie</th>
+</tr>
+<tr>
+<th scope="row"><a href="/wiki/Gentil%C3%A9" title="Gentilé">Gentilé</a></th>
+<td>Malmédien(ne)</td>
+</tr>
+<tr>
+<th scope="row"><a href="/wiki/Recensement_de_la_population" title="Recensement de la population">Population</a><br />
+– Hommes<br />
+– Femmes<br />
+<a href="/wiki/Densit%C3%A9_de_population" title="Densité de population">Densité</a></th>
+<td>12&#160;345 <i><small>(<span class="date-lien nowrap datasortkey" data-sort-value="2014-01-01"><a href="/wiki/1er_janvier" title="1er janvier"><abbr class="abbr" title="premier">1<sup>er</sup></abbr></a> <a href="/wiki/Janvier_2014" title="Janvier 2014">janvier</a> <a href="/wiki/2014" title="2014">2014</a></span>)</small></i><br />
+<span class="nowrap">48,18&#160;%</span><br />
+<span class="nowrap">51,82&#160;%</span><br />
+<span class="nowrap">123&#160;hab./km<sup>2</sup></span></td>
+</tr>
+<tr>
+<th scope="row"><span class="nowrap"><a href="/wiki/Pyramide_des_%C3%A2ges" title="Pyramide des âges">Pyramide des âges</a></span><br />
+– 0–17 ans<br />
+– 18–64 ans<br />
+– 65 ans et +</th>
+<td><i><small>(<span class="date-lien nowrap datasortkey" data-sort-value="2013-01-01"><a href="/wiki/1er_janvier" title="1er janvier"><abbr class="abbr" title="premier">1<sup>er</sup></abbr></a> <a href="/wiki/Janvier_2013" title="Janvier 2013">janvier</a> <a href="/wiki/2013" title="2013">2013</a></span>)</small></i><br />
+<span class="nowrap">21,89&#160;%</span><br />
+<span class="nowrap">59,26&#160;%</span><br />
+<span class="nowrap">18,85&#160;%</span></td>
+</tr>
+<tr>
+<th scope="row"><a href="/wiki/Immigration" title="Immigration">Étrangers</a></th>
+<td><span class="nowrap">4,78&#160;%</span> <i><small>(<span class="date-lien nowrap datasortkey" data-sort-value="2013-01-01"><a href="/wiki/1er_janvier" title="1er janvier"><abbr class="abbr" title="premier">1<sup>er</sup></abbr></a> <a href="/wiki/Janvier_2013" title="Janvier 2013">janvier</a> <a href="/wiki/2013" title="2013">2013</a></span>)</small></i></td>
+</tr>
+<tr>
+<td></td>
+</tr>
+<tr>
+<th scope="row"><a href="/wiki/Taux_de_ch%C3%B4mage" title="Taux de chômage">Taux de chômage</a></th>
+<td><span class="nowrap">10,80&#160;%</span> <i><small>(octobre 2013)</small></i></td>
+</tr>
+<tr>
+<th scope="row">Revenu annuel moyen</th>
+<td><span class="nowrap">12&#160;629&#160;€/hab.</span> <i><small>(2011)</small></i></td>
+</tr>
+<tr>
+<td></td>
+</tr>
+<tr>
+<th scope="col" colspan="2" style="text-align:center;background-color:#DDFFDD;color:#000000">Géographie</th>
+</tr>
+<tr>
+<th scope="row"><a href="/wiki/Coordonn%C3%A9es_g%C3%A9ographiques" title="Coordonnées géographiques">Coordonnées</a></th>
+<td><span style="font-size: small;"><span id="coordinates"><span class="plainlinks nourlexpansion" title="Cartes, vues aériennes, etc."><a class="external text" href="http://tools.wmflabs.org/geohack/geohack.php?language=fr&amp;pagename=Malmedy&amp;params=50.417_N_6.033_E_type:city_region:be"><span class="geo-default"><span class="geo-dms"><span class="latitude">50° 25′ N</span> <span class="longitude">6° 02′ E</span></span></span><span class="geo-multi-punct"> / </span><span class="geo-nondefault"><span class="geo-dec">50.417, 6.033</span></span></a></span></span></span><span class="plainlinks nourlexpansion" title="Cartes, vues aériennes, etc."><a class="external text" href="http://tools.wmflabs.org/geohack/geohack.php?language=fr&amp;pagename=Malmedy&amp;params=50.417_N_6.033_E_type:city_region:be"><span class="geo-default"><span class="geo-dms"><span class="latitude">50° 25′ Nord</span> <span class="longitude">6° 02′ Est</span></span></span><span class="geo-multi-punct"> / </span><span class="geo-nondefault"><span class="geo-dec">50.417, 6.033</span></span></a></span>&#160;&#160;</td>
+</tr>
+<tr>
+<th scope="row"><a href="/wiki/Superficie" title="Superficie">Superficie</a><br />
+– Surface agricole<br />
+– Bois<br />
+– Terrains bâtis<br />
+– Divers</th>
+<td><span class="nowrap">99,96&#160;km<sup>2</sup></span> <i><small>(<a href="/wiki/2005" title="2005">2005</a>)</small></i><br />
+<span class="nowrap">35,41&#160;%</span><br />
+<span class="nowrap">43,26&#160;%</span><br />
+<span class="nowrap">10,21&#160;%</span><br />
+<span class="nowrap">11,12&#160;%</span></td>
+</tr>
+<tr>
+<td></td>
+</tr>
+<tr>
+<th scope="col" colspan="2" style="text-align:center;background-color:#DDFFDD;color:#000000;">Localisation</th>
+</tr>
+<tr>
+<td colspan="2" style="text-align:center; line-height: 1.5em;"><a href="/wiki/Fichier:Malmedy_Li%C3%A8ge_Belgium_Map.png" class="image"><img alt="Situation de la ville dans l’arrondissement de Verviers et la province de Liège" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/70/Malmedy_Li%C3%A8ge_Belgium_Map.png/280px-Malmedy_Li%C3%A8ge_Belgium_Map.png" width="280" height="212" srcset="//upload.wikimedia.org/wikipedia/commons/7/70/Malmedy_Li%C3%A8ge_Belgium_Map.png 1.5x, //upload.wikimedia.org/wikipedia/commons/7/70/Malmedy_Li%C3%A8ge_Belgium_Map.png 2x" data-file-width="290" data-file-height="220" /></a><br />
+Situation de la ville dans l’arrondissement de Verviers et la province de Liège</td>
+</tr>
+<tr>
+<td></td>
+</tr>
+<tr>
+<td colspan="3" align="center">
+<div class="img_toogle">
+<div class="geobox">
+<p><small>Géolocalisation sur la carte&#160;: <a href="/wiki/Belgique" title="Belgique">Belgique</a></small></p>
+<table class="DebutCarte" border="0" cellspacing="0" cellpadding="0" style="margin:0;border:none;padding:0;text-align:center">
+<tr>
+<td style="border:none;padding:0">
+<div style="position:relative;;margin:auto"><a href="/wiki/Fichier:Belgium_location_map.svg" class="image" title="Voir la carte administrative de&#160;Belgique"><img alt="Voir la carte administrative de&#160;Belgique" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Belgium_location_map.svg/280px-Belgium_location_map.svg.png" width="280" height="244" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Belgium_location_map.svg/420px-Belgium_location_map.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/65/Belgium_location_map.svg/560px-Belgium_location_map.svg.png 2x" data-file-width="1136" data-file-height="988" /></a>
+<div style="position:absolute;top:53.192307692308%;left:81.553191489362%;width:0px;height:0px;margin:0;padding:0;line-height:0px;background-color:transparent;">
+<div style="position:relative;top:-8px;left:-8px;width:16px;height:16px;background-color:transparent;"><a href="/wiki/Fichier:City_locator_14.svg" class="image"><img alt="City locator 14.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/5d/City_locator_14.svg/16px-City_locator_14.svg.png" width="16" height="16" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/5d/City_locator_14.svg/24px-City_locator_14.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/5d/City_locator_14.svg/32px-City_locator_14.svg.png 2x" data-file-width="16" data-file-height="16" /></a></div>
+<div style="position:relative;top:-16px;">
+<div style="font-size:90%;position:relative;top:-1.65em;left:-12.5em;text-align:right;width:12em;line-height:1.2em;"><span class="toponyme">Malmedy</span></div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="geobox">
+<p><small>Géolocalisation sur la carte&#160;: <a href="/wiki/Belgique" title="Belgique">Belgique</a></small></p>
+<table class="DebutCarte" border="0" cellspacing="0" cellpadding="0" style="margin:0;border:none;padding:0;text-align:center">
+<tr>
+<td style="border:none;padding:0">
+<div style="position:relative;;margin:auto"><a href="/wiki/Fichier:Belgium_relief_location_map.jpg" class="image" title="Voir la carte topographique de&#160;Belgique"><img alt="Voir la carte topographique de&#160;Belgique" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Belgium_relief_location_map.jpg/280px-Belgium_relief_location_map.jpg" width="280" height="244" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Belgium_relief_location_map.jpg/420px-Belgium_relief_location_map.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Belgium_relief_location_map.jpg/560px-Belgium_relief_location_map.jpg 2x" data-file-width="1136" data-file-height="988" /></a>
+<div style="position:absolute;top:53.192307692308%;left:81.553191489362%;width:0px;height:0px;margin:0;padding:0;line-height:0px;background-color:transparent;">
+<div style="position:relative;top:-8px;left:-8px;width:16px;height:16px;background-color:transparent;"><a href="/wiki/Fichier:City_locator_14.svg" class="image"><img alt="City locator 14.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/5d/City_locator_14.svg/16px-City_locator_14.svg.png" width="16" height="16" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/5d/City_locator_14.svg/24px-City_locator_14.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/5d/City_locator_14.svg/32px-City_locator_14.svg.png 2x" data-file-width="16" data-file-height="16" /></a></div>
+<div style="position:relative;top:-16px;">
+<div style="font-size:90%;position:relative;top:-1.65em;left:-12.5em;text-align:right;width:12em;line-height:1.2em;"><span class="toponyme">Malmedy</span></div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<th scope="col" colspan="2" style="text-align:center;background-color:#DDFFDD;color:#000000">Liens</th>
+</tr>
+<tr>
+<th scope="row"><a href="/wiki/Site_web" title="Site web">Site officiel</a></th>
+<td><a rel="nofollow" class="external text" href="http://www.malmedy.be">malmedy.be</a></td>
+</tr>
+<tr>
+<td colspan="2" style="text-align:center&#160;;background-color:#left">
+<div class="references-small decimal" style="column-count: 1; -moz-column-count: 1; -webkit-column-count: 1"></div>
+</td>
+</tr>
+<tr>
+<td class="navigation-only" colspan="2" style="border-top: 2px #DDFFDD solid; font-size: 80%; background:inherit; text-align: right;"><span class="plainlinks" style="float:left;"><a class="external text" href="//fr.wikipedia.org/w/index.php?title=Malmedy&amp;action=edit&amp;section=0"><span style="color:#555;">modifier</span></a></span>&#160;<span title="Consultez la documentation du modèle"><a href="//fr.wikipedia.org/wiki/Mod%C3%A8le:Infobox_Commune_de_Belgique" title="Consultez la documentation du modèle"><img alt="Consultez la documentation du modèle" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Gtk-dialog-info.svg/12px-Gtk-dialog-info.svg.png" width="12" height="12" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Gtk-dialog-info.svg/18px-Gtk-dialog-info.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Gtk-dialog-info.svg/24px-Gtk-dialog-info.svg.png 2x" data-file-width="60" data-file-height="60" /></a></span></td>
+</tr>
+</table>
+<div class="thumb tright">
+<div class="thumbinner" style="width:182px;"><a href="/wiki/Fichier:Malmedy_JPG01.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/af/Malmedy_JPG01.jpg/180px-Malmedy_JPG01.jpg" width="180" height="240" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/af/Malmedy_JPG01.jpg/270px-Malmedy_JPG01.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/af/Malmedy_JPG01.jpg/360px-Malmedy_JPG01.jpg 2x" data-file-width="1704" data-file-height="2272" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="/wiki/Fichier:Malmedy_JPG01.jpg" class="internal" title="Agrandir"></a></div>
+La fontaine de la place Albert I<sup>er</sup></div>
+</div>
+</div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:262px;"><a href="/wiki/Fichier:Malmedy_JPG02.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Malmedy_JPG02.jpg/260px-Malmedy_JPG02.jpg" width="260" height="194" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Malmedy_JPG02.jpg/390px-Malmedy_JPG02.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Malmedy_JPG02.jpg/520px-Malmedy_JPG02.jpg 2x" data-file-width="2232" data-file-height="1669" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="/wiki/Fichier:Malmedy_JPG02.jpg" class="internal" title="Agrandir"></a></div>
+Monument aux victimes tuées à Malmedy lors de la guerre (1940-1945) et ancien monastère (<span class="romain">XVIII</span><sup>e</sup>&#160;siècle)</div>
+</div>
+</div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:172px;"><a href="/wiki/Fichier:Malmedy_JPG00.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Malmedy_JPG00.jpg/170px-Malmedy_JPG00.jpg" width="170" height="241" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Malmedy_JPG00.jpg/255px-Malmedy_JPG00.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Malmedy_JPG00.jpg/340px-Malmedy_JPG00.jpg 2x" data-file-width="1566" data-file-height="2219" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="/wiki/Fichier:Malmedy_JPG00.jpg" class="internal" title="Agrandir"></a></div>
+La cathédrale Saints-Pierre, Paul et Quirin (1777)</div>
+</div>
+</div>
+<p><b>Malmedy</b> [<span title="Alphabet phonétique international" class="API" style="font-family:'DejaVu Sans','Doulos SIL','Lucida Grande','Segoe UI','Arial Unicode MS','Adobe Pi Std','Lucida Sans Unicode','Chrysanthi Unicode',Code2000,Gentium,GentiumAlt,'TITUS Cyberbit Basic','Bitstream Vera Sans','Bitstream Cyberbit','Hiragino Kaku Gothic Pro','Matrix Unicode',sans-serif;"><a href="/wiki/Alphabet_phon%C3%A9tique_international" title="Alphabet phonétique international">malmədi</a></span>]<sup id="cite_ref-Pierret_1-0" class="reference"><a href="#cite_note-Pierret-1"><span class="cite_crochet">[</span>1<span class="cite_crochet">]</span></a></sup> (en <a href="/wiki/Moyen_francique" title="Moyen francique">francique</a> <i>Malemder</i><sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span class="cite_crochet">[</span>2<span class="cite_crochet">]</span></a></sup>; en <a href="/wiki/Wallon" title="Wallon">wallon</a> <i>Måmdey</i>, prononcé [<span title="Alphabet phonétique international" class="API" style="font-family:'DejaVu Sans','Doulos SIL','Lucida Grande','Segoe UI','Arial Unicode MS','Adobe Pi Std','Lucida Sans Unicode','Chrysanthi Unicode',Code2000,Gentium,GentiumAlt,'TITUS Cyberbit Basic','Bitstream Vera Sans','Bitstream Cyberbit','Hiragino Kaku Gothic Pro','Matrix Unicode',sans-serif;"><a href="/wiki/Alphabet_phon%C3%A9tique_international" title="Alphabet phonétique international">maːmdiː</a></span>]<sup id="cite_ref-Pierret_1-1" class="reference"><a href="#cite_note-Pierret-1"><span class="cite_crochet">[</span>1<span class="cite_crochet">]</span></a></sup>), parfois orthographié <a href="//fr.wiktionary.org/wiki/Malm%C3%A9dy" class="extiw" title="wikt:Malmédy">Malmédy</a>, est une <a href="/wiki/Ville_de_Belgique" title="Ville de Belgique">ville</a> de <a href="/wiki/Belgique" title="Belgique">Belgique</a> située en <a href="/wiki/R%C3%A9gion_wallonne" title="Région wallonne">Région wallonne</a> dans la <a href="/wiki/Province_de_Li%C3%A8ge" title="Province de Liège">province de Liège</a>.</p>
+<p>C'est une commune <a href="/wiki/Communaut%C3%A9_fran%C3%A7aise_de_Belgique" title="Communauté française de Belgique">francophone</a> à <a href="/wiki/Facilit%C3%A9s_linguistiques" title="Facilités linguistiques">facilités</a> pour ses habitants <a href="/wiki/Communaut%C3%A9_germanophone_de_Belgique" title="Communauté germanophone de Belgique">germanophones</a> (5&#160;% de ses citoyens sont d'expression germanophone). Elle fait partie des communes des <a href="/wiki/Cantons_de_l%27Est_(Belgique)" title="Cantons de l'Est (Belgique)">Cantons de l'Est</a> rattachés à la Belgique en 1919 en exécution du <a href="/wiki/Trait%C3%A9_de_Versailles" title="Traité de Versailles">traité de Versailles</a>.</p>
+<p>Malmedy est située au confluent de la <a href="/wiki/Warche" title="Warche">Warche</a> et de la <a href="/wiki/Warchenne" title="Warchenne">Warchenne</a>.</p>
+<p>Au <span class="date-lien nowrap datasortkey" data-sort-value="2014-01-01"><a href="/wiki/1er_janvier" title="1er janvier"><abbr class="abbr" title="premier">1<sup>er</sup></abbr></a> <a href="/wiki/Janvier_2014" title="Janvier 2014">janvier</a> <a href="/wiki/2014" title="2014">2014</a></span> elle compte 12&#160;345 habitants, répartis sur une superficie de <span class="nowrap">100,62&#160;km<sup>2</sup></span>.</p>
+<p></p>
+<div id="toc" class="toc">
+<div id="toctitle">
+<h2>Sommaire</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Sections_de_commune"><span class="tocnumber">1</span> <span class="toctext">Sections de commune</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Histoire"><span class="tocnumber">2</span> <span class="toctext">Histoire</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#P.C3.A9riode_prussienne_.281815-1919.29"><span class="tocnumber">2.1</span> <span class="toctext">Période prussienne (1815-1919)</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Premi.C3.A8re_Guerre_mondiale"><span class="tocnumber">2.2</span> <span class="toctext">Première Guerre mondiale</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Entre-deux-guerres"><span class="tocnumber">2.3</span> <span class="toctext">Entre-deux-guerres</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Seconde_Guerre_mondiale"><span class="tocnumber">2.4</span> <span class="toctext">Seconde Guerre mondiale</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#.C3.89conomie"><span class="tocnumber">3</span> <span class="toctext">Économie</span></a>
+<ul>
+<li class="toclevel-2 tocsection-8"><a href="#Papeterie_malm.C3.A9dienne"><span class="tocnumber">3.1</span> <span class="toctext">Papeterie malmédienne</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Tanneries"><span class="tocnumber">3.2</span> <span class="toctext">Tanneries</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#Environnement"><span class="tocnumber">4</span> <span class="toctext">Environnement</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Culture_et_traditions"><span class="tocnumber">5</span> <span class="toctext">Culture et traditions</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Particularit.C3.A9s"><span class="tocnumber">6</span> <span class="toctext">Particularités</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#Sp.C3.A9cialit.C3.A9s"><span class="tocnumber">7</span> <span class="toctext">Spécialités</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#Personnalit.C3.A9s_malm.C3.A9diennes"><span class="tocnumber">8</span> <span class="toctext">Personnalités malmédiennes</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#Jumelages"><span class="tocnumber">9</span> <span class="toctext">Jumelages</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#Voir_aussi"><span class="tocnumber">10</span> <span class="toctext">Voir aussi</span></a>
+<ul>
+<li class="toclevel-2 tocsection-17"><a href="#Notes"><span class="tocnumber">10.1</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="#Bibliographie"><span class="tocnumber">10.2</span> <span class="toctext">Bibliographie</span></a></li>
+<li class="toclevel-2 tocsection-19"><a href="#Liens_externes"><span class="tocnumber">10.3</span> <span class="toctext">Liens externes</span></a></li>
+</ul>
+</li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Sections_de_commune">Sections de commune</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Malmedy&amp;veaction=edit&amp;vesection=1" title="Modifier la section : Sections de commune" class="mw-editsection-visualeditor">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Malmedy&amp;action=edit&amp;section=1" title="Modifier la section : Sections de commune">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p><a href="/wiki/Bellevaux-Ligneuville" title="Bellevaux-Ligneuville">Bellevaux-Ligneuville</a>, <a href="/wiki/B%C3%A9verc%C3%A9" title="Bévercé">Bévercé</a> et Malmedy.</p>
+<h2><span class="mw-headline" id="Histoire">Histoire</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Malmedy&amp;veaction=edit&amp;vesection=2" title="Modifier la section : Histoire" class="mw-editsection-visualeditor">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Malmedy&amp;action=edit&amp;section=2" title="Modifier la section : Histoire">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>En ce qui concerne sa naissance et sa jeunesse, l'histoire de Malmedy se confond en grande partie avec celle de son <a href="/wiki/Abbaye_de_Malmedy" title="Abbaye de Malmedy">abbaye</a>.</p>
+<p>La ville est fondée vers 648 par <a href="/wiki/Saint_Remacle" title="Saint Remacle">saint Remacle</a>, originaire d'<a href="/wiki/Aquitaine" title="Aquitaine">Aquitaine</a> et prieur de l'abbaye de <a href="/wiki/Solignac" title="Solignac">Solignac</a>. Malmedy dont le nom proviendrait de l'expression <i>a malo mundarum</i> signifiait «&#160;en purifiant le lieu du mal&#160;» se développa dès 648 autour du cloître <a href="/wiki/Ordre_de_Saint-Beno%C3%AEt" title="Ordre de Saint-Benoît">bénédictin</a> érigé par saint Remacle. Ce monastère est associé à <a href="/wiki/Abbaye_de_Stavelot" title="Abbaye de Stavelot">celui de Stavelot</a>, que Remacle fonde à la même époque. On parle souvent de «&#160;<a href="/wiki/Monast%C3%A8re_double" title="Monastère double">monastère double</a>&#160;», bien qu'il s'agisse de deux monastères d'hommes (<a href="/wiki/B%C3%A8de_le_V%C3%A9n%C3%A9rable" title="Bède le Vénérable">Bède le Vénérable</a>, dans un cas comme celui-ci, préfère parler de «&#160;monastères jumeaux pour hommes&#160;»).</p>
+<p>Au <span class="romain">X</span><sup>e</sup>&#160;siècle, la population de Malmedy s'était accrue au point qu'il fallut une <a href="/wiki/%C3%89glise_paroissiale" title="Église paroissiale">église paroissiale</a>, Saint-Géréon, c'était en 1007. Jusqu'alors, on s'était contenté d'une <a href="/wiki/Absidiole" title="Absidiole">absidiole</a> de l'abbaye, la chapelle Saint-Laurent, et encore la Saint-Martin ("Evêuyes").</p>
+<p>Entre sa fondation et 1794, l’histoire de Malmedy se confond avec celle de la <a href="/wiki/Principaut%C3%A9_de_Stavelot-Malmedy" title="Principauté de Stavelot-Malmedy">Principauté abbatiale de Stavelot-Malmedy</a> dont elle constitue un des deux pôles.</p>
+<p>Pendant 1&#160;146 ans, Malmedy et <a href="/wiki/Stavelot" title="Stavelot">Stavelot</a> formèrent la Principauté de Stavelot-Malmedy à la tête de laquelle se succédèrent 77 princes-abbés du <a href="/wiki/Saint-Empire_romain_germanique" title="Saint-Empire romain germanique">Saint-Empire</a> et <a href="/w/index.php?title=Comtes_de_Logne&amp;action=edit&amp;redlink=1" class="new" title="Comtes de Logne (page inexistante)">comtes de Logne</a>. Cependant, dès le <span class="romain">XI</span><sup>e</sup>&#160;siècle, des rivalités opposèrent les deux villes, l'abbaye de Malmedy supportant mal la suprématie que lui imposait celle de Stavelot.</p>
+<p>Dès le <span class="romain">XVI</span><sup>e</sup>&#160;siècle, Malmedy voit plusieurs industries se développer sur son sol&#160;: draperie, tannerie et industrie de poudre à canon.</p>
+<p>Au <span class="romain">XVII</span><sup>e</sup>&#160;siècle, Malmedy et Stavelot sont les centres de tanneries les plus importants d'<a href="/wiki/Europe" title="Europe">Europe</a>. À cette époque, d'autres industries sont aussi renommées à Malmedy&#160;: fabrique de coton, fabrique de jeux d'échecs, de dominos, de pains d'épice et surtout la papeterie qui fera la fortune de Malmedy. Malgré son statut de neutralité et la protection des princes-abbés, Malmedy fut envahie au moins cinquante fois par des troupes de passage, dont les déprédations eurent des conséquences désastreuses pour la population… La ville fut totalement incendiée en 1689 sur l'ordre de <a href="/wiki/Nicolas_de_Catinat" title="Nicolas de Catinat">Nicolas de Catinat</a>, général de <a href="/wiki/Louis_XIV_de_France" title="Louis XIV de France">Louis XIV</a>.</p>
+<p>En 1795, après la propagation de la <a href="/wiki/R%C3%A9volution_fran%C3%A7aise" title="Révolution française">Révolution française</a> et les conquêtes territoriales de la <a href="/wiki/France" title="France">France</a>, la <a href="/wiki/Principaut%C3%A9_de_Stavelot-Malmedy" title="Principauté de Stavelot-Malmedy">Principauté de Stavelot-Malmedy</a> disparut et ses territoires furent réunis à la France. Malmedy devint alors sous-préfecture du département de l'<a href="/wiki/Ourthe_(d%C3%A9partement)" title="Ourthe (département)">Ourte</a>, chef-lieu du <abbr class="abbr" title="Deuxième">2<sup>e</sup></abbr> arrondissement communal de l'<a href="/wiki/Ourthe_(d%C3%A9partement)" title="Ourthe (département)">Ourte</a>, siège d'un <a href="/wiki/Tribunal_de_premi%C3%A8re_instance" title="Tribunal de première instance">Tribunal de première instance</a> et étendit sa juridiction, notamment sur les villes de <a href="/wiki/Verviers" title="Verviers">Verviers</a> et <a href="/wiki/Spa_(ville)" title="Spa (ville)">Spa</a>.</p>
+<p>Elle conservera ce statut jusqu'à la fin de la période <a href="/wiki/Premier_Empire" title="Premier Empire">napoléonienne</a>.</p>
+<h3><span class="mw-headline" id="P.C3.A9riode_prussienne_.281815-1919.29">Période prussienne (1815-1919)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Malmedy&amp;veaction=edit&amp;vesection=3" title="Modifier la section : Période prussienne (1815-1919)" class="mw-editsection-visualeditor">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Malmedy&amp;action=edit&amp;section=3" title="Modifier la section : Période prussienne (1815-1919)">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Aux termes du <a href="/wiki/Congr%C3%A8s_de_Vienne" title="Congrès de Vienne">traité de Vienne</a> en 1815, le canton de Malmedy, qui comprenait également à l’époque celui de <a href="/wiki/Saint-Vith" title="Saint-Vith">Saint-Vith</a> est rattaché à la <a href="/wiki/Prusse" title="Prusse">Prusse</a>. Cette situation va durer environ un siècle.</p>
+<p>Durant les premières cinquante années, la situation particulière de Malmedy, ville <a href="/wiki/Langues_romanes" title="Langues romanes">romane</a> (et même wallonne) dans une Prusse germanophone, ne pose pas trop de problèmes. Les habitants sont libres d’utiliser le français à leur guise, y compris dans les délibérations du conseil communal. Au cours d’une visite à la ville en 1853, le roi de Prusse <a href="/wiki/Fr%C3%A9d%C3%A9ric-Guillaume_IV_de_Prusse" title="Frédéric-Guillaume IV de Prusse">Frédéric-Guillaume IV</a> affirmera même être fier de posséder, aux marches de son royaume, «&#160;un petit pays où l’on parle français&#160;».</p>
+<p>En revanche, les choses vont progressivement changer avec l’arrivée au pouvoir du chancelier <a href="/wiki/Otto_von_Bismarck" title="Otto von Bismarck">Bismarck</a> et plus encore avec la <a href="/wiki/Guerre_franco-allemande_de_1870" title="Guerre franco-allemande de 1870">guerre franco-prussienne de 1870</a> et le <i><a href="/wiki/Kulturkampf" title="Kulturkampf">Kulturkampf</a></i> qui va bientôt lui succéder. Aux yeux de l’administration prussienne, Malmedy souffre du double désavantage d’être à la fois francophone et en majorité catholique.</p>
+<p>À partir de ce moment, elle va subir une tentative de germanisation forcée, l’enseignement du français étant interdit dans les écoles au profit de celui de l’allemand. Par ailleurs, interdiction fut faites aux communes du canton de Malmedy de subventionner les cultes, les curés se voyant interdire de prêcher en français (interdiction que certains contourneront en prêchant en wallon).</p>
+<p>Certains irréductibles iront jusqu’à créer en 1897 le «&#160;Club Wallon&#160;» avec l'abbé <a href="/wiki/Nicolas_Pietkin" title="Nicolas Pietkin">Nicolas Pietkin</a>, qui existe encore de nos jours mais, dans l’ensemble, la majorité de la population, axée sur les problèmes du quotidien allait peu à peu s’adapter à la situation, même si au sein des maisons, le wallon restait pour beaucoup la langue utilisée de préférence. Nicolas Pietkin faisait ses sermons en wallon.</p>
+<h3><span class="mw-headline" id="Premi.C3.A8re_Guerre_mondiale">Première Guerre mondiale</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Malmedy&amp;veaction=edit&amp;vesection=4" title="Modifier la section : Première Guerre mondiale" class="mw-editsection-visualeditor">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Malmedy&amp;action=edit&amp;section=4" title="Modifier la section : Première Guerre mondiale">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Les Malmédiens firent la <a href="/wiki/Premi%C3%A8re_Guerre_mondiale" title="Première Guerre mondiale">Première Guerre mondiale</a> sous l'uniforme allemand, comme le reste des <a href="/wiki/Cantons_de_l%27Est_(Belgique)" title="Cantons de l'Est (Belgique)">cantons de l’Est</a>.</p>
+<h3><span class="mw-headline" id="Entre-deux-guerres"><a href="/wiki/Entre-deux-guerres" title="Entre-deux-guerres">Entre-deux-guerres</a></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Malmedy&amp;veaction=edit&amp;vesection=5" title="Modifier la section : Entre-deux-guerres" class="mw-editsection-visualeditor">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Malmedy&amp;action=edit&amp;section=5" title="Modifier la section : Entre-deux-guerres">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Après la <a href="/wiki/Premi%C3%A8re_Guerre_mondiale" title="Première Guerre mondiale">Première Guerre mondiale</a>, Malmedy devint une ville <a href="/wiki/Belgique" title="Belgique">belge</a> en application du <a href="/wiki/Trait%C3%A9_de_Versailles" title="Traité de Versailles">traité de Versailles</a>. Elle obtenait ainsi le même statut que sa ville sœur de Stavelot.</p>
+<p>Le traité prévoyait que les populations concernées devaient se prononcer sur le rattachement à la Belgique par référendum. Celui-ci fut organisé de façon contestable, les opposants étant priés d’aller signer sur une liste ouverte à leur administration communale. Sur l’ensemble des 33&#160;276 électeurs concernés sur l’ensemble des cantons de l’Est, seuls 271 oseront aussi ouvertement manifester leur désapprobation.</p>
+<p>Par ailleurs, une polémique opposera un temps l’évêché de <a href="/wiki/Cologne" title="Cologne">Cologne</a>, dont dépendait Malmedy, au <a href="/wiki/Saint-Si%C3%A8ge" title="Saint-Siège">Saint-Siège</a>. Pour résoudre la question, le Vatican créera temporairement un <a href="/wiki/Dioc%C3%A8se" title="Diocèse">diocèse</a> de Malmedy-<a href="/wiki/Eupen" title="Eupen">Eupen</a>-Saint-Vith, confié à l’<a href="/wiki/Liste_des_%C3%A9v%C3%AAques_de_Tongres,_Maastricht_et_Li%C3%A8ge" title="Liste des évêques de Tongres, Maastricht et Liège">évêque de Liège</a> et dont le siège se trouvait à Malmedy. L’<a href="/wiki/%C3%89glise_paroissiale" title="Église paroissiale">église paroissiale</a> se trouva de ce chef promue au rang de <a href="/wiki/Cath%C3%A9drale" title="Cathédrale">cathédrale</a>, rang que les Malmédiens lui attribuent encore aujourd’hui, car le titre honorifique de «&#160;cathédrale&#160;» sera maintenu. L’éphémère évêché sera définitivement absorbé par celui de Liège en 1925.</p>
+<p>C’est au cours de cette période que se produisit également la scission du canton de Malmedy qui perdit ses communes germanophones, qui allaient constituer le nouveau canton de Saint-Vith, pour ne conserver que les communes de ce qui est encore appelé la <a href="/wiki/Wallonie_malm%C3%A9dienne" title="Wallonie malmédienne">Wallonie malmédienne</a>, à savoir les actuelles communes de <a href="/wiki/Waimes" title="Waimes">Waimes</a> et Malmedy.</p>
+<p>L’entre-deux-guerres fut marqué à Malmedy comme dans le reste de la région par une opposition entre les partisans du maintien de la situation acquise à la suite du traité de Versailles et les tenants du retour à l’Allemagne. Cette opposition devint plus aiguë encore après l’accession de <a href="/wiki/Adolf_Hitler" title="Adolf Hitler">Hitler</a> au pouvoir en <a href="/wiki/Allemagne" title="Allemagne">Allemagne</a> et l’encouragement par le <a href="/wiki/Troisi%C3%A8me_Reich" title="Troisième Reich">régime nazi</a> du courant militant pour le retour à l’Allemagne. Il se créa même un parti appelé <a href="/wiki/Heimattreue_Front" title="Heimattreue Front">Heimattreue Front</a> (Front patriotique) dont le programme était ouvertement rattachiste et dont certains membres professaient ouvertement des idées nazies.</p>
+<h3><span class="mw-headline" id="Seconde_Guerre_mondiale">Seconde Guerre mondiale</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Malmedy&amp;veaction=edit&amp;vesection=6" title="Modifier la section : Seconde Guerre mondiale" class="mw-editsection-visualeditor">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Malmedy&amp;action=edit&amp;section=6" title="Modifier la section : Seconde Guerre mondiale">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Après le déclenchement de la <a href="/wiki/Seconde_Guerre_mondiale" title="Seconde Guerre mondiale">Seconde Guerre mondiale</a> et la capitulation de la Belgique au terme de la <a href="/wiki/Campagne_des_18_jours" title="Campagne des 18 jours">campagne des 18 jours</a>, Malmedy sera annexée au <a href="/wiki/Troisi%C3%A8me_Reich" title="Troisième Reich">Troisième Reich</a>. Il en résultera que les Malmédiens en âge de porter les armes seront obligés de faire leur service militaire au sein de la <a href="/wiki/Wehrmacht" title="Wehrmacht">Wehrmacht</a>, payant un lourd tribut à la guerre, notamment sur le front de l'Est. Par ailleurs, pendant ces cinq années sombres, nombreux furent les Malmédiens qui périrent dans les <a href="/wiki/Camp_de_concentration" title="Camp de concentration">camps de concentration</a> <a href="/wiki/Nazisme" title="Nazisme">nazis</a> pour avoir marqué leur attachement à la Belgique.</p>
+<p>La ville sera libérée par les troupes américaines en <span class="date-lien nowrap datasortkey" data-sort-value="1944-09"><a href="/wiki/Septembre_1944" title="Septembre 1944">septembre</a> <a href="/wiki/1944" title="1944">1944</a></span>.</p>
+<p>Au cours de la <a href="/wiki/Bataille_des_Ardennes" title="Bataille des Ardennes">bataille des Ardennes</a>, la ville sera le théâtre de deux événements dramatiques. Le <span class="date-lien nowrap datasortkey" data-sort-value="1944-12-17"><a href="/wiki/17_d%C3%A9cembre" title="17 décembre">17</a> <a href="/wiki/D%C3%A9cembre_1944" title="Décembre 1944">décembre</a> <a href="/wiki/1944" title="1944">1944</a></span>, au <i>carrefour de Baugnez</i>, à quatre kilomètres au sud de la cité, des <a href="/wiki/Waffen-SS" title="Waffen-SS">Waffen-SS</a> massacreront plus de 70 soldats américains faits prisonniers et désarmés. Cet épisode de la bataille est connu sous les noms de «&#160;<a href="/wiki/Massacre_de_Baugnez" title="Massacre de Baugnez">Massacre de Baugnez</a>&#160;» ou «&#160;Massacre de Malmedy&#160;»&#160;; un <a href="/wiki/Odonyme" title="Odonyme" class="mw-redirect">odonyme</a> local (<i>Rue du 17-Décembre-1944</i>) rappelle cet évènement.</p>
+<p>Nœud routier important, la ville ne tombera toutefois pas aux mains allemandes au cours de la bataille des Ardennes, malgré une attaque effectuée le <span class="date-lien nowrap datasortkey" data-sort-value="1944-12-21"><a href="/wiki/21_d%C3%A9cembre" title="21 décembre">21</a> <a href="/wiki/D%C3%A9cembre_1944" title="Décembre 1944">décembre</a> <a href="/wiki/1944" title="1944">1944</a></span> par des troupes menées par le célèbre <a href="/wiki/Otto_Skorzeny" title="Otto Skorzeny">Otto Skorzeny</a> et repoussée par les troupes américaines qui protégeaient la ville.</p>
+<p>En revanche, <i>Malmedy</i> sera victime les <a href="/wiki/23_d%C3%A9cembre" title="23 décembre">23</a>, <a href="/wiki/24_d%C3%A9cembre" title="24 décembre">24</a> et <span class="date-lien nowrap datasortkey" data-sort-value="1944-12-25"><a href="/wiki/25_d%C3%A9cembre" title="25 décembre">25</a> <a href="/wiki/D%C3%A9cembre_1944" title="Décembre 1944">décembre</a> <a href="/wiki/1944" title="1944">1944</a></span> de bombardements de l’aviation américaine qui feront plus de 200 morts dans la population civile (le nombre de soldats américains victimes de ces bombardements n’a, semble-t-il, jamais été divulgué officiellement) et réduiront en cendres l’essentiel du cœur historique de la cité.</p>
+<p>En <a href="/wiki/1977" title="1977">1977</a>, la commune de Malmedy a fusionné avec celles de <a href="/wiki/B%C3%A9verc%C3%A9" title="Bévercé">Bévercé</a> et <a href="/wiki/Bellevaux-Ligneuville" title="Bellevaux-Ligneuville">Bellevaux-Ligneuville</a>, faisant ainsi passer sa population de 6&#160;300 à 10&#160;000 habitants.</p>
+<h2><span class="mw-headline" id=".C3.89conomie">Économie</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Malmedy&amp;veaction=edit&amp;vesection=7" title="Modifier la section : Économie" class="mw-editsection-visualeditor">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Malmedy&amp;action=edit&amp;section=7" title="Modifier la section : Économie">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li>Malmedy Expo - Hall des foires (situé dans les anciennes tanneries)</li>
+<li><a href="/wiki/Industrie_papeti%C3%A8re" title="Industrie papetière">Papeteries</a></li>
+<li><a href="/wiki/M%C3%A9tiers_du_b%C3%A2timent" title="Métiers du bâtiment">Bâtiment</a></li>
+<li><a href="/wiki/Carri%C3%A8re_(g%C3%A9ologie)" title="Carrière (géologie)">Carrières</a></li>
+<li><a href="/wiki/Petites_et_moyennes_entreprises" title="Petites et moyennes entreprises">Petites et moyennes entreprises</a> installées dans le zoning industriel</li>
+<li><a href="/wiki/Agriculture" title="Agriculture">Agriculture</a></li>
+<li><a href="/wiki/Pisciculture" title="Pisciculture">Pisciculture</a></li>
+<li><a href="/wiki/Grand_Prix_automobile_de_Belgique" title="Grand Prix automobile de Belgique">Grand Prix automobile de Belgique</a> et autres compétitions au <a href="/wiki/Circuit_de_Spa-Francorchamps" title="Circuit de Spa-Francorchamps">circuit de Spa-Francorchamps</a></li>
+<li>Tourisme et commerces</li>
+<li>Le secteur <a href="/wiki/HORECA" title="HORECA" class="mw-redirect">HORECA</a>, avec des infrastructres touristiques et sportives bien développées, constitue un des atouts majeurs pour la ville.</li>
+</ul>
+<h3><span class="mw-headline" id="Papeterie_malm.C3.A9dienne">Papeterie malmédienne</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Malmedy&amp;veaction=edit&amp;vesection=8" title="Modifier la section : Papeterie malmédienne" class="mw-editsection-visualeditor">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Malmedy&amp;action=edit&amp;section=8" title="Modifier la section : Papeterie malmédienne">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Le papier arrive en Espagne au <span class="romain">XI</span><sup>e</sup>&#160;siècle avec les Arabes, il monte vers la France au <span class="romain">XIII</span><sup>e</sup>&#160;siècle siècle puis en Belgique – le premier moulin à papier connu est daté de 1401 et se trouve dans la région de Bruxelles. À Malmedy, le papier arrive plus tard&#160;: le premier moulin date de 1750. Henri Steinbach reprend en 1802 la papeterie abbatiale, qui profitera des progrès techniques en la matière <sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span class="cite_crochet">[</span>3<span class="cite_crochet">]</span></a></sup>.</p>
+<p>Pendant le <span class="romain">XIX</span><sup>e</sup>&#160;siècle, la ville devint une zone importante de la papeterie européenne. À l'usine Steinbach, d'une grande réputation, s'ajouta en 1909 l'usine du Pont de Warche. Au début du <span class="romain">XX</span><sup>e</sup>&#160;siècle, l'industrie papetière malmédienne occupe environ 600 personnes.</p>
+<h3><span class="mw-headline" id="Tanneries">Tanneries</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Malmedy&amp;veaction=edit&amp;vesection=9" title="Modifier la section : Tanneries" class="mw-editsection-visualeditor">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Malmedy&amp;action=edit&amp;section=9" title="Modifier la section : Tanneries">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Si Malmedy fut un important centre de tannage durant l'Ancien régime, c'est dû à sa situation&#160;: au cœur de forêts, elle disposait d'une source non négligeable de <a href="/wiki/Tanin" title="Tanin">tanin</a>&#160;; deux rivières (la <a href="/wiki/Warche" title="Warche">Warche</a> et la <a href="/wiki/Warchenne" title="Warchenne">Warchenne</a>) lui fournissaient l'énergie hydraulique nécessaire pour cette industrie par l'utilisation de moulins&#160;; enfin l'élevage – notamment les bêtes à cornes – donnait accès à la principale matière première, la peau animale.</p>
+<p>Vers 1500, les moines, propriétaires de la majorité des terres de la région, autorisent l'installation de fosses à tan juste en dehors des enceintes de la cité. Pour des raisons de salubrité, on rassemble, en 1595, les seize tanneries au lieu appelé le «&#160;so l'Fa&#160;», un terrain fangeux le long de la Warchenne.</p>
+<p>Le rattachement à la France et en particulier les <a href="/wiki/Guerres_napol%C3%A9oniennes" title="Guerres napoléoniennes">guerres napoléoniennes</a> (1795-1815) ont été la cause d'un essor remarquable pour l'industrie du cuir, matière première des souliers, bottes, selles, harnais etc., utilisés durant les campagnes militaires.</p>
+<p>Ensuite, l'industrie malmédienne s'est adaptée aux nouvelles techniques. De grands hangars furent élevés pour abriter les nouvelles machines (à battre et à lisser le cuir), introduite au <abbr class="abbr" title="Dix-neuvième">XIX<sup>e</sup></abbr> siècle par la Révolution industrielle, et les séchoirs chauffés et ventilés en permanence.</p>
+<p>Le traitement des peaux a permis à Malmedy de prendre de l'importance&#160;: les cuirs issus de ses tanneries étaient exportés jusqu'en Allemagne par quelques bourgeois marchands. Cela leur a permis de faire fortune&#160;: les maisons Cavens et Villers, grandes maisons bourgeoises, sont des exemples montrant encore de nos jours les richesses accumulées par ces familles.</p>
+<h2><span class="mw-headline" id="Environnement">Environnement</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Malmedy&amp;veaction=edit&amp;vesection=10" title="Modifier la section : Environnement" class="mw-editsection-visualeditor">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Malmedy&amp;action=edit&amp;section=10" title="Modifier la section : Environnement">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Plusieurs associations sont actives dans la protection de la nature et de l'environnement malmédien, en particulier&#160;:</p>
+<ul>
+<li>Cercle Marie-Anne Libert</li>
+<li>Patrimoine-Nature</li>
+</ul>
+<h2><span class="mw-headline" id="Culture_et_traditions">Culture et traditions</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Malmedy&amp;veaction=edit&amp;vesection=11" title="Modifier la section : Culture et traditions" class="mw-editsection-visualeditor">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Malmedy&amp;action=edit&amp;section=11" title="Modifier la section : Culture et traditions">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:252px;"><a href="/wiki/Fichier:Cwarm%C3%AA_Malmedy_02.JPG" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Cwarm%C3%AA_Malmedy_02.JPG/250px-Cwarm%C3%AA_Malmedy_02.JPG" width="250" height="146" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Cwarm%C3%AA_Malmedy_02.JPG/375px-Cwarm%C3%AA_Malmedy_02.JPG 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Cwarm%C3%AA_Malmedy_02.JPG/500px-Cwarm%C3%AA_Malmedy_02.JPG 2x" data-file-width="3928" data-file-height="2290" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="/wiki/Fichier:Cwarm%C3%AA_Malmedy_02.JPG" class="internal" title="Agrandir"></a></div>
+<a href="/wiki/Cwarm%C3%AA" title="Cwarmê">Cwarmê</a>&#160;: la danse de la Haguète</div>
+</div>
+</div>
+<p>Les bouleversements culturels qu'a connus la ville au cours de son histoire, typiques des pays frontaliers, ont donné à la population malmédienne un caractère particulier dont on ne sait véritablement saisir l'esprit qu'en participant intensément à sa vie quotidienne&#160;! Mais malgré toutes ces vicissitudes, les Malmédiens semblent avoir conservé les qualités reconnues du <span class="romain">XVIII</span><sup>e</sup>&#160;siècle par un chimiste anglais en ces termes «&#160;Les habitants de Malmedy sont honnêtes, industrieux, opulents, affables, sociables et courtois envers les étrangers&#160;».</p>
+<p>On dénombre 7 chorales masculines, 2 ensembles lyriques, 4 fanfares, 1 cercle accordéoniste, 1 cercle mandoliniste et 1 académie de musique (voir Royale union wallonne Malmedy).</p>
+<p>D'un esprit très festif, les Malmédiens qui ont élevé au niveau de leur langue wallonne et leurs folklores typiques… ne ratent jamais l'occasion de se réunir pour faire la fête. Outre le <i><a href="/wiki/Cwarm%C3%AA" title="Cwarmê">Cwarmê</a></i> (carnaval), les habitants de Malmedy célèbrent encore la <a href="/wiki/F%C3%AAte_de_la_Saint-Jean" title="Fête de la Saint-Jean">Saint-Jean</a> d'été, la <a href="/w/index.php?title=F%C3%AAte_de_la_Saint-Pierre&amp;action=edit&amp;redlink=1" class="new" title="Fête de la Saint-Pierre (page inexistante)">Saint-Pierre</a> (jour de kermesse à Malmedy), la <a href="/wiki/Saint-G%C3%A9r%C3%A9on" title="Saint-Géréon">Saint-Géréon</a> ("<a href="/w/index.php?title=Tribodl%C3%A8dje&amp;action=edit&amp;redlink=1" class="new" title="Tribodlèdje (page inexistante)">Tribodlèdje</a>") et la Saint-Martin.</p>
+<p>Viennent s'ajouter à ces fêtes, les traditionnelles Noël et Pâques, un 21 juillet pas comme les autres qu'on intitule la "Vraie Fête" ou des réjouissances plus particulières comme la "<a href="/w/index.php?title=Heye_d%C3%A8s_Rw%C3%A8s&amp;action=edit&amp;redlink=1" class="new" title="Heye dès Rwès (page inexistante)">Heye dès Rwès</a>" (Epiphanie). Les "<a href="/w/index.php?title=Cus%27n%C3%A9es&amp;action=edit&amp;redlink=1" class="new" title="Cus'nées (page inexistante)">Cus'nées</a>" (récolte des pommes de terre) et les <i><a href="/w/index.php?title=Jahrgang&amp;action=edit&amp;redlink=1" class="new" title="Jahrgang (page inexistante)">Jahrgang</a></i>, mot d'origine germanique signifiant «&#160;millésime&#160;» et néologisme usité dans le wallon malmédien… désignant les retrouvailles d'une classe scolaire… Mais quoi qu'il en soit, il n'y a pas de vraie fête à Malmedy sans <i><a href="/w/index.php?title=Rim%C3%AA_%C3%A8_wallon&amp;action=edit&amp;redlink=1" class="new" title="Rimê è wallon (page inexistante)">rimê è wallon</a></i>, discours ou poèmes en wallon. Et clin d'œil à leur histoire, les Malmédiens ont choisi pour honorer leur «&#160;appartenance profonde à la <a href="/wiki/Wallonie_dialectale" title="Wallonie dialectale">Wallonie</a> de doubler les noms des rues et les instructions sur les parcmètres&#160;» en <a href="/wiki/Wallon" title="Wallon">wallon</a>. Depuis quelques années, la <a href="/w/index.php?title=Confr%C3%A9rie_de_l%27Omelette_G%C3%A9ante&amp;action=edit&amp;redlink=1" class="new" title="Confrérie de l'Omelette Géante (page inexistante)">confrérie de l'Omelette Géante</a> vous invite, à l'occasion des fêtes du <a href="/wiki/15_ao%C3%BBt" title="15 août">15 août</a>, à venir déguster une omelette géante de 10&#160;000 œufs, confectionnée dans une <a href="/wiki/Po%C3%AAle_(cuisine)" title="Poêle (cuisine)">poêle</a> géante de quatre mètres de diamètre.</p>
+<h2><span class="mw-headline" id="Particularit.C3.A9s">Particularités</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Malmedy&amp;veaction=edit&amp;vesection=12" title="Modifier la section : Particularités" class="mw-editsection-visualeditor">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Malmedy&amp;action=edit&amp;section=12" title="Modifier la section : Particularités">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="/wiki/Fichier:Atlas_Malmedy.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/07/Atlas_Malmedy.jpg/220px-Atlas_Malmedy.jpg" width="220" height="151" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/07/Atlas_Malmedy.jpg/330px-Atlas_Malmedy.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/07/Atlas_Malmedy.jpg/440px-Atlas_Malmedy.jpg 2x" data-file-width="1276" data-file-height="877" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="/wiki/Fichier:Atlas_Malmedy.jpg" class="internal" title="Agrandir"></a></div>
+Atlas du patrimoine architectural de Malmedy</div>
+</div>
+</div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="/wiki/Fichier:Rue_Cavens_vers_1970.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/34/Rue_Cavens_vers_1970.jpg/220px-Rue_Cavens_vers_1970.jpg" width="220" height="153" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/34/Rue_Cavens_vers_1970.jpg/330px-Rue_Cavens_vers_1970.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/34/Rue_Cavens_vers_1970.jpg/440px-Rue_Cavens_vers_1970.jpg 2x" data-file-width="1068" data-file-height="744" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="/wiki/Fichier:Rue_Cavens_vers_1970.jpg" class="internal" title="Agrandir"></a></div>
+Rue Cavens vers 1970</div>
+</div>
+</div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="/wiki/Fichier:Maison_en_pan-de-bois.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Maison_en_pan-de-bois.jpg/220px-Maison_en_pan-de-bois.jpg" width="220" height="152" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Maison_en_pan-de-bois.jpg/330px-Maison_en_pan-de-bois.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Maison_en_pan-de-bois.jpg/440px-Maison_en_pan-de-bois.jpg 2x" data-file-width="994" data-file-height="686" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="/wiki/Fichier:Maison_en_pan-de-bois.jpg" class="internal" title="Agrandir"></a></div>
+Ferme en <a href="/wiki/Pan_de_bois" title="Pan de bois">pans-de-bois</a></div>
+</div>
+</div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="/wiki/Fichier:Malmedy_Maison_Maraite_(1).jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Malmedy_Maison_Maraite_%281%29.jpg/220px-Malmedy_Maison_Maraite_%281%29.jpg" width="220" height="165" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Malmedy_Maison_Maraite_%281%29.jpg/330px-Malmedy_Maison_Maraite_%281%29.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Malmedy_Maison_Maraite_%281%29.jpg/440px-Malmedy_Maison_Maraite_%281%29.jpg 2x" data-file-width="2048" data-file-height="1536" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="/wiki/Fichier:Malmedy_Maison_Maraite_(1).jpg" class="internal" title="Agrandir"></a></div>
+Maison en pans-de-bois classée</div>
+</div>
+</div>
+<ul>
+<li>Le <a href="/wiki/Malmundarium" title="Malmundarium">Malmundarium</a>, centre touristique et culturel&#160;: la Ville a inauguré le <span class="date-lien nowrap datasortkey" data-sort-value="2011-04-04"><a href="/wiki/4_avril" title="4 avril">4</a> <a href="/wiki/Avril_2011" title="Avril 2011">avril</a> <a href="/wiki/2011" title="2011">2011</a></span>, l'atelier du cuir, l'atelier du papier et l'atelier du carnaval, des espaces d'exposition constitués du trésor de la cathédrale et de l'espace temps (historium). On y découvre en outre de nombreuses expositions temporaires.</li>
+<li>Les maisons en pans-de-bois (colombages souvent recouverts d'ardoises) dans son "Centre ancien protégé".</li>
+<li>Le mémorial du <a href="/wiki/Massacre_de_Baugnez" title="Massacre de Baugnez">massacre de Baugnez</a>&#160;: le <span class="date-lien nowrap datasortkey" data-sort-value="1944-12-17"><a href="/wiki/17_d%C3%A9cembre" title="17 décembre">17</a> <a href="/wiki/D%C3%A9cembre_1944" title="Décembre 1944">décembre</a> <a href="/wiki/1944" title="1944">1944</a></span>, des soldats de la <a href="/wiki/Schutzstaffel" title="Schutzstaffel">SS</a> y ont fusillé des prisonniers de guerre américains. Voir aussi <a href="/wiki/Bataille_des_Ardennes#Dimanche_17_d.C3.A9cembre_1944" title="Bataille des Ardennes">Bataille des Ardennes, dimanche 17 décembre 1944</a>.</li>
+<li><a href="/wiki/Circuit_de_Spa-Francorchamps" title="Circuit de Spa-Francorchamps">Circuit de Spa-Francorchamps</a> du Grand Prix de <a href="/wiki/Formule_1" title="Formule 1">Formule 1</a>.</li>
+<li>La réserve naturelle des <a href="/wiki/Hautes_Fagnes" title="Hautes Fagnes">Hautes Fagnes</a>.</li>
+<li>Le poudingue de Malmedy</li>
+<li>Le Royal Club Wallon</li>
+<li>Siège du commissariat d'arrondissement.</li>
+<li>La graphie et la prononciation «&#160;Malmédy&#160;» date du temps où la ville appartenait à la Prusse (voir <a href="/wiki/Wallonie_malm%C3%A9dienne" title="Wallonie malmédienne">Wallonie malmédienne</a>), cependant elle n'a pas de rapport avec la langue allemande. Un avocat malmédien d’origine française, Arsène de Noue, a imposé cette graphie en «&#160;é&#160;», notamment par son hebdomadaire local en français <i>La Semaine</i>. Originaire d’une localité près de Montmédy en France, Arsène de Noue a transposé la graphie dans Malmédy. Les deux notations ont constamment coexisté jusqu’à ce que la Ville de Malmedy décide d’y mettre fin. La décision fut prise lors du Conseil Communal du 27 juin 1985 qui consacra l’orthographe <b>Malmedy</b> qui est a plus vieille connue de l‘époque de l'ancienne Principauté et donc bien avant la période prussienne (1815). La ville étant wallonne et francophone, s'appelait <i>Malmendy</i> (évolution du latin <i>Malmundarium</i> et prononcé MalmEndy («&#160;mEn&#160;» comme dans «&#160;mEnu&#160;», par exemple). Cette syllabe sourde évolua donc en «&#160;E&#160;», pour donner Malmedy, qui est donc bien une graphie française et non allemande.</li>
+<li><a href="/wiki/Carnaval" title="Carnaval">Carnaval</a>&#160;: le <a href="/wiki/Cwarm%C3%AA" title="Cwarmê">Cwarmê</a> (ancienne appellation) où l'on retrouve les masques traditionnels du Pierrot, du Boulanger ou encore de la célèbre Haguète de Malmedy.</li>
+</ul>
+<h2><span class="mw-headline" id="Sp.C3.A9cialit.C3.A9s">Spécialités</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Malmedy&amp;veaction=edit&amp;vesection=13" title="Modifier la section : Spécialités" class="mw-editsection-visualeditor">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Malmedy&amp;action=edit&amp;section=13" title="Modifier la section : Spécialités">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li>Les <a href="/wiki/Baiser_(p%C3%A2tisserie)" title="Baiser (pâtisserie)">Baisers de Malmedy</a>&#160;: <a href="/wiki/Meringue" title="Meringue">meringues</a> natures ou garnies de crème fraîche</li>
+<li>Les Gaufres à la crème fraîche (lors des 4 jeudis gras)</li>
+<li>La tarte aux myrtilles</li>
+<li>La <a href="/wiki/Salade_russe_(Malmedy)" title="Salade russe (Malmedy)">salade russe</a> (période carnavalesque)</li>
+<li>La soupe aux pois (période carnavalesque)</li>
+<li>La <a href="/wiki/Tarte_au_riz" title="Tarte au riz">tarte au riz</a></li>
+<li>La <a href="/wiki/Brasserie_de_Bellevaux" title="Brasserie de Bellevaux">bière de Bellevaux</a></li>
+</ul>
+<h2><span class="mw-headline" id="Personnalit.C3.A9s_malm.C3.A9diennes">Personnalités malmédiennes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Malmedy&amp;veaction=edit&amp;vesection=14" title="Modifier la section : Personnalités malmédiennes" class="mw-editsection-visualeditor">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Malmedy&amp;action=edit&amp;section=14" title="Modifier la section : Personnalités malmédiennes">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>(<i>par ordre alphabétique</i>)</p>
+<ul>
+<li>Abbé <a href="/w/index.php?title=Joseph_Bastin&amp;action=edit&amp;redlink=1" class="new" title="Joseph Bastin (page inexistante)">Joseph Bastin</a></li>
+<li><a href="/wiki/Jules_Bastin" title="Jules Bastin">Jules Bastin</a>, (1933 à <a href="/wiki/Bellevaux-Ligneuville" title="Bellevaux-Ligneuville">Bellevaux-Ligneuville</a> - 1996 à <a href="/wiki/Waterloo" title="Waterloo">Waterloo</a>), chanteur lyrique</li>
+<li><a href="/wiki/Thomas_Braun_Sr" title="Thomas Braun Sr">Thomas Braun</a>, (1814-1906), pédagogue<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span class="cite_crochet">[</span>4<span class="cite_crochet">]</span></a></sup></li>
+<li><a href="/wiki/Com%C3%A8s" title="Comès">Comès</a>, (1942-2013), dessinateur et scénariste de BD</li>
+<li><a href="/wiki/Pierre_Culot" title="Pierre Culot">Pierre Culot</a>, (1938-2011), sculpteur, céramiste et potier</li>
+<li><a href="/wiki/Henry_Cunibert" title="Henry Cunibert">Henry Cunibert</a>, architecte</li>
+<li><a href="/wiki/Freddy_Herbrand" title="Freddy Herbrand">Freddy Herbrand</a>, (1944-), champion de Belgique de <a href="/wiki/D%C3%A9cathlon" title="Décathlon">décathlon</a> à plusieurs reprises</li>
+<li><a href="/wiki/Hermann_Huppen" title="Hermann Huppen" class="mw-redirect">Hermann</a>, (1938-), dessinateur et scénariste de BD</li>
+<li><a href="/wiki/Sophie_Karth%C3%A4user" title="Sophie Karthäuser">Sophie Karthäuser</a> (1974-), soprano</li>
+<li><a href="/wiki/Marie-Anne_Libert" title="Marie-Anne Libert">Marie-Anne Libert</a>, (1782-1865), botaniste</li>
+<li><a href="/w/index.php?title=Maiter_Fritz&amp;action=edit&amp;redlink=1" class="new" title="Maiter Fritz (page inexistante)">Maiter Fritz</a>, architecte, auteur de nombreux bâtiments dont l'Hôtel de Ville et la piscine</li>
+<li>Abbé <a href="/wiki/Joseph_P%C3%A9ters" title="Joseph Péters">Joseph Péters</a> (1894-1943), résistant</li>
+<li>Abbé <a href="/wiki/Nicolas_Pietkin" title="Nicolas Pietkin">Nicolas Pietkin</a>, (1849-1921), prêtre et militant wallon</li>
+<li><a href="/wiki/Henri_Pousseur" title="Henri Pousseur">Henri Pousseur</a>, (1929-2009), musicien</li>
+<li><a href="/wiki/Raoul_Ubac" title="Raoul Ubac">Raoul Ubac</a>, (1910-1985), peintre et sculpteur</li>
+</ul>
+<h2><span class="mw-headline" id="Jumelages">Jumelages</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Malmedy&amp;veaction=edit&amp;vesection=15" title="Modifier la section : Jumelages" class="mw-editsection-visualeditor">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Malmedy&amp;action=edit&amp;section=15" title="Modifier la section : Jumelages">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><span class="flagicon"><a href="/wiki/Fichier:Flag_of_France.svg" class="image" title="Drapeau de la France"><img alt="Drapeau de la France" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/20px-Flag_of_France.svg.png" width="20" height="13" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/30px-Flag_of_France.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/40px-Flag_of_France.svg.png 2x" data-file-width="900" data-file-height="600" /></a></span>&#160;<a href="/wiki/Beaune" title="Beaune">Beaune</a>&#160;(<a href="/wiki/France" title="France">France</a>), depuis 1962</li>
+<li><span class="flagicon"><a href="/wiki/Fichier:Flag_of_Germany.svg" class="image" title="Drapeau de l'Allemagne"><img alt="Drapeau de l'Allemagne" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/20px-Flag_of_Germany.svg.png" width="20" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/30px-Flag_of_Germany.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/40px-Flag_of_Germany.svg.png 2x" data-file-width="1000" data-file-height="600" /></a></span>&#160;<a href="/wiki/Cochem" title="Cochem">Cochem</a>&#160;(<a href="/wiki/Allemagne" title="Allemagne">Allemagne</a>), depuis 1975</li>
+</ul>
+<h2><span class="mw-headline" id="Voir_aussi">Voir aussi</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Malmedy&amp;veaction=edit&amp;vesection=16" title="Modifier la section : Voir aussi" class="mw-editsection-visualeditor">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Malmedy&amp;action=edit&amp;section=16" title="Modifier la section : Voir aussi">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="autres-projets boite-grise boite-a-droite noprint js-interprojets">
+<p class="titre">Sur les autres projets Wikimedia&#160;:</p>
+<ul class="noarchive plainlinks">
+<li class="commons"><a class="external text" href="//commons.wikimedia.org/wiki/Category:Malmedy?uselang=fr">Malmedy</a>, sur <span class="project">Wikimedia Commons</span></li>
+<li class="wiktionary"><a href="//fr.wiktionary.org/wiki/Malmedy" class="extiw" title="wikt:Malmedy">Malmedy</a>, <span class="nowrap">sur le <span class="project">Wiktionnaire</span></span></li>
+</ul>
+</div>
+<ul>
+<li><a href="/wiki/Liste_du_patrimoine_immobilier_class%C3%A9_de_Malmedy" title="Liste du patrimoine immobilier classé de Malmedy">Liste du patrimoine immobilier classé de Malmedy</a></li>
+<li>Le Fonds régional de la bibliothèque de Stavelot rassemble toute une série de documents sur l'ancienne principauté de Stavelot-Malmedy, ainsi que sur les Hautes-Fagnes et la Haute-Ardenne. Il héberge le <a rel="nofollow" class="external text" href="http://fepar.wordpress.com">Fonds "Environnement et Patrimoine" de l'Ardenne (FEPA)</a></li>
+<li>La Réserve locale de la <a rel="nofollow" class="external text" href="http://www.wamabi.be/">bibliothèque de Malmedy</a> possède une collection de documents (ouvrages, brochures, archives etc.) concernant l'histoire, le folklore et la linguistique de la région.</li>
+</ul>
+<h3><span class="mw-headline" id="Notes">Notes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Malmedy&amp;veaction=edit&amp;vesection=17" title="Modifier la section : Notes" class="mw-editsection-visualeditor">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Malmedy&amp;action=edit&amp;section=17" title="Modifier la section : Notes">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="references-small decimal" style="column-count: 1; -moz-column-count: 1; -webkit-column-count: 1">
+<div style="font-size: 85%">
+<ol class="references">
+<li id="cite_note-Pierret-1"><span class="noprint renvois_vers_le_texte">↑ <sup><a href="#cite_ref-Pierret_1-0">a</a> et <a href="#cite_ref-Pierret_1-1">b</a></sup></span> <span class="reference-text"><span class="ouvrage" id="Pierret1994"><span class="ouvrage" id="Jean-Marie_Pierret1994"><a href="/wiki/Jean-Marie_Pierret" title="Jean-Marie Pierret">Jean-Marie Pierret</a>, <cite class="italique">Phonétique historique du français et notions de phonétique générale</cite>, Louvain-la-Neuve, Peeters,‎ 1994 <small style="line-height:1em;">(<a rel="nofollow" class="external text" href="http://lolita.unice.fr/~scheer/gghf/Pierret%2094%20-%20Phonetique%20historique%20du%20francais%20et%20notions%20de%20phonetique%20generale.pdf">lire en ligne</a>)</small>, <abbr class="abbr" title="page(s)">p.</abbr>&#160;105<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Phon%C3%A9tique+historique+du+fran%C3%A7ais+et+notions+de+phon%C3%A9tique+g%C3%A9n%C3%A9rale&amp;rft.place=Louvain-la-Neuve&amp;rft.pub=Peeters&amp;rft.aulast=Pierret&amp;rft.aufirst=Jean-Marie&amp;rft.date=1994&amp;rft.pages=105&amp;rfr_id=info%3Asid%2Ffr.wikipedia.org%3AMalmedy" id="COinS_30526"></span></span></span>.</span></li>
+<li id="cite_note-2"><span class="noprint renvois_vers_le_texte"><a href="#cite_ref-2">↑</a></span> <span class="reference-text">Zesummegestallt vum Henri Leyder-Lëtzebuerger Marienkalender 1997-iwwerschaft 3/2011.</span></li>
+<li id="cite_note-3"><span class="noprint renvois_vers_le_texte"><a href="#cite_ref-3">↑</a></span> <span class="reference-text"><a class="external free" href="http://fr.wikipedia.org/wiki/Papier#R.C3.A9volution_industrielle">http://fr.wikipedia.org/wiki/Papier#R.C3.A9volution_industrielle</a></span></li>
+<li id="cite_note-4"><span class="noprint renvois_vers_le_texte"><a href="#cite_ref-4">↑</a></span> <span class="reference-text">fit ses classes primaires à Malmedy.</span></li>
+</ol>
+</div>
+</div>
+<h3><span class="mw-headline" id="Bibliographie">Bibliographie</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Malmedy&amp;veaction=edit&amp;vesection=18" title="Modifier la section : Bibliographie" class="mw-editsection-visualeditor">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Malmedy&amp;action=edit&amp;section=18" title="Modifier la section : Bibliographie">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li>Jean Yernaux, <i>Les premiers siècles de l'abbaye de Stavelot-Malmédy (648?-1020)</i>, Liège, D. Cormaux, Imprimeur-Libraire, 1911</li>
+<li>Walter Kaefer, <i>L'industrie du papier à Malmedy&#160;: notices historiques et propos anecdotiques</i>, Dison, Lelotte, 1971</li>
+<li>Imelda Heuschen, <i>Le patrimoine de Malmedy</i>, Namur, Institut du Patrimoine wallon, 2008</li>
+<li>Élisée Legros, «&#160;La Wallonie malmédienne sous le régime prussien&#160;» in <i>Le pays de saint Remacle</i>, <abbr class="abbr" title="numéro">n<sup>o</sup></abbr>&#160;13, 1977-78</li>
+</ul>
+<h3><span class="mw-headline" id="Liens_externes">Liens externes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Malmedy&amp;veaction=edit&amp;vesection=19" title="Modifier la section : Liens externes" class="mw-editsection-visualeditor">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Malmedy&amp;action=edit&amp;section=19" title="Modifier la section : Liens externes">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://www.malmedy.be">Site officiel</a></li>
+<li><a rel="nofollow" class="external text" href="http://poudingue.wordpress.com">Le poudingue de Malmedy</a></li>
+<li><a rel="nofollow" class="external text" href="http://terreetbois.wordpress.com">Terre et bois</a> Exemples de bâtiments (maisons, tanneries, ...) en pans-de-bois, en particulier dans l'ancienne Principauté de Stavelot-Malmedy.</li>
+</ul>
+<div class="navbox_group" style="clear:both;">
+<table class="navbox collapsible noprint autocollapse" style="margin:auto;">
+<tr>
+<th colspan="3" style="text-align:center;">
+<div style="float:left; width:6em; text-align:left">
+<div class="noprint plainlinksneverexpand nowrap tnavbar" style="background-color:transparent; padding:0; font-size:xx-small; color:#000000;"><a href="/wiki/Mod%C3%A8le:Palette_Province_de_Li%C3%A8ge" title="Modèle:Palette Province de Liège"><abbr class="abbr" title="Voir ce modèle.">v</abbr></a>&#160;· <a href="/w/index.php?title=Discussion_mod%C3%A8le:Palette_Province_de_Li%C3%A8ge&amp;action=edit&amp;redlink=1" class="new" title="Discussion modèle:Palette Province de Liège (page inexistante)"><abbr class="abbr" style="color:#002bb8;" title="Discussion sur ce modèle.">d</abbr></a>&#160;· <a class="external text" href="//fr.wikipedia.org/w/index.php?title=Mod%C3%A8le:Palette_Province_de_Li%C3%A8ge&amp;action=edit"><abbr class="abbr" title="Modifier ce modèle. Merci de prévisualiser avant de sauvegarder.">m</abbr></a></div>
+</div>
+<span style="font-size:110%"><a href="/wiki/Province_de_Belgique" title="Province de Belgique" class="mw-redirect">Province</a> de <a href="/wiki/Province_de_Li%C3%A8ge" title="Province de Liège">Liège</a></span></th>
+</tr>
+<tr>
+<td class="group" style=""><a href="/wiki/Arrondissement_administratif_de_Huy" title="Arrondissement administratif de Huy">Huy</a></td>
+<td class="list" style=""><span class="nowrap"><a href="/wiki/Amay" title="Amay">Amay</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Anthisnes" title="Anthisnes">Anthisnes</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Burdinne" title="Burdinne">Burdinne</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Clavier_(Li%C3%A8ge)" title="Clavier (Liège)">Clavier</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Engis" title="Engis">Engis</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Ferri%C3%A8res_(Li%C3%A8ge)" title="Ferrières (Liège)">Ferrières</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Hamoir" title="Hamoir">Hamoir</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/H%C3%A9ron_(commune)" title="Héron (commune)">Héron</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Huy" title="Huy">Huy</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Marchin" title="Marchin">Marchin</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Modave" title="Modave">Modave</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Nandrin" title="Nandrin">Nandrin</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Ouffet" title="Ouffet">Ouffet</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Tinlot" title="Tinlot">Tinlot</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Verlaine_(province_de_Li%C3%A8ge)" title="Verlaine (province de Liège)">Verlaine</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Villers-le-Bouillet" title="Villers-le-Bouillet">Villers-le-Bouillet</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Wanze" title="Wanze">Wanze</a></span></td>
+<td rowspan="4" style="vertical-align:middle;padding-left:7px"><a href="/wiki/Fichier:Blason_liege_prov.svg" class="image" title="Armes de la Province de Liège"><img alt="Armes de la Province de Liège" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/95/Blason_liege_prov.svg/50px-Blason_liege_prov.svg.png" width="50" height="55" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/95/Blason_liege_prov.svg/75px-Blason_liege_prov.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/95/Blason_liege_prov.svg/100px-Blason_liege_prov.svg.png 2x" data-file-width="600" data-file-height="660" /></a></td>
+</tr>
+<tr>
+<td class="group" style=""><a href="/wiki/Arrondissement_administratif_de_Li%C3%A8ge" title="Arrondissement administratif de Liège">Liège</a></td>
+<td class="list even" style=""><span class="nowrap"><a href="/wiki/Ans" title="Ans">Ans</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Awans" title="Awans">Awans</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Aywaille" title="Aywaille">Aywaille</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Bassenge" title="Bassenge">Bassenge</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Beyne-Heusay" title="Beyne-Heusay">Beyne-Heusay</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Blegny" title="Blegny">Blegny</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Chaudfontaine" title="Chaudfontaine">Chaudfontaine</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Comblain-au-Pont" title="Comblain-au-Pont">Comblain-au-Pont</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Dalhem" title="Dalhem">Dalhem</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Esneux" title="Esneux">Esneux</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Fl%C3%A9malle" title="Flémalle">Flémalle</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Fl%C3%A9ron" title="Fléron">Fléron</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Gr%C3%A2ce-Hollogne" title="Grâce-Hollogne">Grâce-Hollogne</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Herstal" title="Herstal">Herstal</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Juprelle" title="Juprelle">Juprelle</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><b><a href="/wiki/Li%C3%A8ge" title="Liège">Liège</a></b> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Neupr%C3%A9" title="Neupré">Neupré</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Oupeye" title="Oupeye">Oupeye</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Saint-Nicolas_(Li%C3%A8ge)" title="Saint-Nicolas (Liège)">Saint-Nicolas</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Seraing" title="Seraing">Seraing</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Soumagne" title="Soumagne">Soumagne</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Sprimont" title="Sprimont">Sprimont</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Trooz" title="Trooz">Trooz</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Vis%C3%A9" title="Visé">Visé</a></span></td>
+</tr>
+<tr>
+<td class="group" style=""><a href="/wiki/Arrondissement_administratif_de_Verviers" title="Arrondissement administratif de Verviers">Verviers</a></td>
+<td class="list" style=""><span class="nowrap"><a href="/wiki/Ambl%C3%A8ve_(commune)" title="Amblève (commune)">Amblève</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Aubel" title="Aubel">Aubel</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Baelen" title="Baelen">Baelen</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Bullange" title="Bullange">Bullange</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Burg-Reuland" title="Burg-Reuland">Burg-Reuland</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Butgenbach" title="Butgenbach">Butgenbach</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Dison" title="Dison">Dison</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Eupen" title="Eupen">Eupen</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Herve" title="Herve">Herve</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Jalhay" title="Jalhay">Jalhay</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/La_Calamine" title="La Calamine">La Calamine</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Lierneux" title="Lierneux">Lierneux</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Limbourg_(ville)" title="Limbourg (ville)">Limbourg</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Lontzen" title="Lontzen">Lontzen</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><strong class="selflink">Malmedy</strong> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Olne" title="Olne">Olne</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Pepinster" title="Pepinster">Pepinster</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Plombi%C3%A8res_(Li%C3%A8ge)" title="Plombières (Liège)">Plombières</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Raeren" title="Raeren">Raeren</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Saint-Vith" title="Saint-Vith">Saint-Vith</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Spa_(ville)" title="Spa (ville)">Spa</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Stavelot" title="Stavelot">Stavelot</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Stoumont" title="Stoumont">Stoumont</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Theux" title="Theux">Theux</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Thimister-Clermont" title="Thimister-Clermont">Thimister-Clermont</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Trois-Ponts" title="Trois-Ponts">Trois-Ponts</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Verviers" title="Verviers">Verviers</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Waimes" title="Waimes">Waimes</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Welkenraedt" title="Welkenraedt">Welkenraedt</a></span></td>
+</tr>
+<tr>
+<td class="group" style=""><a href="/wiki/Arrondissement_administratif_de_Waremme" title="Arrondissement administratif de Waremme">Waremme</a></td>
+<td class="list even" style=""><span class="nowrap"><a href="/wiki/Berloz" title="Berloz">Berloz</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Braives" title="Braives">Braives</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Crisn%C3%A9e" title="Crisnée">Crisnée</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Donceel" title="Donceel">Donceel</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Faimes" title="Faimes">Faimes</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Fexhe-le-Haut-Clocher" title="Fexhe-le-Haut-Clocher">Fexhe-le-Haut-Clocher</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Geer_(commune)" title="Geer (commune)">Geer</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Hannut" title="Hannut">Hannut</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Lincent" title="Lincent">Lincent</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Oreye" title="Oreye">Oreye</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Remicourt_(Belgique)" title="Remicourt (Belgique)">Remicourt</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Saint-Georges-sur-Meuse" title="Saint-Georges-sur-Meuse">Saint-Georges-sur-Meuse</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Waremme" title="Waremme">Waremme</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Wasseiges" title="Wasseiges">Wasseiges</a></span></td>
+</tr>
+<tr>
+<td class="banner" style="" colspan="3"><b>Voir aussi&#160;:</b> <span class="nowrap"><a href="/wiki/Belgique" title="Belgique">Belgique</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/R%C3%A9gion_wallonne" title="Région wallonne">Région wallonne</a> <span style="font-weight:bold">·</span></span> <span class="nowrap"><a href="/wiki/Commune_de_Belgique" title="Commune de Belgique" class="mw-redirect">Communes</a></span></td>
+</tr>
+</table>
+</div>
+<ul id="bandeau-portail" class="bandeau-portail">
+<li><span class="bandeau-portail-element"><span class="bandeau-portail-icone"><a href="/wiki/Portail:Province_de_Li%C3%A8ge" title="Portail de la province de Liège"><img alt="Portail de la province de Liège" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_the_Province_of_Li%C3%A8ge.svg/33px-Flag_of_the_Province_of_Li%C3%A8ge.svg.png" width="33" height="22" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_the_Province_of_Li%C3%A8ge.svg/50px-Flag_of_the_Province_of_Li%C3%A8ge.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_the_Province_of_Li%C3%A8ge.svg/66px-Flag_of_the_Province_of_Li%C3%A8ge.svg.png 2x" data-file-width="450" data-file-height="300" /></a></span> <span class="bandeau-portail-texte"><a href="/wiki/Portail:Province_de_Li%C3%A8ge" title="Portail:Province de Liège">Portail de la province de Liège</a></span></span></li>
+</ul>
+
+
+<!-- 
+NewPP limit report
+Parsed by mw1003
+CPU time usage: 3.144 seconds
+Real time usage: 3.371 seconds
+Preprocessor visited node count: 21250/1000000
+Preprocessor generated node count: 159137/1500000
+Post‐expand include size: 169818/2048000 bytes
+Template argument size: 51995/2048000 bytes
+Highest expansion depth: 29/40
+Expensive parser function count: 6/500
+Lua time usage: 0.232/10.000 seconds
+Lua memory usage: 3.02 MB/50 MB
+-->
+
+<!-- Saved in parser cache with key frwiki:pcache:idhash:60947-0!*!0!!fr!4!* and timestamp 20141017142328 and revision id 106951208
+ -->
+<noscript><img src="//fr.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>									<div class="printfooter">
+						Ce document provient de « <a dir="ltr" href="http://fr.wikipedia.org/w/index.php?title=Malmedy&amp;oldid=106951208">http://fr.wikipedia.org/w/index.php?title=Malmedy&amp;oldid=106951208</a> ».					</div>
+													<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Cat%C3%A9gorie:Accueil" title="Catégorie:Accueil">Catégories</a> : <ul><li><a href="/wiki/Cat%C3%A9gorie:Ville_de_la_province_de_Li%C3%A8ge" title="Catégorie:Ville de la province de Liège">Ville de la province de Liège</a></li><li><a href="/wiki/Cat%C3%A9gorie:Commune_de_la_province_de_Li%C3%A8ge" title="Catégorie:Commune de la province de Liège">Commune de la province de Liège</a></li><li><a href="/wiki/Cat%C3%A9gorie:Cantons_de_l%27Est_(Belgique)" title="Catégorie:Cantons de l'Est (Belgique)">Cantons de l'Est (Belgique)</a></li><li><a href="/wiki/Cat%C3%A9gorie:Hautes_Fagnes" title="Catégorie:Hautes Fagnes">Hautes Fagnes</a></li><li><a href="/wiki/Cat%C3%A9gorie:Malmedy" title="Catégorie:Malmedy">Malmedy</a></li><li><a href="/wiki/Cat%C3%A9gorie:Ville_impliqu%C3%A9e_dans_la_Bataille_des_Ardennes" title="Catégorie:Ville impliquée dans la Bataille des Ardennes">Ville impliquée dans la Bataille des Ardennes</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Catégories cachées : <ul><li><a href="/wiki/Cat%C3%A9gorie:Page_avec_coordonn%C3%A9es_similaires_sur_Wikidata" title="Catégorie:Page avec coordonnées similaires sur Wikidata">Page avec coordonnées similaires sur Wikidata</a></li><li><a href="/wiki/Cat%C3%A9gorie:Article_g%C3%A9olocalis%C3%A9_en_Belgique" title="Catégorie:Article géolocalisé en Belgique">Article géolocalisé en Belgique</a></li><li><a href="/wiki/Cat%C3%A9gorie:Article_g%C3%A9olocalis%C3%A9_sur_Terre" title="Catégorie:Article géolocalisé sur Terre">Article géolocalisé sur Terre</a></li><li><a href="/wiki/Cat%C3%A9gorie:Cat%C3%A9gorie_Commons_avec_lien_local_identique_sur_Wikidata" title="Catégorie:Catégorie Commons avec lien local identique sur Wikidata">Catégorie Commons avec lien local identique sur Wikidata</a></li><li><a href="/wiki/Cat%C3%A9gorie:Portail:Province_de_Li%C3%A8ge/Articles_li%C3%A9s" title="Catégorie:Portail:Province de Liège/Articles liés">Portail:Province de Liège/Articles liés</a></li><li><a href="/wiki/Cat%C3%A9gorie:Portail:Wallonie/Articles_li%C3%A9s" title="Catégorie:Portail:Wallonie/Articles liés">Portail:Wallonie/Articles liés</a></li><li><a href="/wiki/Cat%C3%A9gorie:Portail:Belgique/Articles_li%C3%A9s" title="Catégorie:Portail:Belgique/Articles liés">Portail:Belgique/Articles liés</a></li><li><a href="/wiki/Cat%C3%A9gorie:Portail:Europe/Articles_li%C3%A9s" title="Catégorie:Portail:Europe/Articles liés">Portail:Europe/Articles liés</a></li></ul></div></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Menu de navigation</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Outils personnels</h3>
+						<ul>
+							<li id="pt-createaccount"><a href="/w/index.php?title=Sp%C3%A9cial:Connexion&amp;returnto=Malmedy&amp;type=signup">Créer un compte</a></li><li id="pt-login"><a href="/w/index.php?title=Sp%C3%A9cial:Connexion&amp;returnto=Malmedy" title="Vous êtes encouragé(e) à vous identifier ; ce n'est cependant pas obligatoire. [o]" accesskey="o">Se connecter</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Espaces de noms</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="/wiki/Malmedy"  title="Voir la page de contenu [c]" accesskey="c">Article</a></span></li>
+															<li  id="ca-talk"><span><a href="/wiki/Discussion:Malmedy"  title="Discussion au sujet de cette page de contenu [t]" accesskey="t">Discussion</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label"><span>Variantes</span><a href="#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Affichages</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="/wiki/Malmedy" >Lire</a></span></li>
+															<li id="ca-ve-edit"><span><a href="/w/index.php?title=Malmedy&amp;veaction=edit"  title="Modifier cette page avec l&#039;ÉditeurVisuel [v]" accesskey="v">Modifier</a></span></li>
+															<li id="ca-edit" class=" collapsible"><span><a href="/w/index.php?title=Malmedy&amp;action=edit"  title="Vous pouvez modifier cette page ! [e]" accesskey="e">Modifier le code</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=Malmedy&amp;action=history"  title="Les versions passées de cette page (avec leurs contributeurs) [h]" accesskey="h">Historique</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>Plus</span><a href="#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Rechercher</label>
+						</h3>
+
+						<form action="/w/index.php" id="searchform">
+														<div id="simpleSearch">
+															<input type="search" name="search" placeholder="Rechercher" title="Rechercher dans Wikipédia [f]" accesskey="f" id="searchInput" /><input type="hidden" value="Spécial:Recherche" name="title" /><input type="submit" name="fulltext" value="Rechercher" title="Rechercher les pages comportant ce texte." id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Lire" title="Aller vers une page portant exactement ce nom si elle existe." id="searchButton" class="searchButton" />								</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Wikip%C3%A9dia:Accueil_principal"  title="Page principale"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-mainpage-description"><a href="/wiki/Wikip%C3%A9dia:Accueil_principal" title="Aller à l'accueil [z]" accesskey="z">Accueil</a></li>
+													<li id="n-thema"><a href="/wiki/Portail:Accueil">Portails thématiques</a></li>
+													<li id="n-randompage"><a href="/wiki/Sp%C3%A9cial:Page_au_hasard" title="Affiche un article au hasard [x]" accesskey="x">Article au hasard</a></li>
+													<li id="n-contact"><a href="/wiki/Wikip%C3%A9dia:Contact">Contact</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Contribuer' aria-labelledby='p-Contribuer-label'>
+			<h3 id='p-Contribuer-label'>Contribuer</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-aboutwp"><a href="/wiki/Aide:D%C3%A9buter">Débuter sur Wikipédia</a></li>
+													<li id="n-help"><a href="/wiki/Aide:Sommaire" title="Aide">Aide</a></li>
+													<li id="n-portal"><a href="/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9" title="À propos du projet">Communauté</a></li>
+													<li id="n-recentchanges"><a href="/wiki/Sp%C3%A9cial:Modifications_r%C3%A9centes" title="Liste des modifications récentes sur le wiki [r]" accesskey="r">Modifications récentes</a></li>
+													<li id="n-sitesupport"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_fr.wikipedia.org&amp;uselang=fr" title="Aidez-nous">Faire un don</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-coll-print_export' aria-labelledby='p-coll-print_export-label'>
+			<h3 id='p-coll-print_export-label'>Imprimer / exporter</h3>
+
+			<div class="body">
+									<ul>
+													<li id="coll-create_a_book"><a href="/w/index.php?title=Sp%C3%A9cial:Livre&amp;bookcmd=book_creator&amp;referer=Malmedy">Créer un livre</a></li>
+													<li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Sp%C3%A9cial:Livre&amp;bookcmd=render_article&amp;arttitle=Malmedy&amp;oldid=106951208&amp;writer=rdf2latex">Télécharger comme PDF</a></li>
+													<li id="t-print"><a href="/w/index.php?title=Malmedy&amp;printable=yes" title="Version imprimable de cette page [p]" accesskey="p">Version imprimable</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Outils</h3>
+
+			<div class="body">
+									<ul>
+													<li id="t-whatlinkshere"><a href="/wiki/Sp%C3%A9cial:Pages_li%C3%A9es/Malmedy" title="Liste des pages liées à celle-ci [j]" accesskey="j">Pages liées</a></li>
+													<li id="t-recentchangeslinked"><a href="/wiki/Sp%C3%A9cial:Suivi_des_liens/Malmedy" title="Liste des modifications récentes des pages liées à celle-ci [k]" accesskey="k">Suivi des pages liées</a></li>
+													<li id="t-upload"><a href="/wiki/Aide:Importer_un_fichier" title="Envoyer une image ou fichier média sur le serveur [u]" accesskey="u">Importer un fichier</a></li>
+													<li id="t-specialpages"><a href="/wiki/Sp%C3%A9cial:Pages_sp%C3%A9ciales" title="Liste de toutes les pages spéciales [q]" accesskey="q">Pages spéciales</a></li>
+													<li id="t-permalink"><a href="/w/index.php?title=Malmedy&amp;oldid=106951208" title="Lien permanent vers cette version de la page">Adresse de cette version</a></li>
+													<li id="t-info"><a href="/w/index.php?title=Malmedy&amp;action=info">Information sur la page</a></li>
+													<li id="t-wikibase"><a href="//www.wikidata.org/wiki/Q159838" title="Lien vers l’élément de référentiel des données connectées [g]" accesskey="g">Élément Wikidata</a></li>
+						<li id="t-cite"><a href="/w/index.php?title=Sp%C3%A9cial:Citer&amp;page=Malmedy&amp;id=106951208" title="Informations sur comment citer cette page">Citer cette page</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-lang' aria-labelledby='p-lang-label'>
+			<h3 id='p-lang-label'>Autres langues</h3>
+
+			<div class="body">
+									<ul>
+													<li class="interlanguage-link interwiki-bg"><a href="//bg.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BB%D0%BC%D0%B5%D0%B4%D0%B8" title="Малмеди — bulgare" lang="bg" hreflang="bg">Български</a></li>
+													<li class="interlanguage-link interwiki-br"><a href="//br.wikipedia.org/wiki/Malmedy" title="Malmedy — breton" lang="br" hreflang="br">Brezhoneg</a></li>
+													<li class="interlanguage-link interwiki-ca"><a href="//ca.wikipedia.org/wiki/Malmedy" title="Malmedy — catalan" lang="ca" hreflang="ca">Català</a></li>
+													<li class="interlanguage-link interwiki-de"><a href="//de.wikipedia.org/wiki/Malmedy" title="Malmedy — allemand" lang="de" hreflang="de">Deutsch</a></li>
+													<li class="interlanguage-link interwiki-en"><a href="//en.wikipedia.org/wiki/Malmedy" title="Malmedy — anglais" lang="en" hreflang="en">English</a></li>
+													<li class="interlanguage-link interwiki-eo"><a href="//eo.wikipedia.org/wiki/Malmedy" title="Malmedy — espéranto" lang="eo" hreflang="eo">Esperanto</a></li>
+													<li class="interlanguage-link interwiki-es"><a href="//es.wikipedia.org/wiki/Malmedy" title="Malmedy — espagnol" lang="es" hreflang="es">Español</a></li>
+													<li class="interlanguage-link interwiki-fa"><a href="//fa.wikipedia.org/wiki/%D9%85%D9%84%D9%85%D9%88%D8%AF%DB%8C" title="ملمودی — persan" lang="fa" hreflang="fa">فارسی</a></li>
+													<li class="interlanguage-link interwiki-fi"><a href="//fi.wikipedia.org/wiki/Malmedy" title="Malmedy — finnois" lang="fi" hreflang="fi">Suomi</a></li>
+													<li class="interlanguage-link interwiki-it"><a href="//it.wikipedia.org/wiki/Malmedy" title="Malmedy — italien" lang="it" hreflang="it">Italiano</a></li>
+													<li class="interlanguage-link interwiki-ja"><a href="//ja.wikipedia.org/wiki/%E3%83%9E%E3%83%AB%E3%83%A1%E3%83%87%E3%82%A3" title="マルメディ — japonais" lang="ja" hreflang="ja">日本語</a></li>
+													<li class="interlanguage-link interwiki-lb"><a href="//lb.wikipedia.org/wiki/Malmedy" title="Malmedy — luxembourgeois" lang="lb" hreflang="lb">Lëtzebuergesch</a></li>
+													<li class="interlanguage-link interwiki-li"><a href="//li.wikipedia.org/wiki/Malmedy" title="Malmedy — limbourgeois" lang="li" hreflang="li">Limburgs</a></li>
+													<li class="interlanguage-link interwiki-nl"><a href="//nl.wikipedia.org/wiki/Malmedy" title="Malmedy — néerlandais" lang="nl" hreflang="nl">Nederlands</a></li>
+													<li class="interlanguage-link interwiki-no"><a href="//no.wikipedia.org/wiki/Malmedy" title="Malmedy — norvégien" lang="no" hreflang="no">Norsk bokmål</a></li>
+													<li class="interlanguage-link interwiki-oc"><a href="//oc.wikipedia.org/wiki/Malmedy" title="Malmedy — occitan" lang="oc" hreflang="oc">Occitan</a></li>
+													<li class="interlanguage-link interwiki-pl"><a href="//pl.wikipedia.org/wiki/Malmedy" title="Malmedy — polonais" lang="pl" hreflang="pl">Polski</a></li>
+													<li class="interlanguage-link interwiki-pt"><a href="//pt.wikipedia.org/wiki/Malmedy" title="Malmedy — portugais" lang="pt" hreflang="pt">Português</a></li>
+													<li class="interlanguage-link interwiki-ro"><a href="//ro.wikipedia.org/wiki/Malmedy" title="Malmedy — roumain" lang="ro" hreflang="ro">Română</a></li>
+													<li class="interlanguage-link interwiki-ru"><a href="//ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BB%D1%8C%D0%BC%D0%B5%D0%B4%D0%B8" title="Мальмеди — russe" lang="ru" hreflang="ru">Русский</a></li>
+													<li class="interlanguage-link interwiki-simple"><a href="//simple.wikipedia.org/wiki/Malmedy" title="Malmedy — Simple English" lang="simple" hreflang="simple">Simple English</a></li>
+													<li class="interlanguage-link interwiki-sk"><a href="//sk.wikipedia.org/wiki/Malmedy" title="Malmedy — slovaque" lang="sk" hreflang="sk">Slovenčina</a></li>
+													<li class="interlanguage-link interwiki-sv"><a href="//sv.wikipedia.org/wiki/Malmedy" title="Malmedy — suédois" lang="sv" hreflang="sv">Svenska</a></li>
+													<li class="interlanguage-link interwiki-tr"><a href="//tr.wikipedia.org/wiki/Malmedy" title="Malmedy — turc" lang="tr" hreflang="tr">Türkçe</a></li>
+													<li class="interlanguage-link interwiki-vi"><a href="//vi.wikipedia.org/wiki/Malmedy" title="Malmedy — vietnamien" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+													<li class="interlanguage-link interwiki-vo"><a href="//vo.wikipedia.org/wiki/Malmedy" title="Malmedy — volapuk" lang="vo" hreflang="vo">Volapük</a></li>
+													<li class="interlanguage-link interwiki-wa"><a href="//wa.wikipedia.org/wiki/M%C3%A5mdey" title="Måmdey — wallon" lang="wa" hreflang="wa">Walon</a></li>
+													<li class="interlanguage-link interwiki-war"><a href="//war.wikipedia.org/wiki/Malmedy" title="Malmedy — waray" lang="war" hreflang="war">Winaray</a></li>
+													<li class="interlanguage-link interwiki-zh"><a href="//zh.wikipedia.org/wiki/%E9%A9%AC%E5%B0%94%E9%BB%98%E8%BF%AA" title="马尔默迪 — chinois" lang="zh" hreflang="zh">中文</a></li>
+													<li class="uls-p-lang-dummy"><a href="#"></a></li>
+											</ul>
+				<div class='after-portlet after-portlet-lang'><span class="wb-langlinks-edit wb-langlinks-link"><a action="edit" href="//www.wikidata.org/wiki/Q159838#sitelinks-wikipedia" text="Modifier les liens" title="Modifier les liens interlangue" class="wbc-editpage">Modifier les liens</a></span></div>			</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> Dernière modification de cette page le 29 août 2014 à 02:07.<br /></li>
+											<li id="footer-info-copyright"><span style="white-space: normal"><a class="internal" href="/wiki/Wikip%C3%A9dia:Citation_et_r%C3%A9utilisation_du_contenu_de_Wikip%C3%A9dia" title="Droit d'auteur">Droit d'auteur</a> : les textes sont disponibles sous <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.fr" title="Licence Creative Commons paternité partage des conditions initiales à l’identique 3.0 unported">licence Creative Commons paternité partage à l’identique</a> ; d’autres conditions peuvent s’appliquer. Voyez les <a href="//wikimediafoundation.org/wiki/Conditions_d%27utilisation" title="Conditions d’utilisation de la Wikimedia Foundation">conditions d’utilisation</a> pour plus de détails, ainsi que les <a class="internal" href="/wiki/Wikip%C3%A9dia:Cr%C3%A9dits_graphiques" title="Droit d'auteur de certaines icônes">crédits graphiques</a>. En cas de réutilisation des textes de cette page, voyez <a class="internal" href="/wiki/Sp%C3%A9cial:Citer/Malmedy" title="Citer ou réutiliser cette page">comment citer les auteurs et mentionner la licence</a>.<br />
+Wikipedia® est une marque déposée de la <a href="//wikimediafoundation.org/wiki/Accueil" title="Wikimedia Foundation">Wikimedia Foundation, Inc.</a>, organisation de bienfaisance régie par le paragraphe <a class="internal" href="/wiki/501c" title="501c">501(c)(3)</a> du code fiscal des États-Unis.</span><br /></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="//wikimediafoundation.org/wiki/Politique_de_confidentialit%C3%A9" title="wikimedia:Politique de confidentialité">Politique de confidentialité</a></li>
+											<li id="footer-places-about"><a href="/wiki/Wikip%C3%A9dia:%C3%80_propos" title="Wikipédia:À propos">À propos de Wikipédia</a></li>
+											<li id="footer-places-disclaimer"><a href="/wiki/Wikip%C3%A9dia:Avertissements_g%C3%A9n%C3%A9raux" title="Wikipédia:Avertissements généraux">Avertissements</a></li>
+											<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Développeurs</a></li>
+											<li id="footer-places-mobileview"><a href="//fr.m.wikipedia.org/w/index.php?title=Malmedy&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Version mobile</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-copyrightico">
+															<a href="//wikimediafoundation.org/"><img src="//bits.wikimedia.org/images/wikimedia-button.png" srcset="//bits.wikimedia.org/images/wikimedia-button-1.5x.png 1.5x, //bits.wikimedia.org/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation"/></a>
+													</li>
+											<li id="footer-poweredbyico">
+															<a href="//www.mediawiki.org/"><img src="//bits.wikimedia.org/static-1.25wmf3/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+													</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"ext.globalCssJs.site":"ready","ext.globalCssJs.user":"ready","site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["ext.cite","mediawiki.toc","mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.newCollapsible","ext.gadget.WikiOpenStreetMap","ext.gadget.WikiMiniAtlas","ext.gadget.MonobookToolbarStandard","mmv.bootstrap.autostart","ext.eventLogging.subscriber","ext.navigationTiming","schema.UniversalLanguageSelector","ext.uls.eventlogger","ext.uls.interlanguage"],null,true);
+}</script>
+<script>if(window.mw){
+document.write("\u003Cscript src=\"//bits.wikimedia.org/fr.wikipedia.org/load.php?debug=false\u0026amp;lang=fr\u0026amp;modules=site\u0026amp;only=scripts\u0026amp;skin=vector\u0026amp;*\"\u003E\u003C/script\u003E");
+}</script>
+<script>if(window.mw){
+mw.config.set({"wgBackendResponseTime":454,"wgHostname":"mw1047"});
+}</script>
+	</body>
+</html>
