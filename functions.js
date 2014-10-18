@@ -15,6 +15,11 @@ function isInArray(v, a) {
 
     return in_array;
 };
+
+function extrapolateLinearly(pastValue, currentValue, yearsBetweenValues, numberOfYearsInTheFuture) {
+    return currentValue + numberOfYearsInTheFuture * (currentValue - pastValue) / yearsBetweenValues;
+}
+
 var Colors = (function() {
     var a = 7,
         b = 7,
