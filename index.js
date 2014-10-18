@@ -18,10 +18,10 @@ angular.module ("app", ['ngRoute'])
             center: { lat: 50.854975, lng: 4.3753899},
             zoom: 12,
             scrollwheel: false,
-            navigationControl: false,
+            // navigationControl: false,
             mapTypeControl: false,
-            scaleControl: false,
-            draggable: false,
+            // scaleControl: false,
+            // draggable: false,
             styles: config.map_style
         });
 
@@ -120,6 +120,49 @@ angular.module ("app", ['ngRoute'])
     $rootScope.set_data = function (data) {
         // JSON
         $rootScope.map.data.addGeoJson(data);
+
+        // console.log(data);
+        $rootScope.sum_poly(data);
+    };
+
+    // GET SUM POLYGON
+    $rootScope.sum_poly = function (data) {
+        var x1 = data.features[0].geometry.coordinates[0][0][0],
+            x2 = data.features[0].geometry.coordinates[0][0][0],
+            y1 = data.features[0].geometry.coordinates[0][0][1],
+            y2 = data.features[0].geometry.coordinates[0][0][1];
+        data.features.forEach(function (e) {
+
+            e.geometry.coordinates[0].forEach(function (k) {
+                if (x1 > k[0]) {
+                    x1 = k[0];
+                }
+                if (x2 < k[0]) {
+                    x2 = k[0];
+                }
+                if (y1 > k[1]) {
+                    y1 = k[1];
+                }
+                if (y2 < k[1]) {
+                    y2 = k[1];
+                }
+            });
+
+        });
+
+        // Construct the polygon.
+        var SUMPOLY = new google.maps.Polygon({
+            paths: [
+                new google.maps.LatLng(x1,y1),
+                new google.maps.LatLng(x2,y1),
+                new google.maps.LatLng(x1,y2),
+                new google.maps.LatLng(x2,y2)
+            ],
+            strokeWeight: 0,
+            fillOpacity: 0
+        });
+        
+        SUMPOLY.setMap($rootScope.map);
     };
 
     // CONSTRUCTOR
