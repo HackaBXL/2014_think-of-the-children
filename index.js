@@ -150,11 +150,13 @@ angular.module ("app", ['ngRoute'])
 
         data.forEach(function(e){
             
-            e.properties.pyramid.schools.forEach(function(s){
-                if (s.language == $rootScope.params.lang) {
-                    schools.push(s);
-                }
-            });
+            if(e.properties && e.properties.pyramid && e.properties.pyramid.schools) {
+                e.properties.pyramid.schools.forEach(function(s){
+                    if (s.language == $rootScope.params.lang) {
+                        schools.push(s);
+                    }
+                });
+            }
 
         });
 
@@ -166,12 +168,11 @@ angular.module ("app", ['ngRoute'])
     $rootScope.mark_map = function (s) {
 
         var marker = new google.maps.Marker({
-            position: new google.maps.LatLng(s.lon, s.lat),
+            position: new google.maps.LatLng(parseFloat(s.lat), parseFloat(s.lon)),
             map: $rootScope.map,
-            title:"Hello World!",
             //icon: 'marker.png'
         });
-        marker.set('labelContent', 'sdda');
+
     }
 
     // GET SELECTION ARRAY
