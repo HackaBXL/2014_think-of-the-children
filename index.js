@@ -54,10 +54,6 @@ angular.module ("app", ['ngRoute'])
             };
         });
 
-        // ADD TRANSIT
-        var transitLayer = new google.maps.TransitLayer();
-        transitLayer.setMap($rootScope.map);
-
     };
 
     // GET MODEL
@@ -82,7 +78,7 @@ angular.module ("app", ['ngRoute'])
             $rootScope.RAW_SQUARE = r.data.features;
             $rootScope.RAW_SQUARE.forEach(function(e){
                 // KEEP NAME AND ZIP
-                $rootScope.SQUARE_ARRAY.push(e.properties['Name' + (($rootScope.lang == 'nl' && e.properties['Name2']) ? '2' : '1')]);
+                $rootScope.SQUARE_ARRAY.push(e.properties['Name1']);
                 // $rootScope.SQUARE_ARRAY.push(e.properties.INS.toString());
                 // SET OBJECT
                 $rootScope.SQUARE[e.properties.Name1] = {
@@ -157,10 +153,10 @@ angular.module ("app", ['ngRoute'])
 
         // CONSTRUCT THE POLYGON
         var SUMPOLY = [
-            new google.maps.LatLng(x1,y1),
-            new google.maps.LatLng(x2,y1),
-            new google.maps.LatLng(x2,y2),
-            new google.maps.LatLng(x1,y2)
+            new google.maps.LatLng(y1,x1),
+            new google.maps.LatLng(y2,x1),
+            new google.maps.LatLng(y2,x2),
+            new google.maps.LatLng(y1,x2)
         ];
 
         // CENTER OF POLYGON
@@ -174,8 +170,6 @@ angular.module ("app", ['ngRoute'])
         SUMPOLY.forEach(function (e) {
             bounds.extend(e);
         });
-
-
 
         $rootScope.map.fitBounds(bounds);
     };
