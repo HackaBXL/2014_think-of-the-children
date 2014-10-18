@@ -108,4 +108,5 @@ $( document ).ready(function() {
         range: "min"
       })/*.addSliderSegments($slider.slider("option").max)*/;
     }
+    
 });
