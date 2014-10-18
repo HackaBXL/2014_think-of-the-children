@@ -36,8 +36,8 @@
         }
     },
     "show_schools":{
-        "eng":"Show schoools on map",
-        "nl":"Show schoools on map",
+        "eng":"Show schools on map",
+        "nl":"Show schools on map",
         "fr":"Voir les ecoles sur la carte"
         
     },

@@ -95,6 +95,7 @@ var getProvince = function (data){
 
     return province;
     
+<<<<<<< HEAD
 };
 
 $( document ).ready(function() {
@@ -112,3 +113,6 @@ $( document ).ready(function() {
     }
     
 });
+=======
+};
+>>>>>>> 7e7f93439ccf93b9745f038ea3df2b671646896b
