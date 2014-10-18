@@ -1,4 +1,4 @@
-angular.module ("app", ['ngRoute'])
+angular.module ("app", ['ngRoute', 'ui.slider'])
 .run(['$rootScope','$http', function ($rootScope, $http) {
 
     // GET TEXT
@@ -282,7 +282,8 @@ angular.module ("app", ['ngRoute'])
         $rootScope.params = {
             school: 'mat', // mat, pri
             lang: 'FR', // FR, NL
-            display: false
+            display: false,
+            time_travel:0
         };
 
         $rootScope.get_model();

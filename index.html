@@ -25,9 +25,11 @@
         <script src="functions.js"></script>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.js"></script>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-route.js"></script>
+        <script src="slider.js"></script>
         <script src="index.js"></script>
 
         <link href="dist/css/flat-ui.css" rel="stylesheet">
+        <style>.ui-slider-horizontal .ui-slider-handle {top: -7px;}</style>
         <script src="dist/js/flat-ui.js"></script>
             
     </head>
@@ -110,6 +112,11 @@
                             {{data.show_schools[lang]}}
                         </label>
                         
+                        <hr>
+
+                        <div ui-slider min="-11" max="15" ng-model="params.time_travel"></div>
+                        <input type="text" ng-model="params.time_travel" />
+
                         <hr>
 
                         <button class="submiit btn btn-block btn-lg btn-primary" type="submit">{{data.submit[lang]}}</button>
