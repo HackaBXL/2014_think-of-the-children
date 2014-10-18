@@ -70,3 +70,14 @@ body {
 #lang {
 	-webkit-appearance:none;
 }
+.map-labels {
+   color: red;
+   background-color: white;
+   font-size: 10px;
+   font-weight: bold;
+   text-align: center;
+   width: 60px;     
+   border: 2px solid black;
+   white-space: nowrap;
+   z-index: 20;
+ }

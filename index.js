@@ -131,6 +131,36 @@ angular.module ("app", ['ngRoute'])
         });
     };
 
+    // SET SCHOOLS ON MAP
+    $rootScope.display_schools = function (data) {
+
+        var schools = [];
+
+        data.forEach(function(e){
+            
+            e.properties.pyramid.schools.forEach(function(s){
+                if (s.language == $rootScope.params.lang) {
+                    schools.push(s);
+                }
+            });
+
+        });
+
+        schools.forEach(function(spot){
+            $rootScope.mark_map(spot);
+        });
+
+    };
+    $rootScope.mark_map = function (s) {
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(s.lon, s.lat),
+            map: $rootScope.map,
+            title:"Hello World!",
+            icon: 'marker.png'
+        });
+    }
+
     // GET SELECTION ARRAY
     $rootScope.engine = function (_empty) {
 
@@ -166,7 +196,7 @@ angular.module ("app", ['ngRoute'])
 
         // SCHOOLS ON MAP
         if ($rootScope.params.display) {
-            $rootScope.display_schools(data);
+            $rootScope.display_schools(data.features);
         }
 
         // console.log(data);
@@ -225,7 +255,7 @@ angular.module ("app", ['ngRoute'])
     $rootScope.init=function(){
         $rootScope.params = {
             school: 'mat', // mat, pri
-            lang: 'fr', // eng, fr, nl
+            lang: 'FR', // FR, NL
             display: false
         };
 
