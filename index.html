@@ -113,9 +113,10 @@
                         </label>
                         
                         <hr>
-
-                        <div ui-slider min="-11" max="15" ng-model="params.time_travel"></div>
-                        <input class="form-control" type="text" ng-model="params.time_travel" style="width:100%;" />
+                        
+                        <label>Time Travel</label>
+                        <div ui-slider min="2001" max="2025" ng-model="params.time_travel"></div>
+                        <strong>{{params.time_travel}}</strong>
 
                         <hr>
 

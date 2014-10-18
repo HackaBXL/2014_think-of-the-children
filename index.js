@@ -283,7 +283,7 @@ angular.module ("app", ['ngRoute', 'ui.slider'])
             school: 'mat', // mat, pri
             lang: 'FR', // FR, NL
             display: false,
-            time_travel:0
+            time_travel: new Date().getFullYear()
         };
 
         $rootScope.get_model();
