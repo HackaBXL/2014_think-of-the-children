@@ -154,11 +154,11 @@ angular.module ("app", ['ngRoute'])
     };
     $rootScope.mark_map = function (s) {
 
-        var marker = new MarkerWithLabel({
+        var marker = new google.maps.Marker({
             position: new google.maps.LatLng(s.lon, s.lat),
             map: $rootScope.map,
             title:"Hello World!",
-            icon: 'marker.png'
+            //icon: 'marker.png'
         });
         marker.set('labelContent', 'sdda');
     }
