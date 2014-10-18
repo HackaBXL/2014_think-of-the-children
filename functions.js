@@ -107,6 +107,8 @@ $( document ).ready(function() {
         orientation: "horizontal",
         range: "min"
       })/*.addSliderSegments($slider.slider("option").max)*/;
+        console.log("slider")
+        console.log($slider.slider())
     }
     
 });
