@@ -37,3 +37,5 @@ Municipalities will be shown on a map.
 It was not possible to provide a real-time service acting on the various datasources as our data come from excel files,
 scraped wikipedia pages, vectorial geometries and reversed geo-coded addresses.
 So we decided to pre-process the data and consolidate it by loading it in an elastic search instance.
+
+![ThinkOfTheChildren](http://behindthenumbers.ca/wp-content/uploads/2014/07/Think-of-the-children.jpg)
