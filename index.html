@@ -103,7 +103,7 @@
                             </label>
                         </div>
                         
-                        <hr>
+                        <hr ng-show="params.display">
                         
                         <label>Time Travel</label>
                         <div ui-slider min="2001" max="2028" ng-model="params.time_travel" ng-change="engine()"></div>

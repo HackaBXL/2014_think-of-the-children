@@ -44,7 +44,7 @@ angular.module ("app", ['ngRoute', 'ui.slider'])
 
             };
 
-            $("#info-box .name").text(event.feature.getProperty('Name1') + ' - ');
+            $("#info-box .name").text(event.feature.getProperty('Name1') + ' ');
             $("#info-box .info").text($rootScope.process_ratio(p, 'ratio')).css({
                 color:$rootScope.process_ratio(p, 'color'),
                 textShadow: '1px 1px 2px #555'
@@ -59,7 +59,7 @@ angular.module ("app", ['ngRoute', 'ui.slider'])
                 ppl_origin = p[$rootScope.params.school + '_ppl_origin'];
 
             // EXTRAPOLATION PROCESS
-            ppl = extrapolateLinearly(ppl_origin, ppl, 12, $rootScope.params.time_travel - 2013);
+            ppl = Math.floor(extrapolateLinearly(ppl_origin, ppl, 12, $rootScope.params.time_travel - 2013));
 
             // COLOR
             if(feedback == 'color'){
