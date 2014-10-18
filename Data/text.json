@@ -34,6 +34,12 @@
             "nl":"Frans School",
             "fr":"Ecole Francophone"
         }
+    },
+    "submit":{
+        "eng":"Submit",
+        "nl":"Submit",
+        "fr":"Soumettre"
+        
     }
         
 }
