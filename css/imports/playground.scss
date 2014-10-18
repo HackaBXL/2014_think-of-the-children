@@ -22,6 +22,7 @@ $form_width: 300px;
 	background-color: rgba(174, 180, 184, 1)
 }
 .map {
+    width: 100%;
 	position: fixed;
 	left:$form_width;top:0;bottom:0;right:0;
 	.mapFrameHome{

@@ -29,6 +29,7 @@
   background-color: #aeb4b8; }
 
 .map {
+  width: 100%;
   position: fixed;
   left: 300px;
   top: 0;

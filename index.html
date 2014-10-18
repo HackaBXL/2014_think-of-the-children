@@ -32,16 +32,18 @@
     <body>
 
         <div class="content">
+            
+            <select id="lang" class="form-control" ng-model="lang">
+                    <option value="eng">ENG</option>
+                    <option value="nl">NL</option>
+                    <option value="fr">FR</option>
+                </select>
 
             <div class="form">
 
                 <h1 class="head-title">{{data.title[lang]}}</h1>
 
-                <select id="lang" class="form-control" ng-model="lang">
-                    <option value="eng">ENG</option>
-                    <option value="nl">NL</option>
-                    <option value="fr">FR</option>
-                </select>
+                
                 <div>
 
                     <form class="form-inline" role="form" ng-submit="engine()">

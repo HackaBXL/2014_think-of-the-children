@@ -1,5 +1,6 @@
 .content{
     margin: 60px;
+    width: 100%;
     
     #options{
 //        border: 1px solid black;
@@ -10,8 +11,9 @@
         display: inline-block;
         width: 70px;
         position: absolute;
-        top: 62px;
-        right: 60px;
+        top: 20px;
+        right: 20px;
+        z-index: 20;
     }
     
     .radio{
@@ -24,6 +26,11 @@
     
     .submiit{
         margin-top: 20px;
+        border-color: #34495E;
+    }
+    
+    .tagsinput-primary{
+        border-color: #34495E;
     }
 }
 

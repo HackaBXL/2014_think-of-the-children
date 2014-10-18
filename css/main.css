@@ -1,14 +1,19 @@
 .content {
-  margin: 60px; }
+  margin: 60px;
+  width: 100%; }
   .content #lang {
     display: inline-block;
     width: 70px;
     position: absolute;
-    top: 62px;
-    right: 60px; }
+    top: 20px;
+    right: 20px;
+    z-index: 20; }
   .content .radio {
     margin-right: 1%; }
   .content .radio + .radio {
     margin-top: 0; }
   .content .submiit {
-    margin-top: 20px; }
+    margin-top: 20px;
+    border-color: #34495E; }
+  .content .tagsinput-primary {
+    border-color: #34495E; }
