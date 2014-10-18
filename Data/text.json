@@ -35,6 +35,12 @@
             "fr":"Ecole Francophone"
         }
     },
+    "show_schools":{
+        "eng":"Show schoools on map",
+        "nl":"Show schoools on map",
+        "fr":"Voir les ecoles sur la carte"
+        
+    },
     "submit":{
         "eng":"Submit",
         "nl":"Submit",
