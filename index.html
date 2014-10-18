@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html ng-app="app">
-	<head>
-		<meta charset="utf-8">
-		<title>think of the children</title>
+    <head>
+        <meta charset="utf-8">
+        <title>think of the children</title>
         
         <link href="css/main.css" rel="stylesheet" type="text/css">
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
@@ -10,15 +10,13 @@
         <link href="dist/css/flat-ui.css" rel="stylesheet">
         <link rel='stylesheet' href='//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css' />
         <link rel='stylesheet' type='text/css' href='css/nab.css'>
-        
+            
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
         
-
-        <!-- IMPORT LIBRARIES -->        
+        <!-- IMPORT LIBRARIES -->
         <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-
         <script type="text/javascript" src='config.js'></script>
         <script type="text/javascript" src='map.js'></script>
         <script type="text/javascript" src='app.js'></script>
@@ -26,91 +24,102 @@
         <script src="functions.js"></script>
         
         <script src="dist/js/flat-ui.js"></script>
-
         <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.js"></script>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-route.js"></script>
-
         <script src="index.js"></script>
-        
+            
+    </head>
+    <body>
 
-	</head>
-	<body>
-        <div class="screen content">
-            <h1 ng-show="lang=='eng'">{{data.title.eng}}</h1>
-            <h1 ng-show="lang=='nl'">{{data.title.nl}}</h1>
-            <h1 ng-show="lang=='fr'">{{data.title.fr}}</h1>
-            <select id="lang" class="form-control" ng-model="lang">
-              <option value="eng">ENG</option>
-              <option value="nl">NL</option>
-              <option value="fr">FR</option>
-            </select>
-            <div>
-                <div class="tagsinput-primary">
-                    <input id="tagsimput" name="tagsinput" class="tagsinput" data-role="tagsinput" value="" />
-                </div>
-                <div id="options">
-                    <form class="form-inline" role="form">
-                          <label class="radio">
-                            <input type="radio" name="schoolType" id="kindergarten" value="kindergarten" data-toggle="radio" checked="checked" class="custom-radio">
-                              <span class="icons">
-                                <span class="icon-unchecked"></span>
-                                <span class="icon-checked"></span>
-                            </span>
-                                <div ng-show="lang=='eng'">{{data.school_type.kindergarten.eng}}</div>
-                                <div ng-show="lang=='nl'">{{data.school_type.kindergarten.nl}}</div>
-                                <div ng-show="lang=='fr'">{{data.school_type.kindergarten.fr}}</div>
-                          </label>
-                          <label class="radio">
-                            <input type="radio" name="schoolType" id="primary" value="primary" data-toggle="radio" class="custom-radio">
-                              <span class="icons">
-                                <span class="icon-unchecked"></span>
-                                <span class="icon-checked"></span>
-                            </span>
-                                <div ng-show="lang=='eng'">{{data.school_type.primary.eng}}</div>
-                                <div ng-show="lang=='nl'">{{data.school_type.primary.nl}}</div>
-                                <div ng-show="lang=='fr'">{{data.school_type.primary.fr}}</div>
-                          </label>
-                          <label class="radio">
-                            <input type="radio" name="schoolType" id="secondary" value="secondary" data-toggle="radio" class="custom-radio">
-                              <span class="icons">
-                                <span class="icon-unchecked"></span>
-                                <span class="icon-checked"></span>
-                            </span>
-                                <div ng-show="lang=='eng'">{{data.school_type.secondary.eng}}</div>
-                                <div ng-show="lang=='nl'">{{data.school_type.secondary.nl}}</div>
-                                <div ng-show="lang=='fr'">{{data.school_type.secondary.fr}}</div>
-                          </label>
-                    </form>
-                    <form class="form-inline" role="form">
-                          <label class="radio">
-                            <input type="radio" name="language" id="dutch" value="dutch" checked="checked" data-toggle="radio" class="custom-radio">
-                              <span class="icons">
-                                <span class="icon-unchecked"></span>
-                                <span class="icon-checked"></span>
-                            </span>  
-                              <div ng-show="lang=='eng'">{{data.school_language.dutch.eng}}</div>
-                                <div ng-show="lang=='nl'">{{data.school_language.dutch.nl}}</div>
-                                <div ng-show="lang=='fr'">{{data.school_language.dutch.fr}}</div>
-                          </label>
-                          <label class="radio">
-                            <input type="radio" name="language" id="french" value="french" data-toggle="radio" class="custom-radio">
-                              <span class="icons">
-                                <span class="icon-unchecked"></span>
-                                <span class="icon-checked"></span>
-                            </span>  
-                              <div ng-show="lang=='eng'">{{data.school_language.french.eng}}</div>
-                                <div ng-show="lang=='nl'">{{data.school_language.french.nl}}</div>
-                                <div ng-show="lang=='fr'">{{data.school_language.french.fr}}</div>
-                          </label>
-                    </form>
-                </div>
-            </div>
-            <div class="submiit btn btn-block btn-lg btn-primary" ng-click="engine()">Submit</div>
+        <div class="content">
 
-            <div class="mapFrameHome" id="map-canvas"></div>
-            <div id="info-box">
-              <span class="name"></span><span class="info"></span>
+            <div class="form">
+
+                <h1 class="head-title">{{data.title[lang]}}</h1>
+
+                <select id="lang" class="form-control" ng-model="lang">
+                    <option value="eng">ENG</option>
+                    <option value="nl">NL</option>
+                    <option value="fr">FR</option>
+                </select>
+                <div>
+
+                    <form class="form-inline" role="form" ng-submit="engine()">
+
+                        <div class="tagsinput-primary">
+                            <input id="tagsimput" name="tagsinput" class="tagsinput" data-role="tagsinput" value="" />
+                        </div>
+
+                        <hr>
+                        <div id="options">
+
+                            <label class="radio">
+                                <input type="radio" ng-model="params.school" name="schoolType" id="kindergarten" value="kindergarten" data-toggle="radio" checked="checked" class="custom-radio">
+                                <span class="icons">
+                                <span class="icon-unchecked"></span>
+                                <span class="icon-checked"></span>
+                                </span>
+                                <div>{{data.school_type.kindergarten[lang]}}</div>
+                            </label>
+                            <label class="radio">
+                                <input type="radio" ng-model="params.school" name="schoolType" id="primary" value="primary" data-toggle="radio" class="custom-radio">
+                                <span class="icons">
+                                <span class="icon-unchecked"></span>
+                                <span class="icon-checked"></span>
+                                </span>
+                                <div>{{data.school_type.primary[lang]}}</div>
+                            </label>
+                            <label class="radio">
+                                <input type="radio" ng-model="params.school" name="schoolType" id="secondary" value="secondary" data-toggle="radio" class="custom-radio">
+                                <span class="icons">
+                                <span class="icon-unchecked"></span>
+                                <span class="icon-checked"></span>
+                                </span>
+                                <div>{{data.school_type.secondary[lang]}}</div>
+                            </label>
+                            
+                            <hr>
+
+                            <label class="radio">
+                                <input type="radio" ng-model="params.lang" name="language" id="dutch" value="nl" checked="checked" data-toggle="radio" class="custom-radio">
+                                <span class="icons">
+                                <span class="icon-unchecked"></span>
+                                <span class="icon-checked"></span>
+                                </span>
+                                <div>{{data.school_language.dutch[lang]}}</div>
+                            </label>
+                            <label class="radio">
+                                <input type="radio" ng-model="params.lang" name="language" id="french" value="fr" data-toggle="radio" class="custom-radio">
+                                <span class="icons">
+                                <span class="icon-unchecked"></span>
+                                <span class="icon-checked"></span>
+                                </span>
+                                <div>{{data.school_language.french[lang]}}</div>
+                            </label>
+                        </div>
+
+                        <hr>
+
+                        <button class="submiit btn btn-block btn-lg btn-primary" type="submit">Submit</button>
+
+                    </form>
+
+                </div>
+                
+
             </div>
+
+            <div class="map">
+
+                <div class="mapFrameHome" id="map-canvas"></div>
+                <div id="info-box">
+                    <span class="name"></span><span class="info"></span>
+                </div>
+
+            </div>
+
         </div>
-	</body>
+
+    </body>
+
 </html>

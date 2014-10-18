@@ -1,3 +1,7 @@
+.head-title {
+	font-size: 28px;
+	color:#FFF;
+}
 .screen {
 	width:960px;
     margin: auto;
@@ -6,29 +10,51 @@
 		padding: 40px;
 		font-weight: 300;
 	}
+}
+$form_width: 300px;
+.form {
+	position:fixed;
+	left:0;top:0;bottom:0;
+	width:$form_width;
+	padding: 20px;
+	z-index: 10;
+
+	background-color: rgba(174, 180, 184, 1)
+}
+.map {
+	position: fixed;
+	left:$form_width;top:0;bottom:0;right:0;
 	.mapFrameHome{
-		width:100%;
-		height:600px;
-		margin: auto;
-		margin-top: 100px;
+		position: absolute;
+		left:0;top:0;bottom:0;right:0;
+		width:100%;height:100%;
 	}
-	#info-box {
-		span {
-			line-height: 40px;
-			padding: 0; margin: 0;
-			font-size: 36px;
-		}
-		.name {
-			color: #555;
-		}
-		.info {
-			color: #F92772;
-		}
-		background-color: rgba(255, 255, 255, 0.8);
+}
+
+div.bootstrap-tagsinput {
+	max-height: 160px;
+	overflow: auto;
+}
+
+#info-box {
+	span {
 		line-height: 40px;
 		padding: 0; margin: 0;
 		font-size: 36px;
-		position: relative;
-		top:-40px;
 	}
+	.name {
+		color: #555;
+	}
+	.info {
+		color: #F92772;
+	}
+	background-color: rgba(255, 255, 255, 0.7);
+	line-height: 40px;
+	padding: 0; margin: 0;
+	font-size: 36px;
+	position: relative;
+	top:-40px;
+}
+body {
+	overflow: hidden;
 }

@@ -101,6 +101,10 @@ angular.module ("app", ['ngRoute'])
             });
 
             google.maps.event.addDomListener(window, 'load', $rootScope.initialize_map);
+
+            setTimeout(function() {
+                $rootScope.engine();
+            }, 500);
         });
     };
 
@@ -129,6 +133,11 @@ angular.module ("app", ['ngRoute'])
 
     // CONSTRUCTOR
     $rootScope.init=function(){
+        $rootScope.params = {
+            school: 'primary', // kindergarten, primary, secondary
+            lang: 'fr' // eng, fr, nl
+        };
+
         $rootScope.get_model();
 
         $rootScope.lang = "eng";
