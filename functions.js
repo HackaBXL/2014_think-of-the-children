@@ -101,3 +101,16 @@ function getProvince(){
     
     //console.log(bruxelles);
 }
+
+$( document ).ready(function() {
+    var $slider = $("#slider");
+    if ($slider.length > 0) {
+      $slider.slider({
+        min: 0,
+        max: 10,
+        value: 0,
+        orientation: "horizontal",
+        range: "min"
+      })/*.addSliderSegments($slider.slider("option").max)*/;
+    }
+});
